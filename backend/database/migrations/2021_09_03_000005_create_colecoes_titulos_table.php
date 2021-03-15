@@ -10,6 +10,7 @@ class CreateColecoesTitulosTable extends Migration {
             $table->id();
             $table->integer('colecao_id');
             $table->integer('titulo_id');
+            $table->integer('ordem');
             $table->timestamps();
             $table->softDeletes();
 

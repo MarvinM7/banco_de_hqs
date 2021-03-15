@@ -14,6 +14,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2016-07-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -23,6 +24,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2016-08-01',
+                'ordem'           => 2,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -32,6 +34,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2016-09-01',
+                'ordem'           => 3,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -41,6 +44,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2016-10-01',
+                'ordem'           => 4,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -50,6 +54,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2016-11-01',
+                'ordem'           => 5,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -59,6 +64,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2017-01-01',
+                'ordem'           => 6,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -68,6 +74,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2017-02-01',
+                'ordem'           => 7,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -77,6 +84,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2017-03-01',
+                'ordem'           => 8,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -86,6 +94,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2017-04-01',
+                'ordem'           => 9,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -95,6 +104,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2017-05-01',
+                'ordem'           => 10,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -104,6 +114,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2017-06-01',
+                'ordem'           => 11,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -113,6 +124,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2017-07-01',
+                'ordem'           => 12,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -122,6 +134,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2017-09-01',
+                'ordem'           => 13,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -131,6 +144,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2017-10-01',
+                'ordem'           => 14,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -140,6 +154,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2017-11-01',
+                'ordem'           => 15,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -149,6 +164,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2017-12-01',
+                'ordem'           => 16,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -158,6 +174,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2018-01-01',
+                'ordem'           => 17,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -167,6 +184,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 17.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2018-02-01',
+                'ordem'           => 18,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -176,6 +194,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 17.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2018-03-01',
+                'ordem'           => 19,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -185,6 +204,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 17.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2018-04-01',
+                'ordem'           => 20,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -194,6 +214,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 17.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2018-06-01',
+                'ordem'           => 21,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -203,6 +224,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 17.90,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2018-07-01',
+                'ordem'           => 22,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -212,6 +234,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 19.50,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2018-09-01',
+                'ordem'           => 23,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -221,6 +244,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 19.50,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2018-10-01',
+                'ordem'           => 24,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -230,6 +254,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 19.50,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2018-11-01',
+                'ordem'           => 25,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -239,6 +264,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 19.50,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2018-11-01',
+                'ordem'           => 26,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -248,6 +274,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 19.50,
                 'titulo_id'       => 1,
                 'data_lancamento' => '2018-11-01',
+                'ordem'           => 27,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -260,6 +287,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 49.90,
                 'titulo_id'       => 3,
                 'data_lancamento' => '2019-05-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -272,6 +300,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 14.90,
                 'titulo_id'       => 4,
                 'data_lancamento' => '2014-10-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -281,6 +310,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 14.90,
                 'titulo_id'       => 4,
                 'data_lancamento' => '2014-11-01',
+                'ordem'           => 2,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -290,6 +320,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 14.90,
                 'titulo_id'       => 4,
                 'data_lancamento' => '2014-12-01',
+                'ordem'           => 3,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -299,6 +330,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 14.90,
                 'titulo_id'       => 4,
                 'data_lancamento' => '2015-01-01',
+                'ordem'           => 4,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -308,6 +340,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 14.90,
                 'titulo_id'       => 4,
                 'data_lancamento' => '2015-02-01',
+                'ordem'           => 5,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -317,6 +350,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 14.90,
                 'titulo_id'       => 4,
                 'data_lancamento' => '2015-03-01',
+                'ordem'           => 6,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -326,6 +360,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 14.90,
                 'titulo_id'       => 4,
                 'data_lancamento' => '2015-04-01',
+                'ordem'           => 7,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -335,6 +370,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 14.90,
                 'titulo_id'       => 4,
                 'data_lancamento' => '2015-05-01',
+                'ordem'           => 8,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -344,6 +380,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 14.90,
                 'titulo_id'       => 4,
                 'data_lancamento' => '2015-06-01',
+                'ordem'           => 9,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -353,6 +390,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 14.90,
                 'titulo_id'       => 4,
                 'data_lancamento' => '2015-07-01',
+                'ordem'           => 10,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -362,6 +400,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 14.90,
                 'titulo_id'       => 4,
                 'data_lancamento' => '2015-08-01',
+                'ordem'           => 11,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -371,6 +410,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 14.90,
                 'titulo_id'       => 4,
                 'data_lancamento' => '2015-09-01',
+                'ordem'           => 12,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -380,6 +420,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 14.90,
                 'titulo_id'       => 4,
                 'data_lancamento' => '2015-10-01',
+                'ordem'           => 13,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -389,6 +430,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 14.90,
                 'titulo_id'       => 4,
                 'data_lancamento' => '2015-11-01',
+                'ordem'           => 14,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -398,6 +440,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 15.90,
                 'titulo_id'       => 4,
                 'data_lancamento' => '2015-12-01',
+                'ordem'           => 15,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -407,6 +450,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 15.90,
                 'titulo_id'       => 4,
                 'data_lancamento' => '2016-01-01',
+                'ordem'           => 16,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -416,6 +460,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 15.90,
                 'titulo_id'       => 4,
                 'data_lancamento' => '2016-02-01',
+                'ordem'           => 17,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -425,6 +470,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 15.90,
                 'titulo_id'       => 4,
                 'data_lancamento' => '2016-03-01',
+                'ordem'           => 18,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -434,6 +480,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 15.90,
                 'titulo_id'       => 4,
                 'data_lancamento' => '2016-04-01',
+                'ordem'           => 19,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -446,6 +493,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2012-05-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -455,6 +503,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2012-06-01',
+                'ordem'           => 2,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -464,6 +513,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2012-07-01',
+                'ordem'           => 3,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -473,6 +523,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2012-08-01',
+                'ordem'           => 4,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -482,6 +533,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2012-09-01',
+                'ordem'           => 5,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -491,6 +543,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2012-10-01',
+                'ordem'           => 6,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -500,6 +553,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2012-11-01',
+                'ordem'           => 7,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -509,6 +563,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2012-12-01',
+                'ordem'           => 8,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -518,6 +573,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2013-01-01',
+                'ordem'           => 9,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -527,6 +583,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2013-02-01',
+                'ordem'           => 10,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -536,6 +593,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2013-03-01',
+                'ordem'           => 11,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -545,6 +603,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2013-04-01',
+                'ordem'           => 12,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -554,6 +613,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2013-05-01',
+                'ordem'           => 13,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -563,6 +623,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2013-06-01',
+                'ordem'           => 14,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -572,6 +633,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2013-07-01',
+                'ordem'           => 15,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -581,6 +643,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2013-08-01',
+                'ordem'           => 16,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -590,6 +653,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2013-09-01',
+                'ordem'           => 17,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -599,6 +663,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2013-10-01',
+                'ordem'           => 18,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -608,6 +673,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2013-11-01',
+                'ordem'           => 19,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -617,6 +683,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2013-12-01',
+                'ordem'           => 20,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -626,6 +693,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2014-01-01',
+                'ordem'           => 21,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -635,6 +703,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2014-02-01',
+                'ordem'           => 22,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -644,6 +713,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2014-03-01',
+                'ordem'           => 23,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -653,6 +723,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2014-04-01',
+                'ordem'           => 24,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -662,6 +733,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2014-05-01',
+                'ordem'           => 25,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -671,6 +743,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2014-06-01',
+                'ordem'           => 26,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -680,6 +753,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2014-07-01',
+                'ordem'           => 27,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -689,6 +763,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2014-08-01',
+                'ordem'           => 28,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -698,6 +773,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2014-09-01',
+                'ordem'           => 29,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -707,6 +783,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2014-10-01',
+                'ordem'           => 30,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -716,6 +793,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2014-11-01',
+                'ordem'           => 31,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -725,6 +803,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2014-12-01',
+                'ordem'           => 32,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -734,6 +813,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2015-01-01',
+                'ordem'           => 33,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -743,6 +823,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2015-02-01',
+                'ordem'           => 34,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -752,6 +833,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2015-03-01',
+                'ordem'           => 35,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -761,6 +843,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2015-04-01',
+                'ordem'           => 36,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -770,6 +853,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2015-05-01',
+                'ordem'           => 37,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -779,6 +863,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2015-06-01',
+                'ordem'           => 38,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -788,6 +873,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2015-07-01',
+                'ordem'           => 39,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -797,6 +883,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2015-08-01',
+                'ordem'           => 40,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -806,6 +893,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2015-09-01',
+                'ordem'           => 41,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -815,6 +903,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 9,
                 'data_lancamento' => '2015-10-01',
+                'ordem'           => 42,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -827,6 +916,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 110.00,
                 'titulo_id'       => 23,
                 'data_lancamento' => '2017-12-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -839,6 +929,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 74.00,
                 'titulo_id'       => 24,
                 'data_lancamento' => '2019-03-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -848,6 +939,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 97.00,
                 'titulo_id'       => 25,
                 'data_lancamento' => '2019-10-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -857,6 +949,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 97.00,
                 'titulo_id'       => 26,
                 'data_lancamento' => '2019-11-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -866,6 +959,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 84.00,
                 'titulo_id'       => 27,
                 'data_lancamento' => '2019-12-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -878,6 +972,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 22.90,
                 'titulo_id'       => 18,
                 'data_lancamento' => '2014-03-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -887,6 +982,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 24.90,
                 'titulo_id'       => 18,
                 'data_lancamento' => '2014-12-01',
+                'ordem'           => 2,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -896,6 +992,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 18.90,
                 'titulo_id'       => 18,
                 'data_lancamento' => '2015-03-01',
+                'ordem'           => 3,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -905,6 +1002,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 22.90,
                 'titulo_id'       => 18,
                 'data_lancamento' => '2015-10-01',
+                'ordem'           => 4,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -914,6 +1012,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 22.90,
                 'titulo_id'       => 18,
                 'data_lancamento' => '2016-04-01',
+                'ordem'           => 5,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -923,6 +1022,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 22.90,
                 'titulo_id'       => 18,
                 'data_lancamento' => '2016-10-01',
+                'ordem'           => 6,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -932,6 +1032,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 22.90,
                 'titulo_id'       => 18,
                 'data_lancamento' => '2017-04-01',
+                'ordem'           => 7,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -941,6 +1042,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 22.90,
                 'titulo_id'       => 18,
                 'data_lancamento' => '2017-10-01',
+                'ordem'           => 8,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -950,6 +1052,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 26.90,
                 'titulo_id'       => 18,
                 'data_lancamento' => '2018-02-01',
+                'ordem'           => 9,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -959,6 +1062,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 24.90,
                 'titulo_id'       => 18,
                 'data_lancamento' => '2018-06-01',
+                'ordem'           => 10,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -968,6 +1072,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 26.90,
                 'titulo_id'       => 18,
                 'data_lancamento' => '2018-10-01',
+                'ordem'           => 11,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -977,6 +1082,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 21.90,
                 'titulo_id'       => 18,
                 'data_lancamento' => '2019-01-01',
+                'ordem'           => 12,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -986,6 +1092,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 22.90,
                 'titulo_id'       => 18,
                 'data_lancamento' => '2019-10-01',
+                'ordem'           => 13,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -998,6 +1105,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 39.90,
                 'titulo_id'       => 21,
                 'data_lancamento' => '2018-05-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1007,6 +1115,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 44.90,
                 'titulo_id'       => 21,
                 'data_lancamento' => '2018-10-01',
+                'ordem'           => 2,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1016,6 +1125,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 44.90,
                 'titulo_id'       => 21,
                 'data_lancamento' => '2019-04-01',
+                'ordem'           => 3,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1025,6 +1135,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 44.90,
                 'titulo_id'       => 21,
                 'data_lancamento' => '2020-04-01',
+                'ordem'           => 4,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1037,6 +1148,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2012-11-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1046,6 +1158,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2012-12-01',
+                'ordem'           => 2,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1055,6 +1168,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2013-01-01',
+                'ordem'           => 3,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1064,6 +1178,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2013-02-01',
+                'ordem'           => 4,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1073,6 +1188,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2013-03-01',
+                'ordem'           => 5,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1082,6 +1198,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2013-04-01',
+                'ordem'           => 6,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1091,6 +1208,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2013-05-01',
+                'ordem'           => 7,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1100,6 +1218,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2013-06-01',
+                'ordem'           => 8,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1109,6 +1228,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2013-07-01',
+                'ordem'           => 9,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1118,6 +1238,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2013-08-01',
+                'ordem'           => 10,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1127,6 +1248,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2013-09-01',
+                'ordem'           => 11,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1136,6 +1258,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2013-10-01',
+                'ordem'           => 12,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1145,6 +1268,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2013-11-01',
+                'ordem'           => 13,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1154,6 +1278,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2013-12-01',
+                'ordem'           => 14,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1163,6 +1288,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2014-01-01',
+                'ordem'           => 15,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1172,6 +1298,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2014-02-01',
+                'ordem'           => 16,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1181,6 +1308,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2014-04-01',
+                'ordem'           => 17,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1190,6 +1318,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2014-05-01',
+                'ordem'           => 18,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1199,6 +1328,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2014-06-01',
+                'ordem'           => 19,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1208,6 +1338,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2014-07-01',
+                'ordem'           => 20,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1217,6 +1348,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2014-08-01',
+                'ordem'           => 21,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1226,6 +1358,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2014-09-01',
+                'ordem'           => 22,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1235,6 +1368,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2014-10-01',
+                'ordem'           => 23,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1244,6 +1378,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2014-11-01',
+                'ordem'           => 24,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1253,6 +1388,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2014-12-01',
+                'ordem'           => 25,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1262,6 +1398,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2015-01-01',
+                'ordem'           => 26,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1271,6 +1408,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2015-02-01',
+                'ordem'           => 27,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1280,6 +1418,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 29,
                 'data_lancamento' => '2015-03-01',
+                'ordem'           => 28,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1292,6 +1431,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 32,
                 'data_lancamento' => '2011-08-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1301,6 +1441,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 32,
                 'data_lancamento' => '2011-09-01',
+                'ordem'           => 2,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1310,6 +1451,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 32,
                 'data_lancamento' => '2011-10-01',
+                'ordem'           => 3,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1319,6 +1461,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 32,
                 'data_lancamento' => '2011-11-01',
+                'ordem'           => 4,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1328,6 +1471,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 32,
                 'data_lancamento' => '2011-12-01',
+                'ordem'           => 5,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1337,6 +1481,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 32,
                 'data_lancamento' => '2012-01-01',
+                'ordem'           => 6,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1346,6 +1491,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 32,
                 'data_lancamento' => '2012-02-01',
+                'ordem'           => 7,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1355,6 +1501,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 32,
                 'data_lancamento' => '2012-04-01',
+                'ordem'           => 8,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1364,6 +1511,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 32,
                 'data_lancamento' => '2012-05-01',
+                'ordem'           => 9,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1373,6 +1521,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 32,
                 'data_lancamento' => '2012-06-01',
+                'ordem'           => 10,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1382,6 +1531,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 32,
                 'data_lancamento' => '2012-07-01',
+                'ordem'           => 11,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1391,6 +1541,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 32,
                 'data_lancamento' => '2012-08-01',
+                'ordem'           => 12,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1400,6 +1551,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 32,
                 'data_lancamento' => '2012-09-01',
+                'ordem'           => 13,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1409,6 +1561,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 32,
                 'data_lancamento' => '2012-10-01',
+                'ordem'           => 14,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1418,6 +1571,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 32,
                 'data_lancamento' => '2012-11-01',
+                'ordem'           => 15,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1427,6 +1581,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 32,
                 'data_lancamento' => '2012-12-01',
+                'ordem'           => 16,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1436,6 +1591,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 32,
                 'data_lancamento' => '2013-01-01',
+                'ordem'           => 17,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1445,6 +1601,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 32,
                 'data_lancamento' => '2013-02-01',
+                'ordem'           => 18,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1454,6 +1611,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 32,
                 'data_lancamento' => '2013-03-01',
+                'ordem'           => 19,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1463,6 +1621,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 32,
                 'data_lancamento' => '2013-04-01',
+                'ordem'           => 20,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1475,6 +1634,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2012-07-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1484,6 +1644,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2012-08-01',
+                'ordem'           => 2,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1493,6 +1654,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2012-10-01',
+                'ordem'           => 3,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1502,6 +1664,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2012-11-01',
+                'ordem'           => 4,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1511,6 +1674,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2012-12-01',
+                'ordem'           => 5,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1520,6 +1684,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2013-01-01',
+                'ordem'           => 6,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1529,6 +1694,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2013-02-01',
+                'ordem'           => 7,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1538,6 +1704,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2013-03-01',
+                'ordem'           => 8,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1547,6 +1714,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2013-04-01',
+                'ordem'           => 9,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1556,6 +1724,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2013-05-01',
+                'ordem'           => 10,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1565,6 +1734,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2013-06-01',
+                'ordem'           => 11,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1574,6 +1744,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2013-07-01',
+                'ordem'           => 12,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1583,6 +1754,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2013-08-01',
+                'ordem'           => 13,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1592,6 +1764,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2013-09-01',
+                'ordem'           => 14,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1601,6 +1774,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2013-10-01',
+                'ordem'           => 15,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1610,6 +1784,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2013-11-01',
+                'ordem'           => 16,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1619,6 +1794,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2013-12-01',
+                'ordem'           => 17,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1628,6 +1804,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2014-01-01',
+                'ordem'           => 18,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1637,6 +1814,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2014-02-01',
+                'ordem'           => 19,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1646,6 +1824,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2014-03-01',
+                'ordem'           => 20,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1655,6 +1834,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2014-04-01',
+                'ordem'           => 21,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1664,6 +1844,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2014-05-01',
+                'ordem'           => 22,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1673,6 +1854,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2014-06-01',
+                'ordem'           => 23,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1682,6 +1864,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2014-07-01',
+                'ordem'           => 24,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1691,6 +1874,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 30,
                 'data_lancamento' => '2014-08-01',
+                'ordem'           => 25,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1703,6 +1887,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 84.90,
                 'titulo_id'       => 22,
                 'data_lancamento' => '2020-04-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1715,6 +1900,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 33,
                 'data_lancamento' => '2007-06-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1724,6 +1910,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 33,
                 'data_lancamento' => '2007-07-01',
+                'ordem'           => 2,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1733,6 +1920,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 33,
                 'data_lancamento' => '2007-08-01',
+                'ordem'           => 3,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1742,6 +1930,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 33,
                 'data_lancamento' => '2007-09-01',
+                'ordem'           => 4,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1751,6 +1940,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 33,
                 'data_lancamento' => '2007-10-01',
+                'ordem'           => 5,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1760,6 +1950,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 33,
                 'data_lancamento' => '2007-11-01',
+                'ordem'           => 6,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1769,6 +1960,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 33,
                 'data_lancamento' => '2007-12-01',
+                'ordem'           => 7,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1778,6 +1970,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 33,
                 'data_lancamento' => '2008-01-01',
+                'ordem'           => 8,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1787,6 +1980,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 33,
                 'data_lancamento' => '2008-03-01',
+                'ordem'           => 9,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1796,6 +1990,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 33,
                 'data_lancamento' => '2087-04-01',
+                'ordem'           => 10,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1805,6 +2000,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 33,
                 'data_lancamento' => '2008-05-01',
+                'ordem'           => 11,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1814,6 +2010,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 33,
                 'data_lancamento' => '2008-06-01',
+                'ordem'           => 12,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1823,6 +2020,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 19.90,
                 'titulo_id'       => 33,
                 'data_lancamento' => '2008-08-01',
+                'ordem'           => 13,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1835,6 +2033,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 39.00,
                 'titulo_id'       => 34,
                 'data_lancamento' => '2013-06-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1844,6 +2043,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 39.00,
                 'titulo_id'       => 34,
                 'data_lancamento' => '2013-07-01',
+                'ordem'           => 2,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1853,6 +2053,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 39.00,
                 'titulo_id'       => 34,
                 'data_lancamento' => '2013-08-01',
+                'ordem'           => 3,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1862,6 +2063,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 39.00,
                 'titulo_id'       => 34,
                 'data_lancamento' => '2013-10-01',
+                'ordem'           => 4,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1871,6 +2073,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 39.00,
                 'titulo_id'       => 34,
                 'data_lancamento' => '2013-11-01',
+                'ordem'           => 5,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1880,6 +2083,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 39.00,
                 'titulo_id'       => 34,
                 'data_lancamento' => '2013-12-01',
+                'ordem'           => 6,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1892,6 +2096,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 39.00,
                 'titulo_id'       => 35,
                 'data_lancamento' => '2017-12-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1904,6 +2109,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2014-07-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1913,6 +2119,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2014-08-01',
+                'ordem'           => 2,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1922,6 +2129,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2014-09-01',
+                'ordem'           => 3,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1931,6 +2139,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2014-10-01',
+                'ordem'           => 4,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1940,6 +2149,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2014-11-01',
+                'ordem'           => 5,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1949,6 +2159,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2014-12-01',
+                'ordem'           => 6,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1958,6 +2169,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2015-01-01',
+                'ordem'           => 7,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1967,6 +2179,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2015-02-01',
+                'ordem'           => 8,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1976,6 +2189,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2015-03-01',
+                'ordem'           => 9,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1985,6 +2199,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2015-04-01',
+                'ordem'           => 10,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -1994,6 +2209,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2015-05-01',
+                'ordem'           => 11,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2003,6 +2219,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2015-06-01',
+                'ordem'           => 12,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2012,6 +2229,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2015-08-01',
+                'ordem'           => 13,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2021,6 +2239,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2015-09-01',
+                'ordem'           => 14,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2030,6 +2249,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2015-10-01',
+                'ordem'           => 15,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2039,6 +2259,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2015-11-01',
+                'ordem'           => 16,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2048,6 +2269,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2015-12-01',
+                'ordem'           => 17,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2057,6 +2279,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2016-01-01',
+                'ordem'           => 18,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2066,6 +2289,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2016-02-01',
+                'ordem'           => 19,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2075,6 +2299,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2016-03-01',
+                'ordem'           => 20,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2084,6 +2309,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2016-04-01',
+                'ordem'           => 21,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2093,6 +2319,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2016-06-01',
+                'ordem'           => 22,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2102,6 +2329,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2016-07-01',
+                'ordem'           => 23,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2111,6 +2339,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2016-09-01',
+                'ordem'           => 24,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2120,6 +2349,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2016-12-01',
+                'ordem'           => 25,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2129,6 +2359,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 14.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2017-02-01',
+                'ordem'           => 26,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2138,6 +2369,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 14.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2017-04-01',
+                'ordem'           => 27,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2147,6 +2379,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 14.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2017-06-01',
+                'ordem'           => 28,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2156,6 +2389,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 14.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2017-08-01',
+                'ordem'           => 29,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2165,6 +2399,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 14.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2017-10-01',
+                'ordem'           => 30,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2174,6 +2409,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 15.50,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2018-01-01',
+                'ordem'           => 31,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2183,6 +2419,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 15.50,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2018-03-01',
+                'ordem'           => 32,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2192,6 +2429,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 15.50,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2018-06-01',
+                'ordem'           => 33,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2201,6 +2439,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 17.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2018-11-01',
+                'ordem'           => 34,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2210,6 +2449,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 17.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2018-11-01',
+                'ordem'           => 35,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2219,6 +2459,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 17.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2018-12-01',
+                'ordem'           => 36,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2228,6 +2469,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 17.90,
                 'titulo_id'       => 36,
                 'data_lancamento' => '2018-12-01',
+                'ordem'           => 37,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2240,6 +2482,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2006-07-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2249,6 +2492,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2006-08-01',
+                'ordem'           => 2,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2258,6 +2502,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2006-09-01',
+                'ordem'           => 3,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2267,6 +2512,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2006-10-01',
+                'ordem'           => 4,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2276,6 +2522,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2006-11-01',
+                'ordem'           => 5,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2285,6 +2532,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2006-12-01',
+                'ordem'           => 6,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2294,6 +2542,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2007-03-01',
+                'ordem'           => 7,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2303,6 +2552,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2007-04-01',
+                'ordem'           => 8,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2312,6 +2562,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2007-05-01',
+                'ordem'           => 9,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2321,6 +2572,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2007-06-01',
+                'ordem'           => 10,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2330,6 +2582,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2007-07-01',
+                'ordem'           => 11,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2339,6 +2592,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2007-08-01',
+                'ordem'           => 12,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2348,6 +2602,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2007-10-01',
+                'ordem'           => 13,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2357,6 +2612,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2007-11-01',
+                'ordem'           => 14,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2366,6 +2622,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2008-01-01',
+                'ordem'           => 15,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2375,6 +2632,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2008-02-01',
+                'ordem'           => 16,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2384,6 +2642,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2008-03-01',
+                'ordem'           => 17,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2393,6 +2652,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2008-04-01',
+                'ordem'           => 18,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2402,6 +2662,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2008-06-01',
+                'ordem'           => 19,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2411,6 +2672,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2008-07-01',
+                'ordem'           => 20,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2420,6 +2682,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2008-08-01',
+                'ordem'           => 21,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2429,6 +2692,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2008-09-01',
+                'ordem'           => 22,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2438,6 +2702,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2008-10-01',
+                'ordem'           => 23,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2447,6 +2712,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2008-11-01',
+                'ordem'           => 24,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2456,6 +2722,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2008-12-01',
+                'ordem'           => 25,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2465,6 +2732,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2009-01-01',
+                'ordem'           => 26,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2474,6 +2742,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2009-03-01',
+                'ordem'           => 27,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2483,6 +2752,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2009-04-01',
+                'ordem'           => 28,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2492,6 +2762,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2009-05-01',
+                'ordem'           => 29,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2501,6 +2772,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2009-06-01',
+                'ordem'           => 30,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2510,6 +2782,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2009-07-01',
+                'ordem'           => 31,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2519,6 +2792,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2009-08-01',
+                'ordem'           => 32,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2528,6 +2802,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2009-09-01',
+                'ordem'           => 33,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2537,6 +2812,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2009-10-01',
+                'ordem'           => 34,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2546,6 +2822,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2009-11-01',
+                'ordem'           => 35,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2555,6 +2832,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2009-12-01',
+                'ordem'           => 36,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2564,6 +2842,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2010-01-01',
+                'ordem'           => 37,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2573,6 +2852,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 11,
                 'data_lancamento' => '2010-02-01',
+                'ordem'           => 38,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2585,6 +2865,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 24.00,
                 'titulo_id'       => 38,
                 'data_lancamento' => '2012-05-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2597,6 +2878,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 39.00,
                 'titulo_id'       => 39,
                 'data_lancamento' => '2005-06-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2605,47 +2887,52 @@ class VolumesTableSeeder extends Seeder {
         if (true) { //Another 283-287
             // 283
             DB::table('volumes')->insert([
-                'nome'            => 'Volume 00',
-                'preco'           => 00.00,
+                'nome'            => 'Volume 01',
+                'preco'           => 13.90,
                 'titulo_id'       => 41,
-                'data_lancamento' => '2018-03-01',
-                'observacao'      => 'Volume lançado exlusivamente com o box que custou R$ 129,00.',
+                'data_lancamento' => '2013-02-01',
+                'ordem'           => 2,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
             // 284
             DB::table('volumes')->insert([
-                'nome'            => 'Volume 01',
+                'nome'            => 'Volume 02',
                 'preco'           => 13.90,
                 'titulo_id'       => 41,
-                'data_lancamento' => '2013-02-01',
+                'data_lancamento' => '2013-03-01',
+                'ordem'           => 3,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
             // 285
             DB::table('volumes')->insert([
-                'nome'            => 'Volume 02',
+                'nome'            => 'Volume 03',
                 'preco'           => 13.90,
                 'titulo_id'       => 41,
-                'data_lancamento' => '2013-03-01',
+                'data_lancamento' => '2013-04-01',
+                'ordem'           => 4,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
             // 286
             DB::table('volumes')->insert([
-                'nome'            => 'Volume 03',
+                'nome'            => 'Volume 04',
                 'preco'           => 13.90,
                 'titulo_id'       => 41,
-                'data_lancamento' => '2013-04-01',
+                'data_lancamento' => '2013-05-01',
+                'ordem'           => 5,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
             // 287
             DB::table('volumes')->insert([
-                'nome'            => 'Volume 04',
-                'preco'           => 13.90,
+                'nome'            => 'Volume 00',
+                'preco'           => 00.00,
                 'titulo_id'       => 41,
-                'data_lancamento' => '2013-05-01',
+                'data_lancamento' => '2018-03-01',
+                'observacao'      => 'Volume lançado exlusivamente com o box que custou R$ 129,00.',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2658,6 +2945,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-01-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2667,6 +2955,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-02-01',
+                'ordem'           => 2,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2676,6 +2965,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-04-01',
+                'ordem'           => 3,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2685,6 +2975,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-05-01',
+                'ordem'           => 4,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2694,6 +2985,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-06-01',
+                'ordem'           => 5,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2703,6 +2995,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-07-01',
+                'ordem'           => 6,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2712,6 +3005,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-08-01',
+                'ordem'           => 7,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2721,6 +3015,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-09-01',
+                'ordem'           => 8,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2730,6 +3025,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-10-01',
+                'ordem'           => 9,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2739,6 +3035,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-11-01',
+                'ordem'           => 10,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2748,6 +3045,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-12-01',
+                'ordem'           => 11,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2757,6 +3055,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2014-01-01',
+                'ordem'           => 12,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2769,6 +3068,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 6.50,
                 'titulo_id'       => 42,
                 'data_lancamento' => '2013-12-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2778,6 +3078,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 6.50,
                 'titulo_id'       => 42,
                 'data_lancamento' => '2014-01-01',
+                'ordem'           => 2,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2787,6 +3088,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 6.50,
                 'titulo_id'       => 42,
                 'data_lancamento' => '2014-02-01',
+                'ordem'           => 3,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2796,6 +3098,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 6.50,
                 'titulo_id'       => 42,
                 'data_lancamento' => '2014-03-01',
+                'ordem'           => 4,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2805,6 +3108,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 6.50,
                 'titulo_id'       => 42,
                 'data_lancamento' => '2014-04-01',
+                'ordem'           => 5,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2814,6 +3118,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 6.50,
                 'titulo_id'       => 42,
                 'data_lancamento' => '2014-05-01',
+                'ordem'           => 6,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2823,6 +3128,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 6.50,
                 'titulo_id'       => 42,
                 'data_lancamento' => '2014-06-01',
+                'ordem'           => 7,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2832,6 +3138,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 6.50,
                 'titulo_id'       => 42,
                 'data_lancamento' => '2014-07-01',
+                'ordem'           => 8,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2841,6 +3148,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 6.50,
                 'titulo_id'       => 42,
                 'data_lancamento' => '2014-08-01',
+                'ordem'           => 9,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2850,6 +3158,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 6.50,
                 'titulo_id'       => 42,
                 'data_lancamento' => '2014-09-01',
+                'ordem'           => 10,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2859,6 +3168,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 6.50,
                 'titulo_id'       => 42,
                 'data_lancamento' => '2014-10-01',
+                'ordem'           => 11,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2868,6 +3178,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 6.50,
                 'titulo_id'       => 42,
                 'data_lancamento' => '2014-11-01',
+                'ordem'           => 12,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2877,6 +3188,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 6.50,
                 'titulo_id'       => 42,
                 'data_lancamento' => '2014-12-01',
+                'ordem'           => 13,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2886,6 +3198,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 7.20,
                 'titulo_id'       => 42,
                 'data_lancamento' => '2015-01-01',
+                'ordem'           => 14,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2895,6 +3208,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 7.20,
                 'titulo_id'       => 42,
                 'data_lancamento' => '2015-02-01',
+                'ordem'           => 15,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2904,6 +3218,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 7.20,
                 'titulo_id'       => 42,
                 'data_lancamento' => '2015-03-01',
+                'ordem'           => 16,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2913,6 +3228,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 7.20,
                 'titulo_id'       => 42,
                 'data_lancamento' => '2015-04-01',
+                'ordem'           => 17,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2922,6 +3238,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 7.20,
                 'titulo_id'       => 42,
                 'data_lancamento' => '2015-05-01',
+                'ordem'           => 18,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2931,6 +3248,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 7.20,
                 'titulo_id'       => 42,
                 'data_lancamento' => '2015-06-01',
+                'ordem'           => 19,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2943,6 +3261,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-01-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2952,6 +3271,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-02-01',
+                'ordem'           => 2,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2961,6 +3281,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-04-01',
+                'ordem'           => 3,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2970,6 +3291,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-05-01',
+                'ordem'           => 4,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2979,6 +3301,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-06-01',
+                'ordem'           => 5,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2988,6 +3311,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-07-01',
+                'ordem'           => 6,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -2997,6 +3321,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-08-01',
+                'ordem'           => 7,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3006,6 +3331,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-09-01',
+                'ordem'           => 8,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3015,6 +3341,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-10-01',
+                'ordem'           => 9,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3024,6 +3351,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-11-01',
+                'ordem'           => 10,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3033,6 +3361,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2013-12-01',
+                'ordem'           => 11,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3042,6 +3371,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 43,
                 'data_lancamento' => '2014-01-01',
+                'ordem'           => 12,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3054,6 +3384,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2007-07-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3063,6 +3394,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2007-08-01',
+                'ordem'           => 2,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3072,6 +3404,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2007-09-01',
+                'ordem'           => 3,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3081,6 +3414,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2007-10-01',
+                'ordem'           => 4,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3090,6 +3424,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2007-11-01',
+                'ordem'           => 5,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3099,6 +3434,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2007-12-01',
+                'ordem'           => 6,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3108,6 +3444,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2008-01-01',
+                'ordem'           => 7,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3117,6 +3454,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2008-02-01',
+                'ordem'           => 8,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3126,6 +3464,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2008-03-01',
+                'ordem'           => 9,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3135,6 +3474,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2008-04-01',
+                'ordem'           => 10,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3144,6 +3484,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2008-05-01',
+                'ordem'           => 11,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3153,6 +3494,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2008-06-01',
+                'ordem'           => 12,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3162,6 +3504,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2008-07-01',
+                'ordem'           => 13,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3171,6 +3514,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2008-08-01',
+                'ordem'           => 14,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3180,6 +3524,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2008-09-01',
+                'ordem'           => 15,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3189,6 +3534,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2008-10-01',
+                'ordem'           => 16,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3198,6 +3544,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2008-11-01',
+                'ordem'           => 17,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3207,6 +3554,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2008-12-01',
+                'ordem'           => 18,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3216,6 +3564,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2009-01-01',
+                'ordem'           => 19,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3225,6 +3574,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2009-02-01',
+                'ordem'           => 20,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3234,6 +3584,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2009-03-01',
+                'ordem'           => 21,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3243,6 +3594,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2009-04-01',
+                'ordem'           => 22,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3252,6 +3604,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2009-05-01',
+                'ordem'           => 23,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3261,6 +3614,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2009-06-01',
+                'ordem'           => 24,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3270,6 +3624,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2009-07-01',
+                'ordem'           => 25,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3279,6 +3634,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2009-08-01',
+                'ordem'           => 26,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3288,6 +3644,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2009-09-01',
+                'ordem'           => 27,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3297,6 +3654,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2009-10-01',
+                'ordem'           => 28,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3306,6 +3664,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2009-11-01',
+                'ordem'           => 29,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3315,6 +3674,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2009-12-01',
+                'ordem'           => 30,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3324,6 +3684,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2010-01-01',
+                'ordem'           => 31,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3333,6 +3694,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2010-02-01',
+                'ordem'           => 32,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3342,6 +3704,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2010-03-01',
+                'ordem'           => 33,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3351,6 +3714,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2010-04-01',
+                'ordem'           => 34,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3360,6 +3724,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2010-06-01',
+                'ordem'           => 35,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3369,6 +3734,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2010-08-01',
+                'ordem'           => 36,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3378,6 +3744,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2010-10-01',
+                'ordem'           => 37,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3387,6 +3754,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2010-12-01',
+                'ordem'           => 38,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3396,6 +3764,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2011-02-01',
+                'ordem'           => 39,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3405,6 +3774,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2011-04-01',
+                'ordem'           => 40,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3414,6 +3784,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2011-06-01',
+                'ordem'           => 41,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3423,6 +3794,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2011-08-01',
+                'ordem'           => 42,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3432,6 +3804,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2011-10-01',
+                'ordem'           => 43,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3441,6 +3814,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2011-12-01',
+                'ordem'           => 44,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3450,6 +3824,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2012-02-01',
+                'ordem'           => 45,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3459,6 +3834,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2012-04-01',
+                'ordem'           => 46,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3468,6 +3844,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2012-06-01',
+                'ordem'           => 47,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3477,6 +3854,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2012-08-01',
+                'ordem'           => 48,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3486,6 +3864,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2012-10-01',
+                'ordem'           => 19,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3495,6 +3874,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2012-12-01',
+                'ordem'           => 50,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3504,6 +3884,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2013-02-01',
+                'ordem'           => 51,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3513,6 +3894,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2013-04-01',
+                'ordem'           => 52,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3522,6 +3904,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2013-06-01',
+                'ordem'           => 53,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3531,6 +3914,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2013-08-01',
+                'ordem'           => 54,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3540,6 +3924,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2013-10-01',
+                'ordem'           => 55,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3549,6 +3934,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2013-12-01',
+                'ordem'           => 56,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3558,6 +3944,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2014-02-01',
+                'ordem'           => 57,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3567,6 +3954,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2014-04-01',
+                'ordem'           => 58,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3576,6 +3964,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2014-06-01',
+                'ordem'           => 59,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3585,6 +3974,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2014-08-01',
+                'ordem'           => 60,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3594,6 +3984,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2014-10-01',
+                'ordem'           => 61,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3603,6 +3994,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2014-12-01',
+                'ordem'           => 62,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3612,6 +4004,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2015-02-01',
+                'ordem'           => 63,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3621,6 +4014,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2015-04-01',
+                'ordem'           => 64,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3630,6 +4024,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2015-06-01',
+                'ordem'           => 65,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3639,6 +4034,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2015-08-01',
+                'ordem'           => 66,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3648,6 +4044,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2015-11-01',
+                'ordem'           => 67,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3657,6 +4054,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2016-02-01',
+                'ordem'           => 68,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3666,6 +4064,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2016-05-01',
+                'ordem'           => 69,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3675,6 +4074,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2016-08-01',
+                'ordem'           => 70,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3684,6 +4084,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2016-11-01',
+                'ordem'           => 71,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3693,6 +4094,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2017-01-01',
+                'ordem'           => 72,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3702,6 +4104,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2017-07-01',
+                'ordem'           => 73,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3711,6 +4114,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 37,
                 'data_lancamento' => '2017-11-01',
+                'ordem'           => 74,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3723,6 +4127,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2007-05-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3732,6 +4137,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2007-06-01',
+                'ordem'           => 2,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3741,6 +4147,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2007-07-01',
+                'ordem'           => 3,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3750,6 +4157,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2007-08-01',
+                'ordem'           => 4,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3759,6 +4167,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2007-09-01',
+                'ordem'           => 5,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3768,6 +4177,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2007-10-01',
+                'ordem'           => 6,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3777,6 +4187,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2007-11-01',
+                'ordem'           => 7,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3786,6 +4197,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2007-12-01',
+                'ordem'           => 8,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3795,6 +4207,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2008-01-01',
+                'ordem'           => 9,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3804,6 +4217,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2008-02-01',
+                'ordem'           => 10,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3813,6 +4227,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2008-03-01',
+                'ordem'           => 11,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3822,6 +4237,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2008-04-01',
+                'ordem'           => 12,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3831,6 +4247,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2008-05-01',
+                'ordem'           => 13,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3840,6 +4257,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2008-06-01',
+                'ordem'           => 14,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3849,6 +4267,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2008-07-01',
+                'ordem'           => 15,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3858,6 +4277,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2008-08-01',
+                'ordem'           => 16,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3867,6 +4287,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2008-09-01',
+                'ordem'           => 17,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3876,6 +4297,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2008-10-01',
+                'ordem'           => 18,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3885,6 +4307,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2008-11-01',
+                'ordem'           => 19,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3894,6 +4317,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2008-12-01',
+                'ordem'           => 20,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3903,6 +4327,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2009-01-01',
+                'ordem'           => 21,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3912,6 +4337,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2009-02-01',
+                'ordem'           => 22,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3921,6 +4347,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2009-03-01',
+                'ordem'           => 23,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3930,6 +4357,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2009-04-01',
+                'ordem'           => 24,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3939,6 +4367,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2009-05-01',
+                'ordem'           => 25,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3948,6 +4377,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2009-06-01',
+                'ordem'           => 26,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3957,6 +4387,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2009-07-01',
+                'ordem'           => 27,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3966,6 +4397,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2009-08-01',
+                'ordem'           => 28,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3975,6 +4407,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2009-09-01',
+                'ordem'           => 29,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3984,6 +4417,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2009-10-01',
+                'ordem'           => 30,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -3993,6 +4427,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2009-11-01',
+                'ordem'           => 31,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4002,6 +4437,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2009-12-01',
+                'ordem'           => 32,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4011,6 +4447,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2010-01-01',
+                'ordem'           => 33,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4020,6 +4457,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2010-02-01',
+                'ordem'           => 34,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4029,6 +4467,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2010-03-01',
+                'ordem'           => 35,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4038,6 +4477,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2010-04-01',
+                'ordem'           => 36,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4047,6 +4487,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2010-05-01',
+                'ordem'           => 37,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4056,6 +4497,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2010-06-01',
+                'ordem'           => 38,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4065,6 +4507,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2010-07-01',
+                'ordem'           => 39,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4074,6 +4517,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2010-08-01',
+                'ordem'           => 40,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4083,6 +4527,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2010-09-01',
+                'ordem'           => 41,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4092,6 +4537,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2010-10-01',
+                'ordem'           => 42,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4101,6 +4547,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2010-11-01',
+                'ordem'           => 43,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4110,6 +4557,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2010-12-01',
+                'ordem'           => 44,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4119,6 +4567,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2011-01-01',
+                'ordem'           => 45,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4128,6 +4577,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2011-02-01',
+                'ordem'           => 46,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4137,6 +4587,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2011-03-01',
+                'ordem'           => 47,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4146,6 +4597,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2011-04-01',
+                'ordem'           => 48,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4155,6 +4607,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2011-06-01',
+                'ordem'           => 49,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4164,6 +4617,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2011-08-01',
+                'ordem'           => 50,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4173,6 +4627,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2011-10-01',
+                'ordem'           => 51,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4182,6 +4637,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 9.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2011-12-01',
+                'ordem'           => 52,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4191,6 +4647,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2012-02-01',
+                'ordem'           => 53,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4200,6 +4657,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2012-04-01',
+                'ordem'           => 54,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4209,6 +4667,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2012-06-01',
+                'ordem'           => 55,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4218,6 +4677,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2012-08-01',
+                'ordem'           => 56,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4227,6 +4687,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2012-10-01',
+                'ordem'           => 57,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4236,6 +4697,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2012-12-01',
+                'ordem'           => 58,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4245,6 +4707,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2013-02-01',
+                'ordem'           => 59,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4254,6 +4717,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2013-05-01',
+                'ordem'           => 60,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4263,6 +4727,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2013-07-01',
+                'ordem'           => 61,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4272,6 +4737,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2013-09-01',
+                'ordem'           => 62,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4281,6 +4747,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2013-11-01',
+                'ordem'           => 63,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4290,6 +4757,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2014-01-01',
+                'ordem'           => 64,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4299,6 +4767,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 10.90,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2014-04-01',
+                'ordem'           => 65,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4308,6 +4777,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2014-06-01',
+                'ordem'           => 66,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4317,6 +4787,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2014-08-01',
+                'ordem'           => 67,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4326,6 +4797,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2014-10-01',
+                'ordem'           => 68,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4335,6 +4807,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2014-12-01',
+                'ordem'           => 69,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4344,6 +4817,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2015-02-01',
+                'ordem'           => 70,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4353,6 +4827,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2015-04-01',
+                'ordem'           => 71,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4362,6 +4837,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 11.50,
                 'titulo_id'       => 28,
                 'data_lancamento' => '2015-06-01',
+                'ordem'           => 72,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4374,6 +4850,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 15.90,
                 'titulo_id'       => 44,
                 'data_lancamento' => '2016-11-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4383,6 +4860,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 44,
                 'data_lancamento' => '2017-01-01',
+                'ordem'           => 2,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4392,6 +4870,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 44,
                 'data_lancamento' => '2017-03-01',
+                'ordem'           => 3,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4401,6 +4880,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 44,
                 'data_lancamento' => '2017-07-01',
+                'ordem'           => 4,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4410,6 +4890,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 44,
                 'data_lancamento' => '2017-11-01',
+                'ordem'           => 5,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4419,6 +4900,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 19.90,
                 'titulo_id'       => 44,
                 'data_lancamento' => '2018-10-01',
+                'ordem'           => 6,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4428,6 +4910,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 22.90,
                 'titulo_id'       => 44,
                 'data_lancamento' => '2019-08-01',
+                'ordem'           => 7,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4440,6 +4923,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.00,
                 'titulo_id'       => 15,
                 'data_lancamento' => '2012-10-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4449,6 +4933,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.00,
                 'titulo_id'       => 15,
                 'data_lancamento' => '2013-02-01',
+                'ordem'           => 2,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4458,6 +4943,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 12.00,
                 'titulo_id'       => 15,
                 'data_lancamento' => '2013-06-01',
+                'ordem'           => 3,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4467,6 +4953,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 13.90,
                 'titulo_id'       => 15,
                 'data_lancamento' => '2013-09-01',
+                'ordem'           => 4,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4479,6 +4966,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 69.90,
                 'titulo_id'       => 45,
                 'data_lancamento' => '2019-02-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4491,6 +4979,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 79.90,
                 'titulo_id'       => 46,
                 'data_lancamento' => '2020-12-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4503,6 +4992,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 59.90,
                 'titulo_id'       => 47,
                 'data_lancamento' => '2019-06-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4515,6 +5005,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 69.90,
                 'titulo_id'       => 48,
                 'data_lancamento' => '2020-10-01',
+                'ordem'           => 1,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4527,6 +5018,263 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 39.90,
                 'titulo_id'       => 49,
                 'data_lancamento' => '2019-06-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Fate/Stay Night 493-512
+            // 493
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 12.90,
+                'titulo_id'       => 50,
+                'data_lancamento' => '2015-12-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 494
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 02',
+                'preco'           => 12.90,
+                'titulo_id'       => 50,
+                'data_lancamento' => '2016-01-01',
+                'ordem'           => 2,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 495
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 03',
+                'preco'           => 12.90,
+                'titulo_id'       => 50,
+                'data_lancamento' => '2016-02-01',
+                'ordem'           => 3,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 496
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 04',
+                'preco'           => 12.90,
+                'titulo_id'       => 50,
+                'data_lancamento' => '2016-03-01',
+                'ordem'           => 4,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 497
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 05',
+                'preco'           => 12.90,
+                'titulo_id'       => 50,
+                'data_lancamento' => '2016-04-01',
+                'ordem'           => 5,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 498
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 06',
+                'preco'           => 12.90,
+                'titulo_id'       => 50,
+                'data_lancamento' => '2016-05-01',
+                'ordem'           => 6,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 499
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 07',
+                'preco'           => 12.90,
+                'titulo_id'       => 50,
+                'data_lancamento' => '2016-06-01',
+                'ordem'           => 7,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 500
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 08',
+                'preco'           => 12.90,
+                'titulo_id'       => 50,
+                'data_lancamento' => '2016-07-01',
+                'ordem'           => 8,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 501
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 09',
+                'preco'           => 12.90,
+                'titulo_id'       => 50,
+                'data_lancamento' => '2016-08-01',
+                'ordem'           => 9,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 502
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 10',
+                'preco'           => 12.90,
+                'titulo_id'       => 50,
+                'data_lancamento' => '2016-09-01',
+                'ordem'           => 10,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 503
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 11',
+                'preco'           => 12.90,
+                'titulo_id'       => 50,
+                'data_lancamento' => '2016-10-01',
+                'ordem'           => 11,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 504
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 12',
+                'preco'           => 12.90,
+                'titulo_id'       => 50,
+                'data_lancamento' => '2016-11-01',
+                'ordem'           => 12,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 505
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 13',
+                'preco'           => 12.90,
+                'titulo_id'       => 50,
+                'data_lancamento' => '2016-12-01',
+                'ordem'           => 13,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 506
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 14',
+                'preco'           => 12.90,
+                'titulo_id'       => 50,
+                'data_lancamento' => '2017-01-01',
+                'ordem'           => 14,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 507
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 15',
+                'preco'           => 12.90,
+                'titulo_id'       => 50,
+                'data_lancamento' => '2017-02-01',
+                'ordem'           => 15,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 508
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 16',
+                'preco'           => 12.90,
+                'titulo_id'       => 50,
+                'data_lancamento' => '2017-03-01',
+                'ordem'           => 16,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 509
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 17',
+                'preco'           => 12.90,
+                'titulo_id'       => 50,
+                'data_lancamento' => '2017-04-01',
+                'ordem'           => 17,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 510
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 18',
+                'preco'           => 12.90,
+                'titulo_id'       => 50,
+                'data_lancamento' => '2017-05-01',
+                'ordem'           => 18,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 511
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 19',
+                'preco'           => 12.90,
+                'titulo_id'       => 50,
+                'data_lancamento' => '2017-06-01',
+                'ordem'           => 19,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 512
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 20',
+                'preco'           => 12.90,
+                'titulo_id'       => 50,
+                'data_lancamento' => '2017-07-01',
+                'ordem'           => 20,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Green Blood 513-517
+            // 513
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 14.50,
+                'titulo_id'       => 51,
+                'data_lancamento' => '2015-01-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 514
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 02',
+                'preco'           => 14.50,
+                'titulo_id'       => 51,
+                'data_lancamento' => '2015-02-01',
+                'ordem'           => 2,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 515
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 03',
+                'preco'           => 14.50,
+                'titulo_id'       => 51,
+                'data_lancamento' => '2015-03-01',
+                'ordem'           => 3,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 516
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 04',
+                'preco'           => 14.50,
+                'titulo_id'       => 51,
+                'data_lancamento' => '2015-04-01',
+                'ordem'           => 4,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 517
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 05',
+                'preco'           => 14.50,
+                'titulo_id'       => 51,
+                'data_lancamento' => '2015-05-01',
+                'ordem'           => 5,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4539,6 +5287,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 23.90,
                 'titulo_id'       => 19,
                 'data_lancamento' => '2020-03-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4548,6 +5297,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 22.90,
                 'titulo_id'       => 19,
                 'data_lancamento' => '2020-08-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4557,6 +5307,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 21.90,
                 'titulo_id'       => 19,
                 'data_lancamento' => '2020-11-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4566,6 +5317,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 27.90,
                 'titulo_id'       => 19     ,
                 'data_lancamento' => '2021-03-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4578,6 +5330,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 89.90,
                 'titulo_id'       => 20,
                 'data_lancamento' => '2020-05-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4587,6 +5340,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 89.90,
                 'titulo_id'       => 20,
                 'data_lancamento' => '2021-01-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4599,6 +5353,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 18.90,
                 'titulo_id'       => 14,
                 'data_lancamento' => '2017-02-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4608,6 +5363,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 18.90,
                 'titulo_id'       => 14,
                 'data_lancamento' => '2017-05-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4617,6 +5373,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 18.90,
                 'titulo_id'       => 14,
                 'data_lancamento' => '2017-08-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4626,6 +5383,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 24.90,
                 'titulo_id'       => 14,
                 'data_lancamento' => '2020-03-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4638,6 +5396,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2016-07-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4647,6 +5406,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2016-08-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4656,6 +5416,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2016-09-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4665,6 +5426,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2016-10-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4674,6 +5436,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2016-11-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4683,6 +5446,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2017-01-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4692,6 +5456,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2017-02-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4701,6 +5466,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2017-03-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4710,6 +5476,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2017-04-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4719,6 +5486,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2017-05-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4728,6 +5496,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2017-06-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4737,6 +5506,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2017-07-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4746,6 +5516,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2017-09-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4755,6 +5526,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2017-10-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4764,6 +5536,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2017-11-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4773,6 +5546,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2017-12-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4782,6 +5556,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 16.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2018-01-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4791,6 +5566,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 17.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2018-02-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4800,6 +5576,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 17.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2018-03-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4809,6 +5586,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 17.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2018-04-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4818,6 +5596,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 17.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2018-06-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4827,6 +5606,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 17.90,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2018-07-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4836,6 +5616,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 19.50,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2018-09-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4845,6 +5626,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 19.50,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2018-10-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4854,6 +5636,7 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 19.50,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2018-11-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -4863,20 +5646,13 @@ class VolumesTableSeeder extends Seeder {
                 'preco'           => 19.50,
                 'titulo_id'       => 2,
                 'data_lancamento' => '2018-11-01',
+                'ordem'           => ,
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
         }*/
         
-        /*SELECT e.nome AS editora, t.nome AS titulo, COUNT(*) AS quantidade_volumes, ts.nome AS status_titulo, MIN(v.data_lancamento) AS primeiro_volume_lancado, MAX(v.data_lancamento) AS ultimo_volume_lancado
-FROM titulos t, volumes v, titulo_status ts, editoras e
-WHERE
-	t.id = v.titulo_id
-	AND t.status_id = ts.id
-	AND t.editora_id = e.id
-GROUP BY v.titulo_id, t.nome, ts.nome, e.nome
-ORDER BY e.nome, t.nome
-
+/*
 SELECT e.nome AS editora, t.nome AS titulo, COUNT(*) AS quantidade_volumes, ts.nome AS status_titulo, MIN(v.data_lancamento) AS primeiro_volume_lancado, MAX(v.data_lancamento) AS ultimo_volume_lancado
 FROM titulos t, volumes v, titulo_status ts, editoras e
 WHERE
@@ -4884,9 +5660,7 @@ WHERE
 	AND t.status_id = ts.id
 	AND t.editora_id = e.id
 GROUP BY v.titulo_id, t.nome, ts.nome, e.nome
-ORDER BY e.nome, t.nome*/
-        if (true) {
-
-        }
+ORDER BY e.nome, t.nome
+*/
     }
 }

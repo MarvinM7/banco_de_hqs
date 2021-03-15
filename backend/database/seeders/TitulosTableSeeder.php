@@ -399,6 +399,22 @@ class TitulosTableSeeder extends Seeder {
             'created_at' => date("Y-m-d H:i:s"),
             'updated_at' => date("Y-m-d H:i:s")
         ]);
-        //green blood, Fate stay night, shaman king
+        // 50
+        DB::table('titulos')->insert([
+            'nome'       => 'Fate/Stay Night',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 51
+        DB::table('titulos')->insert([
+            'nome'       => 'Green Blood',
+            'editora_id' => 2,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        //green blood, shaman king
     }
 }

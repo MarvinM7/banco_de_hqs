@@ -11,6 +11,7 @@ class ColecoesTitulosTableSeeder extends Seeder {
         DB::table('colecoes_titulos')->insert([
             'colecao_id' => 3,
             'titulo_id'  => 23,
+            'ordem'      => 1,
             'created_at' => date("Y-m-d H:i:s"),
             'updated_at' => date("Y-m-d H:i:s")
         ]);
@@ -18,6 +19,7 @@ class ColecoesTitulosTableSeeder extends Seeder {
         DB::table('colecoes_titulos')->insert([
             'colecao_id' => 3,
             'titulo_id'  => 24,
+            'ordem'      => 2,
             'created_at' => date("Y-m-d H:i:s"),
             'updated_at' => date("Y-m-d H:i:s")
         ]);
@@ -25,6 +27,7 @@ class ColecoesTitulosTableSeeder extends Seeder {
         DB::table('colecoes_titulos')->insert([
             'colecao_id' => 3,
             'titulo_id'  => 25,
+            'ordem'      => 3,
             'created_at' => date("Y-m-d H:i:s"),
             'updated_at' => date("Y-m-d H:i:s")
         ]);
@@ -32,6 +35,7 @@ class ColecoesTitulosTableSeeder extends Seeder {
         DB::table('colecoes_titulos')->insert([
             'colecao_id' => 3,
             'titulo_id'  => 26,
+            'ordem'      => 4,
             'created_at' => date("Y-m-d H:i:s"),
             'updated_at' => date("Y-m-d H:i:s")
         ]);
@@ -39,6 +43,7 @@ class ColecoesTitulosTableSeeder extends Seeder {
         DB::table('colecoes_titulos')->insert([
             'colecao_id' => 3,
             'titulo_id'  => 27,
+            'ordem'      => 5,
             'created_at' => date("Y-m-d H:i:s"),
             'updated_at' => date("Y-m-d H:i:s")
         ]);

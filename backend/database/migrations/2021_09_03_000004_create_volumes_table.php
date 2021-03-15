@@ -13,6 +13,7 @@ class CreateVolumesTable extends Migration {
             $table->integer('titulo_id')->unsigned();
             $table->string('capa')->nullable();
             $table->date('data_lancamento')->nullable();
+            $table->integer('ordem');
             $table->string('observacao')->nullable();
             $table->timestamps();
             $table->softDeletes();
