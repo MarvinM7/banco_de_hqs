@@ -9,9 +9,9 @@ const Rotas = ({navigation}) => {
 
 	return (
         <Tab.Navigator>
-            <Tab.Screen name="Senha" component={Senha} />
-            <Tab.Screen name="Login" component={Login} />
-            <Tab.Screen name="Login2" component={Login} />
+            <Tab.Screen name="Títulos" component={Senha} />
+            <Tab.Screen name="Meus Títulos" component={Login} />
+            <Tab.Screen name="Configurações" component={Login} />
         </Tab.Navigator>
 	);
 }

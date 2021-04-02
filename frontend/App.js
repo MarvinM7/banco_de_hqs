@@ -9,14 +9,17 @@ import Rotas from './src/pages/rotas';
 
 const Stack = createStackNavigator();
 
-export default function App() {
+const App = () => {
+	//Marvin verificar login, se tiver logado, pagina inicial vai pra rotas, se não, vai pra login mesmo
+	let teste = 'Login';
+
 	return (
 		<NavigationContainer>
 			<Stack.Navigator
 				screenOptions={{
 					headerShown: false
 				}}
-				initialRouteName="Senha"
+				initialRouteName={teste}
 			>
 				<Stack.Screen name="Login" component={Login} />
 				<Stack.Screen name="Cadastro" component={Cadastro} />
@@ -26,3 +29,5 @@ export default function App() {
 		</NavigationContainer>
 	);
 }
+
+export default App;

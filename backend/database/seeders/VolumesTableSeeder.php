@@ -5280,6 +5280,1500 @@ class VolumesTableSeeder extends Seeder {
             ]);
         }
 
+        if (true) { //Invasão! Chega de Segredos! 518
+            // 518
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 53.00,
+                'titulo_id'       => 52,
+                'data_lancamento' => '2018-07-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Invasão! Chega de Segredos! 519
+            // 519
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 68.00,
+                'titulo_id'       => 53,
+                'data_lancamento' => '2018-12-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Crise Final 520
+            // 520
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 92.00,
+                'titulo_id'       => 54,
+                'data_lancamento' => '2014-05-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Reino do Amanhã 521
+            // 521
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 89.00,
+                'titulo_id'       => 55,
+                'data_lancamento' => '2013-10-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Reino do Amanhã 522
+            // 522
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 89.00,
+                'titulo_id'       => 56,
+                'data_lancamento' => '2017-12-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Shazam! & A Sociedade dos Monstros 523
+            // 523
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 27.90,
+                'titulo_id'       => 57,
+                'data_lancamento' => '2014-12-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Shazam! & A Sociedade dos Monstros 524
+            // 524
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 59.00,
+                'titulo_id'       => 58,
+                'data_lancamento' => '2019-03-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Superman e A Legião dos Super-Heróis 525
+            // 525
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 26.90,
+                'titulo_id'       => 59,
+                'data_lancamento' => '2014-06-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //O Dia Mais Claro 526
+            // 526
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 193.00,
+                'titulo_id'       => 60,
+                'data_lancamento' => '2018-11-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //A Noite Mais Densa 527
+            // 527
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 189.00,
+                'titulo_id'       => 61,
+                'data_lancamento' => '2020-11-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Lanterna Verde - A Vingança dos Lanternas Verdes 528
+            // 528
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 79.00,
+                'titulo_id'       => 62,
+                'data_lancamento' => '2011-08-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Lanterna Verde - A Vingança dos Lanternas Verdes 529
+            // 529
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 106.00,
+                'titulo_id'       => 63,
+                'data_lancamento' => '2019-06-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Zero Hora - Crise no Tempo 530
+            // 530
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 71.00,
+                'titulo_id'       => 64,
+                'data_lancamento' => '2020-01-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Justiça - Edição Definitiva 531
+            // 531
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 110.00,
+                'titulo_id'       => 65,
+                'data_lancamento' => '2013-09-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Justiça - Edição Definitiva 532
+            // 532
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 110.00,
+                'titulo_id'       => 66,
+                'data_lancamento' => '2017-10-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Crise Infinita - Edição Definitiva 533
+            // 533
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 67.00,
+                'titulo_id'       => 67,
+                'data_lancamento' => '2015-05-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Arqueiro Verde - Máquina Mortífera 534
+            // 534
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 34.90,
+                'titulo_id'       => 68,
+                'data_lancamento' => '2017-04-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Arqueiro Verde - A Guerra dos Renegados 535
+            // 535
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 51.00,
+                'titulo_id'       => 69,
+                'data_lancamento' => '2018-02-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Arqueiro Verde - A Queda 536
+            // 536
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 51.00,
+                'titulo_id'       => 70,
+                'data_lancamento' => '2018-02-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Lendas do Universo DC: Lanterna Verde & Arqueiro Verde 537-539
+            // 537
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 23.90,
+                'titulo_id'       => 71,
+                'data_lancamento' => '2016-12-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 538
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 02',
+                'preco'           => 23.90,
+                'titulo_id'       => 71,
+                'data_lancamento' => '2016-12-01',
+                'ordem'           => 2,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 539
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 03',
+                'preco'           => 23.90,
+                'titulo_id'       => 71,
+                'data_lancamento' => '2016-12-01',
+                'ordem'           => 3,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Lanterna Verde & Arqueiro Verde - Sem Destino 540
+            // 540
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 22.90,
+                'titulo_id'       => 72,
+                'data_lancamento' => '2014-06-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Arqueiro Verde 541-548
+            // 541
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 19.90,
+                'titulo_id'       => 73,
+                'data_lancamento' => '2017-06-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 542
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 02',
+                'preco'           => 19.90,
+                'titulo_id'       => 73,
+                'data_lancamento' => '2017-09-01',
+                'ordem'           => 2,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 543
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 03',
+                'preco'           => 19.90,
+                'titulo_id'       => 73,
+                'data_lancamento' => '2017-12-01',
+                'ordem'           => 3,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 544
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 04',
+                'preco'           => 28.90,
+                'titulo_id'       => 73,
+                'data_lancamento' => '2018-04-01',
+                'ordem'           => 4,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 545
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 05',
+                'preco'           => 22.90,
+                'titulo_id'       => 73,
+                'data_lancamento' => '2018-10-01',
+                'ordem'           => 5,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 546
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 06',
+                'preco'           => 26.90,
+                'titulo_id'       => 73,
+                'data_lancamento' => '2019-01-01',
+                'ordem'           => 6,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 547
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 07',
+                'preco'           => 22.90,
+                'titulo_id'       => 73,
+                'data_lancamento' => '2019-05-01',
+                'ordem'           => 7,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 548
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 08',
+                'preco'           => 30.90,
+                'titulo_id'       => 73,
+                'data_lancamento' => '2019-10-01',
+                'ordem'           => 8,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Arqueiro Verde - Ano Um 549
+            // 549
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 15.90,
+                'titulo_id'       => 74,
+                'data_lancamento' => '2009-01-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Arqueiro Verde 550-564
+            // 550
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 6.50,
+                'titulo_id'       => 75,
+                'data_lancamento' => '2013-09-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 551
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 02',
+                'preco'           => 6.50,
+                'titulo_id'       => 75,
+                'data_lancamento' => '2013-10-01',
+                'ordem'           => 2,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 552
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 03',
+                'preco'           => 6.50,
+                'titulo_id'       => 75,
+                'data_lancamento' => '2013-11-01',
+                'ordem'           => 3,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 553
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 04',
+                'preco'           => 6.50,
+                'titulo_id'       => 75,
+                'data_lancamento' => '2013-12-01',
+                'ordem'           => 4,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 554
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 05',
+                'preco'           => 6.50,
+                'titulo_id'       => 75,
+                'data_lancamento' => '2014-01-01',
+                'ordem'           => 5,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 555
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 06',
+                'preco'           => 6.50,
+                'titulo_id'       => 75,
+                'data_lancamento' => '2014-02-01',
+                'ordem'           => 6,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 556
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 07',
+                'preco'           => 6.50,
+                'titulo_id'       => 75,
+                'data_lancamento' => '2014-03-01',
+                'ordem'           => 7,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 557
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 08',
+                'preco'           => 6.50,
+                'titulo_id'       => 75,
+                'data_lancamento' => '2014-04-01',
+                'ordem'           => 8,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 558
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 09',
+                'preco'           => 6.50,
+                'titulo_id'       => 75,
+                'data_lancamento' => '2014-05-01',
+                'ordem'           => 9,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 559
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 10',
+                'preco'           => 7.50,
+                'titulo_id'       => 75,
+                'data_lancamento' => '2014-06-01',
+                'ordem'           => 10,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 560
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 11',
+                'preco'           => 6.50,
+                'titulo_id'       => 75,
+                'data_lancamento' => '2014-10-01',
+                'ordem'           => 11,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 561
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 12',
+                'preco'           => 6.50,
+                'titulo_id'       => 75,
+                'data_lancamento' => '2014-11-01',
+                'ordem'           => 12,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 562
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 13',
+                'preco'           => 7.20,
+                'titulo_id'       => 75,
+                'data_lancamento' => '2015-04-01',
+                'ordem'           => 13,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 563
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 14',
+                'preco'           => 7.20,
+                'titulo_id'       => 75,
+                'data_lancamento' => '2015-05-01',
+                'ordem'           => 14,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 564
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 15',
+                'preco'           => 7.20,
+                'titulo_id'       => 75,
+                'data_lancamento' => '2015-06-01',
+                'ordem'           => 15,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Arqueiro Verde 565-571
+            // 565
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 7.20,
+                'titulo_id'       => 76,
+                'data_lancamento' => '2015-08-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 566
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 02',
+                'preco'           => 7.20,
+                'titulo_id'       => 76,
+                'data_lancamento' => '2015-09-01',
+                'ordem'           => 2,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 567
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 03',
+                'preco'           => 7.20,
+                'titulo_id'       => 76,
+                'data_lancamento' => '2015-10-01',
+                'ordem'           => 3,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 568
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 04',
+                'preco'           => 7.20,
+                'titulo_id'       => 76,
+                'data_lancamento' => '2015-11-01',
+                'ordem'           => 4,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 569
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 05',
+                'preco'           => 7.20,
+                'titulo_id'       => 76,
+                'data_lancamento' => '2015-12-01',
+                'ordem'           => 5,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 570
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 06',
+                'preco'           => 7.60,
+                'titulo_id'       => 76,
+                'data_lancamento' => '2016-01-01',
+                'ordem'           => 6,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 571
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 07',
+                'preco'           => 7.60,
+                'titulo_id'       => 76,
+                'data_lancamento' => '2016-02-01',
+                'ordem'           => 7,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Arqueiro Verde - Pássaros da Noite 572
+            // 572
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 21.90,
+                'titulo_id'       => 77,
+                'data_lancamento' => '2016-05-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Arqueiro Verde - O Surto 573
+            // 573
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 25.90,
+                'titulo_id'       => 78,
+                'data_lancamento' => '2016-11-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Lanterna Verde - A Guerra dos Anéis 574-575
+            // 574
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 27.90,
+                'titulo_id'       => 79,
+                'data_lancamento' => '2014-08-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 575
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 02',
+                'preco'           => 27.90,
+                'titulo_id'       => 79,
+                'data_lancamento' => '2014-11-01',
+                'ordem'           => 2,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Lanterna Verde - A Guerra dos Anéis 576-577
+            // 576
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 64.00,
+                'titulo_id'       => 80,
+                'data_lancamento' => '2020-05-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 577
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 02',
+                'preco'           => 64.00,
+                'titulo_id'       => 80,
+                'data_lancamento' => '2020-06-01',
+                'ordem'           => 2,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Arlequina - Apagão de Poder 578
+            // 578
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 58.00,
+                'titulo_id'       => 81,
+                'data_lancamento' => '2018-07-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Aquaman - As Profundezas 579
+            // 579
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 25.90,
+                'titulo_id'       => 82,
+                'data_lancamento' => '2015-05-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Aquaman - Os Outros 580
+            // 580
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 29.90,
+                'titulo_id'       => 83,
+                'data_lancamento' => '2016-11-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Aquaman - A Morte de Um Rei 581
+            // 581
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 35.90,
+                'titulo_id'       => 84,
+                'data_lancamento' => '2017-04-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Vilania Eterna 582
+            // 582
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 71.00,
+                'titulo_id'       => 85,
+                'data_lancamento' => '2019-04-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Vilania Eterna 583-589
+            // 583
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 4.90,
+                'titulo_id'       => 86,
+                'data_lancamento' => '2014-06-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 584
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 02',
+                'preco'           => 7.50,
+                'titulo_id'       => 86,
+                'data_lancamento' => '2014-07-01',
+                'ordem'           => 2,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 585
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 03',
+                'preco'           => 7.50,
+                'titulo_id'       => 86,
+                'data_lancamento' => '2014-08-01',
+                'ordem'           => 3,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 586
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 04',
+                'preco'           => 7.50,
+                'titulo_id'       => 86,
+                'data_lancamento' => '2014-09-01',
+                'ordem'           => 4,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 587
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 05',
+                'preco'           => 7.50,
+                'titulo_id'       => 86,
+                'data_lancamento' => '2014-10-01',
+                'ordem'           => 5,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 588
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 06',
+                'preco'           => 7.50,
+                'titulo_id'       => 86,
+                'data_lancamento' => '2014-11-01',
+                'ordem'           => 6,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 589
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 07',
+                'preco'           => 7.20,
+                'titulo_id'       => 86,
+                'data_lancamento' => '2014-12-01',
+                'ordem'           => 7,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Shazam! Com Uma Palavra Mágica... 590
+            // 590
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 29.90,
+                'titulo_id'       => 87,
+                'data_lancamento' => '2015-10-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Shazam! Com Uma Palavra Mágica... 591
+            // 591
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 58.00,
+                'titulo_id'       => 88,
+                'data_lancamento' => '2019-03-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Liga da Justiça da América - Os Mais Perigosos do Mundo 592
+            // 592
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 32.90,
+                'titulo_id'       => 89,
+                'data_lancamento' => '2017-10-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Mulher-Maravilha - Sangue 593
+            // 593
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 29.90,
+                'titulo_id'       => 90,
+                'data_lancamento' => '2016-04-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Mulher-Maravilha - Direito de Nascença 594
+            // 594
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 27.90,
+                'titulo_id'       => 91,
+                'data_lancamento' => '2016-10-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Mulher-Maravilha - Força 595
+            // 595
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 31.90,
+                'titulo_id'       => 92,
+                'data_lancamento' => '2017-07-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Mulher-Maravilha - Guerra 596
+            // 596
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 39.00,
+                'titulo_id'       => 93,
+                'data_lancamento' => '2018-03-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Mulher-Maravilha - Pele 597
+            // 597
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 48.00,
+                'titulo_id'       => 94,
+                'data_lancamento' => '2018-09-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Mulher-Maravilha - Ossos 598
+            // 598
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 58.00,
+                'titulo_id'       => 95,
+                'data_lancamento' => '2019-12-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+        
+        if (true) { //Superman - Qual É O Preço do Amanhã? 599
+            // 599
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 28.90,
+                'titulo_id'       => 96,
+                'data_lancamento' => '2016-08-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Mulher-Maravilha - Sangue 600
+            // 600
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 60.00,
+                'titulo_id'       => 97,
+                'data_lancamento' => '2019-08-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Superman - À Prova de Balas 601
+            // 601
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 158.00,
+                'titulo_id'       => 98,
+                'data_lancamento' => '2015-03-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Os Livros do Destino 602
+            // 602
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 25.90,
+                'titulo_id'       => 99,
+                'data_lancamento' => '2014-08-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Os Caçadores 603-605
+            // 603
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 1.50,
+                'titulo_id'       => 100,
+                'data_lancamento' => '1989-02-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 604
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 02',
+                'preco'           => 1.50,
+                'titulo_id'       => 100,
+                'data_lancamento' => '1989-03-01',
+                'ordem'           => 2,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 605
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 03',
+                'preco'           => 1.50,
+                'titulo_id'       => 100,
+                'data_lancamento' => '1989-04-01',
+                'ordem'           => 3,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Os Caçadores 606-613
+            // 606
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 4.90,
+                'titulo_id'       => 101,
+                'data_lancamento' => '2002-11-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 607
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 02',
+                'preco'           => 5.50,
+                'titulo_id'       => 101,
+                'data_lancamento' => '2002-12-01',
+                'ordem'           => 2,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 608
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 03',
+                'preco'           => 5.50,
+                'titulo_id'       => 101,
+                'data_lancamento' => '2003-01-01',
+                'ordem'           => 3,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 609
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 04',
+                'preco'           => 5.50,
+                'titulo_id'       => 101,
+                'data_lancamento' => '2003-01-01',
+                'ordem'           => 4,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 610
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 05',
+                'preco'           => 5.50,
+                'titulo_id'       => 101,
+                'data_lancamento' => '2003-02-01',
+                'ordem'           => 5,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 611
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 06',
+                'preco'           => 6.50,
+                'titulo_id'       => 101,
+                'data_lancamento' => '2003-05-01',
+                'ordem'           => 6,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 612
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 07',
+                'preco'           => 6.50,
+                'titulo_id'       => 101,
+                'data_lancamento' => '2003-06-01',
+                'ordem'           => 7,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 613
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 08',
+                'preco'           => 6.50,
+                'titulo_id'       => 101,
+                'data_lancamento' => '2003-07-01',
+                'ordem'           => 8,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Recado A Adolf 614-615
+            // 614
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 89.90,
+                'titulo_id'       => 102,
+                'data_lancamento' => '2020-10-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 615
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 02',
+                'preco'           => 89.90,
+                'titulo_id'       => 102,
+                'data_lancamento' => '2020-12-01',
+                'ordem'           => 2,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Recado A Adolf 616
+            // 616
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 129.90,
+                'titulo_id'       => 103,
+                'data_lancamento' => '2020-08-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Grama 617
+            // 617
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 79.90,
+                'titulo_id'       => 104,
+                'data_lancamento' => '2020-07-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Fronteiras do Além 618
+            // 618
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 69.90,
+                'titulo_id'       => 105,
+                'data_lancamento' => '2020-06-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Cannon 619
+            // 619
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 99.90,
+                'titulo_id'       => 106,
+                'data_lancamento' => '2017-06-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Por Deus Ou Pelo Acaso 620
+            // 620
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 62.90,
+                'titulo_id'       => 107,
+                'data_lancamento' => '2020-05-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Maxwell, O Gato Mágico 621
+            // 621
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 59.90,
+                'titulo_id'       => 108,
+                'data_lancamento' => '2020-03-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Destino Adiado 622
+            // 622
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 69.90,
+                'titulo_id'       => 109,
+                'data_lancamento' => '2020-02-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Rohan No Louvre 623
+            // 623
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 69.90,
+                'titulo_id'       => 110,
+                'data_lancamento' => '2020-01-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //O Preço da Desonra - Kubidai Hikiukenin 624
+            // 624
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 59.90,
+                'titulo_id'       => 111,
+                'data_lancamento' => '2019-08-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Lone Sloane 625
+            // 625
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 129.90,
+                'titulo_id'       => 112,
+                'data_lancamento' => '2019-04-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Um Pequeno Assassinato 626
+            // 626
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 54.90,
+                'titulo_id'       => 113,
+                'data_lancamento' => '2017-11-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Marada - A Mulher-Lobo 627
+            // 627
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 54.90,
+                'titulo_id'       => 114,
+                'data_lancamento' => '2018-02-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Cinco Por Infinito 628
+            // 628
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 149.90,
+                'titulo_id'       => 115,
+                'data_lancamento' => '2018-11-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //O Relatório de Brodeck 629
+            // 629
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 120.00,
+                'titulo_id'       => 116,
+                'data_lancamento' => '2018-12-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Espadas e Bruxas 630
+            // 630
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 120.00,
+                'titulo_id'       => 117,
+                'data_lancamento' => '2017-05-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //A Arte de Charlie Chan Hock Chye 631
+            // 631
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 69.90,
+                'titulo_id'       => 118,
+                'data_lancamento' => '2018-07-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //A Arte de Charlie Chan Hock Chye 632
+            // 632
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 69.90,
+                'titulo_id'       => 119,
+                'data_lancamento' => '2019-09-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Guardiões do Louvre 633
+            // 633
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 59.90,
+                'titulo_id'       => 120,
+                'data_lancamento' => '2018-05-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Um Pedaço de Madeira e Aço 634
+            // 634
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 69.90,
+                'titulo_id'       => 121,
+                'data_lancamento' => '2018-05-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Jane 635
+            // 635
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 49.90,
+                'titulo_id'       => 122,
+                'data_lancamento' => '2019-07-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Roseira, Medalha, Engenho e Outras Histórias 636
+            // 636
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 89.90,
+                'titulo_id'       => 123,
+                'data_lancamento' => '2019-11-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Conto de Areia 637
+            // 637
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 69.90,
+                'titulo_id'       => 124,
+                'data_lancamento' => '2018-03-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Moby Dick 638
+            // 638
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 120.00,
+                'titulo_id'       => 125,
+                'data_lancamento' => '2017-08-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Blood - Uma História de Sangue 639
+            // 639
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 59.90,
+                'titulo_id'       => 126,
+                'data_lancamento' => '2018-08-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Moonshadow 640
+            // 640
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 139.90,
+                'titulo_id'       => 127,
+                'data_lancamento' => '2019-12-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Beasts of Burden 641-642
+            // 641
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01 - Rituais Animais',
+                'preco'           => 69.90,
+                'titulo_id'       => 128,
+                'data_lancamento' => '2017-09-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 642
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 02 - Rituais Animais',
+                'preco'           => 79.90,
+                'titulo_id'       => 128,
+                'data_lancamento' => '2020-02-01',
+                'ordem'           => 2,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //Beasts of Burden - Cães Sábios e Homens Nefastos 643
+            // 643
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 59.90,
+                'titulo_id'       => 129,
+                'data_lancamento' => '2019-05-01',
+                'ordem'           => 1,
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
         /*if (true) { //Injustiça 2 140-143
             // 140
             DB::table('volumes')->insert([

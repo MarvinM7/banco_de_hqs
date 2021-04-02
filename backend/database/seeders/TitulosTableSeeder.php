@@ -161,7 +161,7 @@ class TitulosTableSeeder extends Seeder {
         ]);
         // 20
         DB::table('titulos')->insert([
-            'nome'       => 'Tartarugas Ninja',
+            'nome'       => 'Tartarugas Ninja - Coleção Clássica',
             'editora_id' => 1,
             'status_id'  => 1,
             'created_at' => date("Y-m-d H:i:s"),
@@ -411,6 +411,631 @@ class TitulosTableSeeder extends Seeder {
         DB::table('titulos')->insert([
             'nome'       => 'Green Blood',
             'editora_id' => 2,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 52
+        DB::table('titulos')->insert([
+            'nome'       => 'Invasão! Chega de Segredos!',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 53
+        DB::table('titulos')->insert([
+            'nome'       => 'Crise de Identidade',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 54
+        DB::table('titulos')->insert([
+            'nome'       => 'Crise Final - Edição Definitiva',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 55
+        DB::table('titulos')->insert([
+            'nome'       => 'Reino do Amanhã - Edição Definitiva',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 56
+        DB::table('titulos')->insert([
+            'nome'       => 'Reino do Amanhã - Edição Definitiva',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 57
+        DB::table('titulos')->insert([
+            'nome'       => 'Shazam! & A Sociedade dos Monstros',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 58
+        DB::table('titulos')->insert([
+            'nome'       => 'Shazam! & A Sociedade dos Monstros',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 59
+        DB::table('titulos')->insert([
+            'nome'       => 'Superman e A Legião dos Super-Heróis',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 60
+        DB::table('titulos')->insert([
+            'nome'       => 'O Dia Mais Claro',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 61
+        DB::table('titulos')->insert([
+            'nome'       => 'A Noite Mais Densa',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 62
+        DB::table('titulos')->insert([
+            'nome'       => 'Lanterna Verde - A Vingança dos Lanternas Verdes',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 63
+        DB::table('titulos')->insert([
+            'nome'       => 'Lanterna Verde - A Vingança dos Lanternas Verdes',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 64
+        DB::table('titulos')->insert([
+            'nome'       => 'Zero Hora - Crise no Tempo',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 65
+        DB::table('titulos')->insert([
+            'nome'       => 'Justiça - Edição Definitiva',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 66
+        DB::table('titulos')->insert([
+            'nome'       => 'Justiça - Edição Definitiva',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 67
+        DB::table('titulos')->insert([
+            'nome'       => 'Crise Infinita - Edição Definitiva',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 68
+        DB::table('titulos')->insert([
+            'nome'       => 'Arqueiro Verde - Máquina Mortífera',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 69
+        DB::table('titulos')->insert([
+            'nome'       => 'Arqueiro Verde - A Guerra dos Renegados',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 70
+        DB::table('titulos')->insert([
+            'nome'       => 'Arqueiro Verde - A Queda',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 71
+        DB::table('titulos')->insert([
+            'nome'       => 'Lendas do Universo DC: Lanterna Verde & Arqueiro Verde',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 72
+        DB::table('titulos')->insert([
+            'nome'       => 'Lanterna Verde & Arqueiro Verde - Sem Destino',
+            'editora_id' => 12,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 73
+        DB::table('titulos')->insert([
+            'nome'       => 'Arqueiro Verde',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 74
+        DB::table('titulos')->insert([
+            'nome'       => 'Arqueiro Verde - Ano Um',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 75
+        DB::table('titulos')->insert([
+            'nome'       => 'Arqueiro Verde',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 76
+        DB::table('titulos')->insert([
+            'nome'       => 'Arqueiro Verde',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 77
+        DB::table('titulos')->insert([
+            'nome'       => 'Arqueiro Verde - Pássaros da Noite',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 78
+        DB::table('titulos')->insert([
+            'nome'       => 'Arqueiro Verde - O Surto',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 79
+        DB::table('titulos')->insert([
+            'nome'       => 'Lanterna Verde - A Guerra dos Anéis',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 80
+        DB::table('titulos')->insert([
+            'nome'       => 'Lanterna Verde - A Guerra dos Anéis',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 81
+        DB::table('titulos')->insert([
+            'nome'       => 'Arlequina - Apagão de Poder',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 82
+        DB::table('titulos')->insert([
+            'nome'       => 'Aquaman - As Profundezas',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 83
+        DB::table('titulos')->insert([
+            'nome'       => 'Aquaman - Os Outros',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 84
+        DB::table('titulos')->insert([
+            'nome'       => 'Aquaman - A Morte de Um Rei',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 85
+        DB::table('titulos')->insert([
+            'nome'       => 'Vilania Eterna',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 86
+        DB::table('titulos')->insert([
+            'nome'       => 'Vilania Eterna',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 87
+        DB::table('titulos')->insert([
+            'nome'       => 'Shazam! Com Uma Palavra Mágica...',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 88
+        DB::table('titulos')->insert([
+            'nome'       => 'Shazam! Com Uma Palavra Mágica...',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 89
+        DB::table('titulos')->insert([
+            'nome'       => 'Liga da Justiça da América - Os Mais Perigosos do Mundo',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 90
+        DB::table('titulos')->insert([
+            'nome'       => 'Mulher-Maravilha - Sangue',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 91
+        DB::table('titulos')->insert([
+            'nome'       => 'Mulher-Maravilha - Direito de Nascença',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 92
+        DB::table('titulos')->insert([
+            'nome'       => 'Mulher-Maravilha - Força',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 93
+        DB::table('titulos')->insert([
+            'nome'       => 'Mulher-Maravilha - Guerra',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 94
+        DB::table('titulos')->insert([
+            'nome'       => 'Mulher-Maravilha - Pele',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 95
+        DB::table('titulos')->insert([
+            'nome'       => 'Mulher-Maravilha - Ossos',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 96
+        DB::table('titulos')->insert([
+            'nome'       => 'Superman - Qual É O Preço do Amanhã?',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 97
+        DB::table('titulos')->insert([
+            'nome'       => 'Mulher-Maravilha - Sangue',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 98
+        DB::table('titulos')->insert([
+            'nome'       => 'Superman - À Prova de Balas',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 99
+        DB::table('titulos')->insert([
+            'nome'       => 'Os Livros do Destino',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 100
+        DB::table('titulos')->insert([
+            'nome'       => 'Os Caçadores',
+            'editora_id' => 8,
+            'status_id'  => 2,
+            'observacao' => 'Os valores dos volumes desse título apesar de aparecem em Reais (R$), são em Cruzado Novo (NCz$).',
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 101
+        DB::table('titulos')->insert([
+            'nome'       => 'Arqueiro Verde',
+            'editora_id' => 3,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 102
+        DB::table('titulos')->insert([
+            'nome'       => 'Recado A Adolf',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 103
+        DB::table('titulos')->insert([
+            'nome'       => 'Sky Masters da Força Espacial',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 104
+        DB::table('titulos')->insert([
+            'nome'       => 'Grama',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 105
+        DB::table('titulos')->insert([
+            'nome'       => 'Fronteiras do Além',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 106
+        DB::table('titulos')->insert([
+            'nome'       => 'Cannon',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 107
+        DB::table('titulos')->insert([
+            'nome'       => 'Por Deus Ou Pelo Acaso',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 108
+        DB::table('titulos')->insert([
+            'nome'       => 'Maxwell, O Gato Mágico',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 109
+        DB::table('titulos')->insert([
+            'nome'       => 'Destino Adiado',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 110
+        DB::table('titulos')->insert([
+            'nome'       => 'Rohan No Louvre',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 111
+        DB::table('titulos')->insert([
+            'nome'       => 'O Preço da Desonra - Kubidai Hikiukenin',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 112
+        DB::table('titulos')->insert([
+            'nome'       => 'Lone Sloane',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 113
+        DB::table('titulos')->insert([
+            'nome'       => 'Um Pequeno Assassinato',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 114
+        DB::table('titulos')->insert([
+            'nome'       => 'Marada - A Mulher-Lobo',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 115
+        DB::table('titulos')->insert([
+            'nome'       => 'Cinco Por Infinito',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 116
+        DB::table('titulos')->insert([
+            'nome'       => 'O Relatório de Brodeck',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 117
+        DB::table('titulos')->insert([
+            'nome'       => 'Espadas e Bruxas',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 118
+        DB::table('titulos')->insert([
+            'nome'       => 'A Arte de Charlie Chan Hock Chye',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 119
+        DB::table('titulos')->insert([
+            'nome'       => 'A Arte de Charlie Chan Hock Chye',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 120
+        DB::table('titulos')->insert([
+            'nome'       => 'Guardiões do Louvre',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 121
+        DB::table('titulos')->insert([
+            'nome'       => 'Um Pedaço de Madeira e Aço',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 122
+        DB::table('titulos')->insert([
+            'nome'       => 'Jane',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 123
+        DB::table('titulos')->insert([
+            'nome'       => 'Roseira, Medalha, Engenho e Outras Histórias',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 124
+        DB::table('titulos')->insert([
+            'nome'       => 'Conto de Areia',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 125
+        DB::table('titulos')->insert([
+            'nome'       => 'Moby Dick',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 126
+        DB::table('titulos')->insert([
+            'nome'       => 'Blood - Uma História de Sangue',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 127
+        DB::table('titulos')->insert([
+            'nome'       => 'Moonshadow',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 128
+        DB::table('titulos')->insert([
+            'nome'       => 'Beasts of Burden',
+            'editora_id' => 1,
+            'status_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 129
+        DB::table('titulos')->insert([
+            'nome'       => 'Beasts of Burden - Cães Sábios e Homens Nefastos',
+            'editora_id' => 1,
             'status_id'  => 2,
             'created_at' => date("Y-m-d H:i:s"),
             'updated_at' => date("Y-m-d H:i:s")

@@ -73,5 +73,11 @@ class EditorasTableSeeder extends Seeder {
             'created_at' => date("Y-m-d H:i:s"),
             'updated_at' => date("Y-m-d H:i:s")
         ]);
+        // 12
+        DB::table('editoras')->insert([
+            'nome' => 'Opera Graphica',
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
     }
 }

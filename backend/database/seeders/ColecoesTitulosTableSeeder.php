@@ -47,5 +47,29 @@ class ColecoesTitulosTableSeeder extends Seeder {
             'created_at' => date("Y-m-d H:i:s"),
             'updated_at' => date("Y-m-d H:i:s")
         ]);
+        // 6
+        DB::table('colecoes_titulos')->insert([
+            'colecao_id' => 2,
+            'titulo_id'  => 68,
+            'ordem'      => 1,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 7
+        DB::table('colecoes_titulos')->insert([
+            'colecao_id' => 2,
+            'titulo_id'  => 69,
+            'ordem'      => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 8
+        DB::table('colecoes_titulos')->insert([
+            'colecao_id' => 2,
+            'titulo_id'  => 70,
+            'ordem'      => 3,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
     }
 }

@@ -15,13 +15,19 @@ class ColecoesTableSeeder extends Seeder {
         ]);
 		// 2
         DB::table('colecoes')->insert([
-            'nome' => 'Encadernados Novos 52',
+            'nome' => 'Os Novos 52 - Encadernados',
             'created_at' => date("Y-m-d H:i:s"),
             'updated_at' => date("Y-m-d H:i:s")
         ]);
         // 3
         DB::table('colecoes')->insert([
-            'nome' => 'Encadernados Watchmen',
+            'nome' => 'Watchmen - Encadernados',
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 4
+        DB::table('colecoes')->insert([
+            'nome' => 'Os Novos 52',
             'created_at' => date("Y-m-d H:i:s"),
             'updated_at' => date("Y-m-d H:i:s")
         ]);
