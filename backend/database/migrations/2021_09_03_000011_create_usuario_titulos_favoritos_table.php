@@ -8,8 +8,8 @@ class CreateUsuarioTitulosFavoritosTable extends Migration {
     public function up() {
         Schema::create('usuario_titulos_favoritos', function (Blueprint $table) {
             $table->id();
-            $table->integer('usuario_id')->unsigned();
-            $table->integer('titulo_id')->unsigned();
+            $table->bigInteger('usuario_id')->unsigned();
+            $table->bigInteger('titulo_id')->unsigned();
             $table->timestamps();
             $table->softDeletes();
 

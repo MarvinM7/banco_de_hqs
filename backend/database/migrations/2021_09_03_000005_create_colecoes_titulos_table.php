@@ -8,9 +8,9 @@ class CreateColecoesTitulosTable extends Migration {
     public function up() {
         Schema::create('colecoes_titulos', function (Blueprint $table) {
             $table->id();
-            $table->integer('colecao_id');
-            $table->integer('titulo_id');
-            $table->integer('ordem');
+            $table->bigInteger('colecao_id')->unsigned();
+            $table->bigInteger('titulo_id')->unsigned();
+            $table->bigInteger('ordem');
             $table->timestamps();
             $table->softDeletes();
 

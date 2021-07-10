@@ -8,9 +8,9 @@ class CreateUsuarioVolumeTable extends Migration {
     public function up() {
         Schema::create('usuario_volume', function (Blueprint $table) {
             $table->id();
-            $table->integer('usuario_id')->unsigned();
-            $table->integer('volume_id')->unsigned();
-            $table->integer('quantidade')->default(1);
+            $table->bigInteger('usuario_id')->unsigned();
+            $table->bigInteger('volume_id')->unsigned();
+            $table->bigInteger('quantidade')->default(1);
             $table->boolean('a_venda')->default(false);
             $table->timestamps();
             $table->softDeletes();

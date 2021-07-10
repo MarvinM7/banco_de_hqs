@@ -8,8 +8,8 @@ class CreateUsuarioVolumeLeituraTable extends Migration {
     public function up() {
         Schema::create('usuario_volume_leitura', function (Blueprint $table) {
             $table->id();
-            $table->integer('usuario_id');
-            $table->integer('volume_id');
+            $table->bigInteger('usuario_id')->unsigned();
+            $table->bigInteger('volume_id')->unsigned();
             $table->timestamps();
             $table->softDeletes();
 

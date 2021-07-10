@@ -9,8 +9,8 @@ class CreateTitulosTable extends Migration {
         Schema::create('titulos', function (Blueprint $table) {
             $table->id();
             $table->string('nome');
-            $table->integer('editora_id')->unsigned();
-            $table->integer('status_id')->unsigned();
+            $table->bigInteger('editora_id')->unsigned();
+            $table->bigInteger('status_id')->unsigned();
             $table->string('observacao')->nullable();
             $table->timestamps();
             $table->softDeletes();

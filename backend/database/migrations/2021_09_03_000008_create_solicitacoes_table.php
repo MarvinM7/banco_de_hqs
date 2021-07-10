@@ -8,10 +8,10 @@ class CreateSolicitacoesTable extends Migration {
     public function up() {
         Schema::create('solicitacoes', function (Blueprint $table) {
             $table->id();
-            $table->integer('usuario_id')->unsigned();
+            $table->bigInteger('usuario_id')->unsigned();
             $table->string('texto');
-            $table->integer('tipo_id')->unsigned();
-            $table->integer('status_id')->unsigned();
+            $table->bigInteger('tipo_id')->unsigned();
+            $table->bigInteger('status_id')->unsigned();
             $table->string('resposta');
             $table->timestamps();
             $table->softDeletes();
