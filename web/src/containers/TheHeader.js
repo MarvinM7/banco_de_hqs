@@ -26,11 +26,11 @@ import {
 
 const TheHeader = () => {
   	const dispatch = useDispatch();
-  	const sidebarShow = useSelector(estado => estado.sidebarShow);
+  	const sidebarShow = useSelector(estado => estado.geral.sidebarShow);
 	const usuario = useSelector(estado => estado.usuario);
 
   	const toggleSidebar = () => {
-    	const val = [true, 'responsive'].includes(sidebarShow) ? false : 'responsive'
+    	const val = [true, 'responsive'].includes(sidebarShow) ? false : 'responsive';
     	dispatch({type: 'set', sidebarShow: val})
   	}
 

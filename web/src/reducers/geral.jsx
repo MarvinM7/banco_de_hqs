@@ -2,8 +2,10 @@ const ESTADO_INICIAL = {
     sidebarShow: 'responsive',
 }
 
-function geral(estado = ESTADO_INICIAL, acao) {
-    switch (acao.type) {
+function geral(estado = ESTADO_INICIAL, { type, ...rest }) {
+    switch (type) {
+        case 'set':
+            return {...estado, ...rest }
         default:
             return estado;
     }
