@@ -1,26 +1,105 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { CButton, CCard, CCardBody, CCardGroup, CCol, CContainer, CForm, CInput, CInputGroup, CInputGroupPrepend, CInputGroupText, CRow } from '@coreui/react';
-import CIcon from '@coreui/icons-react'
+import React, { useState } from 'react';
+import { /* Link */ Redirect } from 'react-router-dom';
+import { GoogleLogin } from 'react-google-login';
+import { useDispatch, useSelector } from 'react-redux';
+import { CButton, CCard, CCardBody, CCol, CContainer, CForm, CInput, CInputGroup, CInputGroupPrepend, CInputGroupText, CRow, CToast, CToastBody, CToastHeader, CToaster } from '@coreui/react';
+import CIcon from '@coreui/icons-react';
 
 const Login = () => {
+    const usuario = useSelector(estado => estado.usuario);
+    const dispatch = useDispatch();
+    const [email, mudarEmail] = useState('');
+    const [senha, mudarSenha] = useState('');
+    const [avisos, mudarAvisos] = useState([]);
+    const posicaoAviso = 'top-right';
+    const esconderAvisoAutomatico = true;
+    const tempoEsconderAviso = 5000;
+    const botaoFecharAviso = true;
+    const efeito = true;
+
+    const logar = () => {
+        let mensagem = 'Toda a parte que envolve usuário ainda está sendo feita, logo ainda não é possível efetuar o cadastro/login.';
+        adicionarAvisos('alerta', mensagem);
+    }
+
+    const esqueceuSenha = () => {
+        let mensagem = 'Toda a parte que envolve usuário ainda está sendo feita, logo ainda não é possível efetuar o cadastro/login.';
+        adicionarAvisos('alerta', mensagem);
+    }
+
+    const cadastrar = () => {
+        let mensagem = 'Toda a parte que envolve usuário ainda está sendo feita, logo ainda não é possível efetuar o cadastro/login.';
+        adicionarAvisos('alerta', mensagem);
+    }
+
+    const adicionarAvisos = (tipo, mensagem) => {
+        mudarAvisos([
+            ...avisos, 
+            {
+                position: posicaoAviso,
+                autohide: esconderAvisoAutomatico && tempoEsconderAviso,
+                closeButton: botaoFecharAviso,
+                fade: efeito,
+                type: tipo,
+                title: tipo === 'sucesso'? 'Sucesso' : tipo === 'erro'? 'Erro' : tipo === 'alerta'? 'Alerta' : 'Aviso',
+                message: mensagem,
+                backgroundColor: tipo === 'sucesso'? '#2eb85c' : tipo === 'erro'? '#e55353' : tipo === 'alerta'? '#f9b115' : '#321fdb'
+            }
+        ])
+    }
+
+    const toasters = (() => {
+        return avisos.reduce((toasters, aviso) => {
+            toasters[aviso.position] = toasters[aviso.position] || [];
+            toasters[aviso.position].push(aviso);
+            return toasters;
+        }, {})
+    })();
+
+    const responseGoogleSuccess = (resposta) => {
+        let obj = {
+            nome: resposta.profileObj.name,
+            email: resposta.profileObj.email,
+            imagem: resposta.profileObj.imageUrl,
+            googleId: resposta.profileObj.googleId
+        }
+        dispatch({ type: 'LOGAR', obj });
+    }
+
+    const responseGoogleFailure = (resposta) => {
+        console.log('erro')
+        console.log(resposta)
+    }
+
+    if (usuario) {
+        return <Redirect to={'/'} />;
+    }
+
     return (
-        <div className="c-app c-default-layout flex-row align-items-center">
-            <CContainer>
-                <CRow className="justify-content-center">
-                    <CCol md="8">
-                        <CCardGroup>
+        <React.Fragment>
+            <div className="c-app c-default-layout flex-row align-items-center">
+                <CContainer>
+                    <CRow className="justify-content-center">
+                        <CCol md="8">
                             <CCard className="p-4">
                                 <CCardBody>
                                     <CForm>
-                                        <h1>Login</h1>
+                                        <CRow className="justify-content-center" style={{marginBottom: '25px'}}>
+                                            <GoogleLogin
+                                                clientId={'521591936326-fm12u7ops53qufcosfj3n5u475pdn4do.apps.googleusercontent.com'}
+                                                buttonText={'Continuar com Google'}
+                                                onSuccess={responseGoogleSuccess}
+                                                onFailure={responseGoogleFailure}
+                                                isSignedIn={true}
+                                            />
+                                        </CRow>
                                         <CInputGroup className="mb-3">
                                             <CInputGroupPrepend>
                                                 <CInputGroupText>
                                                     <CIcon name="cil-user" />
                                                 </CInputGroupText>
                                             </CInputGroupPrepend>
-                                            <CInput type="text" placeholder="E-mail" autoComplete="username" />
+                                            <CInput type="text" value={email} placeholder="E-mail" autoComplete="username" onChange={(e) => mudarEmail(e.target.value)} />
                                         </CInputGroup>
                                         <CInputGroup className="mb-4">
                                             <CInputGroupPrepend>
@@ -28,36 +107,57 @@ const Login = () => {
                                                     <CIcon name="cil-lock-locked" />
                                                 </CInputGroupText>
                                             </CInputGroupPrepend>
-                                            <CInput type="password" placeholder="Senha" autoComplete="current-password" />
+                                            <CInput type="password" value={senha} placeholder="Senha" autoComplete="current-password" onChange={(e) => mudarSenha(e.target.value)} />
                                         </CInputGroup>
                                         <CRow>
                                             <CCol xs="6">
-                                                <CButton color="primary" className="px-4">Login</CButton>
+                                                <CButton color="primary" className="px-4" onClick={logar}>Login</CButton>
                                             </CCol>
                                             <CCol xs="6" className="text-right">
-                                                <CButton color="link" className="px-0">Esqueceu a senha?</CButton>
+                                                <CButton color="link" className="px-0" onClick={esqueceuSenha}>Esqueceu a senha?</CButton>
+                                            </CCol>
+                                        </CRow>
+                                        <CRow className="justify-content-center">
+                                            <CCol xs="6" className="text-center">
+                                                <CButton color="link" className="px-0" onClick={cadastrar}>Cadastrar</CButton>
+                                                {/* <Link to="/home">Cadastrar</Link> */}
                                             </CCol>
                                         </CRow>
                                     </CForm>
                                 </CCardBody>
                             </CCard>
-                            <CCard className="text-white bg-primary py-5 d-md-down-none" style={{ width: '44%' }}>
-                                <CCardBody className="text-center">
-                                    <div>
-                                        <h2>Sign up</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                        labore et dolore magna aliqua.</p>
-                                        <Link to="/register">
-                                            <CButton color="primary" className="mt-3" active tabIndex={-1}>Register Now!</CButton>
-                                        </Link>
-                                    </div>
-                                </CCardBody>
-                            </CCard>
-                        </CCardGroup>
-                    </CCol>
-                </CRow>
-            </CContainer>
-        </div>
+                        </CCol>
+                    </CRow>
+                </CContainer>
+            </div>
+
+            {Object.keys(toasters).map((toasterKey) => (
+                <CToaster
+                    position={toasterKey}
+                    key={'toaster' + toasterKey}
+                >
+                    {
+                        toasters[toasterKey].map((toast, key) => {
+                            return (
+                                <CToast
+                                    key={'toast' + key}
+                                    show={true}
+                                    autohide={toast.autohide}
+                                    fade={toast.fade}
+                                >
+                                    <CToastHeader style={{backgroundColor: toast.backgroundColor, color: '#FFF'}} closeButton={toast.closeButton}>
+                                        {toast.title}
+                                    </CToastHeader>
+                                    <CToastBody>
+                                        {toast.message}
+                                    </CToastBody>
+                                </CToast>
+                            )
+                        })
+                    }
+                </CToaster>
+            ))}
+        </React.Fragment>
     )
 }
 

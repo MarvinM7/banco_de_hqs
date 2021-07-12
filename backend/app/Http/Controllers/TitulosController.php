@@ -22,6 +22,19 @@ class TitulosController extends Controller {
             throw new Exception($erro->getMessage());
             return response()->json(['sucesso' => false, 'erro' => $erro->getMessage()]);
         }
-        
+    }
+
+    public function visualizar(Request $obj) {
+        try {
+            $resposta = Titulos::visualizar($obj);
+            if ($resposta) {
+                $resposta[0]['volumes'] = Volumes::listaPorTitulo($obj->id);
+            }
+            
+            return response()->json(['sucesso' => true, 'data' => $resposta]);
+        } catch (Exception $erro) {
+            throw new Exception($erro->getMessage());
+            return response()->json(['sucesso' => false, 'erro' => $erro->getMessage()]);
+        }
     }
 }

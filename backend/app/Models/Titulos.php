@@ -25,12 +25,24 @@ class Titulos extends Model {
     ];
 
     public static function lista($obj) {
-        $result = Titulos::
+        $resposta = Titulos::
                     join('titulo_status', 'titulo_status.id', '=', 'titulos.status_id')
                     ->join('editoras', 'editoras.id', '=', 'titulos.editora_id')
 					->select('titulos.*', 'titulo_status.nome AS status_nome', 'editoras.nome AS editora_nome', )
                     ->orderBy('titulos.nome')
                     ->get();
-		return $result;
+		return $resposta;
+    }
+
+    public static function visualizar($obj) {
+        $id = $obj->id;
+        $resposta = Titulos::
+                    join('titulo_status', 'titulo_status.id', '=', 'titulos.status_id')
+                    ->join('editoras', 'editoras.id', '=', 'titulos.editora_id')
+					->select('titulos.*', 'titulo_status.nome AS status_nome', 'editoras.nome AS editora_nome', )
+                    ->where('titulos.id', '=', $id)
+                    ->orderBy('titulos.nome')
+                    ->get();
+		return $resposta;
     }
 }

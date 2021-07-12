@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import { CCard, CCardBody, CCardGroup, CCol, CContainer, CRow } from '@coreui/react';
 import CIcon from "@coreui/icons-react";
 
-const Construcao = () => {
+const Home = () => {
     return (
-        <div className="c-app c-default-layout flex-row align-items-center">
+        <div className="c-default-layout flex-row align-items-center">
             <CContainer>
                 <CRow className="justify-content-center">
                     <CCol md="6">
@@ -17,7 +17,7 @@ const Construcao = () => {
                                         <CIcon name="cilSettings" size="9xl" />
                                     </CRow>
                                     <CRow className="justify-content-center">
-                                        Página em desenvolvimento
+                                        Portal em desenvolvimento
                                     </CRow>
                                     <CRow className="justify-content-center">
                                         Enquanto isso, <Link target={"_blank"} to={"//www.amazon.com.br?&_encoding=UTF8&tag=bancodehqs-20&linkCode=ur2&linkId=5fd0c430348c5c83c8900420429a4527&camp=1789&creative=9325"}>&nbsp;clique aqui&nbsp;</Link> para acessar a Amazon.
@@ -32,4 +32,4 @@ const Construcao = () => {
     )
 }
 
-export default Construcao
+export default Home

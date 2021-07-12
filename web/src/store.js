@@ -1,17 +1,15 @@
-import { createStore } from 'redux'
+import { createStore } from 'redux';
+import { persistStore, persistReducer } from 'redux-persist';
+import storage from 'redux-persist/lib/storage';
+import rootReducer from "./reducers/index.jsx";
 
-const initialState = {
-  sidebarShow: 'responsive'
+const persistConfig = {
+	key: 'root',
+	storage,
 }
 
-const changeState = (state = initialState, { type, ...rest }) => {
-  switch (type) {
-    case 'set':
-      return {...state, ...rest }
-    default:
-      return state
-  }
-}
+const persistedReducer = persistReducer(persistConfig, rootReducer);
+const store = createStore(persistedReducer);
+const persistor = persistStore(store);
 
-const store = createStore(changeState)
-export default store
+export { store, persistor };
