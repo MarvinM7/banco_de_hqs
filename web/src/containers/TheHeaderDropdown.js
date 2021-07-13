@@ -1,5 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import axios from 'axios';
+import Url from '../componentes/Url/Url.jsx';
 import { useGoogleLogout } from 'react-google-login';
 import { /* CBadge, */ CDropdown,	CDropdownItem, CDropdownMenu, CDropdownToggle, CImg } from '@coreui/react'
 import CIcon from '@coreui/icons-react'
@@ -9,23 +11,26 @@ const TheHeaderDropdown = () => {
 	const dispatch = useDispatch();
 
 	const deslogar = () => {
-		dispatch({type: 'DESLOGAR'})
+		let config = {
+			headers: {
+				'Authorization': `Bearer ${usuario.token}`
+			}
+		}
+		axios.get(`${Url.backend}logout`, config)
+        .then(resposta => {
+            if (resposta.data.sucesso) {
+                dispatch({type: 'DESLOGAR'});
+            }
+        })
+        .catch (erro => {
+            console.log(erro)
+        })
 	}
 
 	const { signOut } = useGoogleLogout({
 		clientId: '521591936326-fm12u7ops53qufcosfj3n5u475pdn4do.apps.googleusercontent.com',
 		onLogoutSuccess: deslogar,
-		onFailure: deslogar,
-		/* jsSrc,
-		cookiePolicy,
-		loginHint,
-		hostedDomain,
-		fetchBasicProfile,
-		discoveryDocs,
-		uxMode,
-		redirectUri,
-		scope,
-		accessType, */
+		onFailure: deslogar
 	})
 
 	return (

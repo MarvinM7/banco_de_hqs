@@ -3,10 +3,6 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/dashboard', function () {
-    return 'welcome to dashboard!';
-});
-
 //Títulos
 Route::post('titulos/lista', 'App\Http\Controllers\TitulosController@lista');
 Route::post('titulo/visualizar', 'App\Http\Controllers\TitulosController@visualizar');
@@ -17,6 +13,19 @@ Route::post('editoras/lista', 'App\Http\Controllers\EditorasController@lista');
 //Títulos_status
 Route::post('titulos_status/lista', 'App\Http\Controllers\TitulosStatusController@lista');
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+//Login
+Route::post('login', 'App\Http\Controllers\AuthController@login');
+Route::post('loginGoogle', 'App\Http\Controllers\AuthController@loginGoogle');
+
+
+Route::group(['middleware' => ['apiJwt']], function() {
+    //Logout
+    Route::get('logout', 'App\Http\Controllers\AuthController@logout');
+
+    Route::get('me', 'App\Http\Controllers\AuthController@me');
+
+
+
+    //Teste
+    Route::get('testelogado', 'App\Http\Controllers\TitulosController@teste');
 });

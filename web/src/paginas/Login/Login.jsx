@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { /* Link */ Redirect } from 'react-router-dom';
+import axios from 'axios';
+import Url from '../../componentes/Url/Url.jsx';
 import { GoogleLogin } from 'react-google-login';
 import { useDispatch, useSelector } from 'react-redux';
 import { CButton, CCard, CCardBody, CCol, CContainer, CForm, CInput, CInputGroup, CInputGroupPrepend, CInputGroupText, CRow, CToast, CToastBody, CToastHeader, CToaster } from '@coreui/react';
@@ -18,8 +20,26 @@ const Login = () => {
     const efeito = true;
 
     const logar = () => {
-        let mensagem = 'Toda a parte que envolve usuário ainda está sendo feita, logo ainda não é possível efetuar o cadastro/login.';
-        adicionarAvisos('alerta', mensagem);
+        let obj = {
+            email,
+            password: senha
+        }
+        axios.post(`${Url.backend}login`, obj)
+        .then(resposta => {
+            if (resposta.data.sucesso) {
+                let obj = {
+                    nome: resposta.data.data.usuario.original.name,
+                    email: resposta.data.data.usuario.original.email,
+                    imagem: resposta.data.data.usuario.original.foto,
+                    googleId: resposta.data.data.usuario.original.googleId,
+                    token: resposta.data.data.access_token
+                }
+                dispatch({ type: 'LOGAR', obj });
+            }
+        })
+        .catch (erro => {
+            console.log(erro)
+        })
     }
 
     const esqueceuSenha = () => {
@@ -56,18 +76,42 @@ const Login = () => {
         }, {})
     })();
 
-    const responseGoogleSuccess = (resposta) => {
-        let obj = {
-            nome: resposta.profileObj.name,
-            email: resposta.profileObj.email,
-            imagem: resposta.profileObj.imageUrl,
-            googleId: resposta.profileObj.googleId
+    const responseGoogleSuccess = (respostaGoogle) => {
+        let objRequisição = {
+            email: respostaGoogle.profileObj.email,
+            googleId: respostaGoogle.profileObj.googleId
         }
-        dispatch({ type: 'LOGAR', obj });
+        axios.post(`${Url.backend}loginGoogle`, objRequisição)
+        .then(resposta => {
+            if (resposta.data.sucesso) {
+                let token = resposta.data.data.access_token;
+                let config = {
+                    headers: {
+                        'Authorization': `Bearer ${token}`
+                    }
+                }
+                axios.get(`${Url.backend}me`, config)
+                .then(respostaMe => {
+                    let obj = {
+                        nome: respostaMe.data.name,
+                        email: respostaMe.data.email,
+                        imagem: respostaMe.data.foto,
+                        googleId: respostaMe.data.googleId,
+                        token
+                    }
+                    dispatch({ type: 'LOGAR', obj });
+                })
+                .catch (erro => {
+                    console.log(erro)
+                })
+            }
+        })
+        .catch (erro => {
+            console.log(erro)
+        })
     }
 
     const responseGoogleFailure = (resposta) => {
-        console.log('erro')
         console.log(resposta)
     }
 

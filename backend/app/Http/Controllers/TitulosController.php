@@ -37,4 +37,8 @@ class TitulosController extends Controller {
             return response()->json(['sucesso' => false, 'erro' => $erro->getMessage()]);
         }
     }
+
+    public function teste() {
+        return "teste ok";
+    }
 }
