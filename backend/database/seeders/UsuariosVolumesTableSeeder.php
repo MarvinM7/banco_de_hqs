@@ -224,5 +224,26 @@ class UsuariosVolumesTableSeeder extends Seeder {
             'created_at' => date("Y-m-d H:i:s"),
             'updated_at' => date("Y-m-d H:i:s")
         ]);
+        // 32
+        DB::table('usuario_volume')->insert([
+            'usuario_id' => 2,
+            'volume_id'  => 1,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 33
+        DB::table('usuario_volume')->insert([
+            'usuario_id' => 2,
+            'volume_id'  => 2,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 34
+        DB::table('usuario_volume')->insert([
+            'usuario_id' => 2,
+            'volume_id'  => 28,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
     }
 }

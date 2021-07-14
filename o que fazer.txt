@@ -3,3 +3,4 @@
 - Amazon em destaque na homepage;
 - verificar se data fica melhor com / ou -;
 - ajustar capa na tela do título;
+- ver logo (aba navegador e menu lateral);

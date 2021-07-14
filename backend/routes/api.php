@@ -24,7 +24,8 @@ Route::group(['middleware' => ['apiJwt']], function() {
 
     Route::get('me', 'App\Http\Controllers\AuthController@me');
 
-
+    //Meus volumes
+    Route::post('meusvolumes', 'App\Http\Controllers\UsuarioVolumeController@lista');
 
     //Teste
     Route::get('testelogado', 'App\Http\Controllers\TitulosController@teste');
