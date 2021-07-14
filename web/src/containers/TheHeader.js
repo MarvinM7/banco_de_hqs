@@ -11,7 +11,7 @@ import {
 	CBreadcrumbRouter,
 	//CLink
 } from '@coreui/react'
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 //import CIcon from '@coreui/icons-react'
 
 // routes config
@@ -26,8 +26,10 @@ import {
 
 const TheHeader = () => {
   	const dispatch = useDispatch();
+	const location = useLocation();
   	const sidebarShow = useSelector(estado => estado.geral.sidebarShow);
 	const usuario = useSelector(estado => estado.usuario);
+	const url = location.pathname;
 
   	const toggleSidebar = () => {
     	const val = [true, 'responsive'].includes(sidebarShow) ? false : 'responsive';
@@ -78,7 +80,14 @@ const TheHeader = () => {
 						<TheHeaderDropdown/>
 					</React.Fragment>
 				:
-					<Link to="/login">Entrar</Link>
+					<Link
+						to={{
+							pathname: "/login",
+							state: { url }
+						}}
+					>
+					
+					Entrar</Link>
 				}
 				
 			</CHeaderNav>

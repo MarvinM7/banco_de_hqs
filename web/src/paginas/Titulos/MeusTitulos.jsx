@@ -1,19 +1,22 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-import { useHistory } from "react-router-dom";
-import URL from '../../componentes/Url/Url.jsx';
+//import axios from 'axios';
+import { Link/* , useHistory */ } from "react-router-dom";
+//import URL from '../../componentes/Url/Url.jsx';
 import ReactLoading from 'react-loading';
-import { CCol, CContainer, CRow } from '@coreui/react';
-import Tabela from '../../componentes/Tabela/Tabela';
+import { useSelector } from 'react-redux';
+import { CCard, CCardBody, CCardGroup, CCol, CContainer, CRow } from '@coreui/react';
+import CIcon from "@coreui/icons-react";
+//import Tabela from '../../componentes/Tabela/Tabela';
 
-const TitulosLista = () => {
-    const history = useHistory();
+const MeusTitulos = (props) => {
+    const usuario = useSelector(estado => estado.usuario);
+    //const history = useHistory();
     const [carregada, mudarCarregada] = useState(false);
-    const [colunas, mudarColunas] = useState([]);
-    const [linhas, mudarLinhas] = useState([]);
+    //const [colunas, mudarColunas] = useState([]);
+    //const [linhas, mudarLinhas] = useState([]);
 
     useEffect(() => {
-        axios.all([
+        /* axios.all([
             axios.post(`${URL.backend}titulos/lista`),
             axios.post(`${URL.backend}editoras/lista`),
             axios.post(`${URL.backend}titulos_status/lista`),
@@ -74,27 +77,56 @@ const TitulosLista = () => {
         }))
         .catch(erro => {
             console.log(erro);
-        })
+        }) */
+        mudarCarregada(true);
     }, []);
 
-    const cliqueNaLinha = (evento, dados) => {
+    /* const cliqueNaLinha = (evento, dados) => {
         history.push({
             pathname: `/titulo/${dados.id}`,
             dados
         });
-    }
+    } */
 
     return (
         <React.Fragment>
             {carregada?
                 <React.Fragment>
-                    <Tabela
+                    {usuario?
+                        <React.Fragment>
+                            logado
+                        </React.Fragment>
+                    :
+                        <div className="c-default-layout flex-row align-items-center">
+                            <CContainer>
+                                <CRow className="justify-content-center">
+                                    <CCol md="6">
+                                        <CCardGroup>
+                                            <CCard className="p-4">
+                                                <CCardBody style={{textAlign: 'center'}}>
+                                                    <CRow className="justify-content-center">
+                                                        <CIcon name="cilSettings" size="9xl" />
+                                                    </CRow>
+                                                    <CRow className="justify-content-center">
+                                                        Portal em desenvolvimento
+                                                    </CRow>
+                                                    <CRow className="justify-content-center">
+                                                        Enquanto isso, <Link target={"_blank"} to={"//www.amazon.com.br?&_encoding=UTF8&tag=bancodehqs-20&linkCode=ur2&linkId=5fd0c430348c5c83c8900420429a4527&camp=1789&creative=9325"}>&nbsp;clique aqui&nbsp;</Link> para acessar a Amazon.
+                                                    </CRow>
+                                                </CCardBody>
+                                            </CCard>
+                                        </CCardGroup>
+                                    </CCol>
+                                </CRow>
+                            </CContainer>
+                        </div>
+                    }
+                    {/* <Tabela
                         colunas={colunas}
                         linhas={linhas}
                         titulo="Lista de títulos"
-                        cliqueNaLinha={cliqueNaLinha}
-                        paginacao={true}
-                    />
+                        cliqueNaLinha={cliqueNaLinha}  
+                    /> */}
                 </React.Fragment>
             :
                 <div className="c-default-layout flex-row align-items-center">
@@ -113,4 +145,4 @@ const TitulosLista = () => {
     )
 }
 
-export default TitulosLista
+export default MeusTitulos

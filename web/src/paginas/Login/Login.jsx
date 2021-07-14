@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
-import { /* Link */ Redirect } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 import axios from 'axios';
-import Url from '../../componentes/Url/Url.jsx';
+import URL from '../../componentes/Url/Url.jsx';
 import { GoogleLogin } from 'react-google-login';
 import { useDispatch, useSelector } from 'react-redux';
 import { CButton, CCard, CCardBody, CCol, CContainer, CForm, CInput, CInputGroup, CInputGroupPrepend, CInputGroupText, CRow, CToast, CToastBody, CToastHeader, CToaster } from '@coreui/react';
 import CIcon from '@coreui/icons-react';
 
-const Login = () => {
+const Login = (props) => {
+    const url = props.location.state? props.location.state.url : '/';
     const usuario = useSelector(estado => estado.usuario);
     const dispatch = useDispatch();
     const [email, mudarEmail] = useState('');
@@ -24,10 +25,11 @@ const Login = () => {
             email,
             password: senha
         }
-        axios.post(`${Url.backend}login`, obj)
+        axios.post(`${URL.backend}login`, obj)
         .then(resposta => {
             if (resposta.data.sucesso) {
                 let obj = {
+                    id: resposta.data.data.usuario.original.id,
                     nome: resposta.data.data.usuario.original.name,
                     email: resposta.data.data.usuario.original.email,
                     imagem: resposta.data.data.usuario.original.foto,
@@ -38,17 +40,17 @@ const Login = () => {
             }
         })
         .catch (erro => {
-            console.log(erro)
+            console.log(erro);
         })
     }
 
     const esqueceuSenha = () => {
-        let mensagem = 'Toda a parte que envolve usuário ainda está sendo feita, logo ainda não é possível efetuar o cadastro/login.';
+        let mensagem = 'A parte de cadastro ainda está sendo feita, logo logo você poderá realizar seu cadastro e usufruir da plataforma.';
         adicionarAvisos('alerta', mensagem);
     }
 
     const cadastrar = () => {
-        let mensagem = 'Toda a parte que envolve usuário ainda está sendo feita, logo ainda não é possível efetuar o cadastro/login.';
+        let mensagem = 'A parte de cadastro ainda está sendo feita, logo logo você poderá realizar seu cadastro e usufruir da plataforma.';
         adicionarAvisos('alerta', mensagem);
     }
 
@@ -81,7 +83,7 @@ const Login = () => {
             email: respostaGoogle.profileObj.email,
             googleId: respostaGoogle.profileObj.googleId
         }
-        axios.post(`${Url.backend}loginGoogle`, objRequisição)
+        axios.post(`${URL.backend}loginGoogle`, objRequisição)
         .then(resposta => {
             if (resposta.data.sucesso) {
                 let token = resposta.data.data.access_token;
@@ -90,9 +92,10 @@ const Login = () => {
                         'Authorization': `Bearer ${token}`
                     }
                 }
-                axios.get(`${Url.backend}me`, config)
+                axios.get(`${URL.backend}me`, config)
                 .then(respostaMe => {
                     let obj = {
+                        id: respostaMe.data.id,
                         nome: respostaMe.data.name,
                         email: respostaMe.data.email,
                         imagem: respostaMe.data.foto,
@@ -116,7 +119,7 @@ const Login = () => {
     }
 
     if (usuario) {
-        return <Redirect to={'/'} />;
+        return <Redirect to={url} />;
     }
 
     return (
@@ -124,19 +127,10 @@ const Login = () => {
             <div className="c-app c-default-layout flex-row align-items-center">
                 <CContainer>
                     <CRow className="justify-content-center">
-                        <CCol md="8">
+                        <CCol xs="12" sm="9" md="7" lg="5" xl="5">
                             <CCard className="p-4">
                                 <CCardBody>
                                     <CForm>
-                                        <CRow className="justify-content-center" style={{marginBottom: '25px'}}>
-                                            <GoogleLogin
-                                                clientId={'521591936326-fm12u7ops53qufcosfj3n5u475pdn4do.apps.googleusercontent.com'}
-                                                buttonText={'Continuar com Google'}
-                                                onSuccess={responseGoogleSuccess}
-                                                onFailure={responseGoogleFailure}
-                                                isSignedIn={true}
-                                            />
-                                        </CRow>
                                         <CInputGroup className="mb-3">
                                             <CInputGroupPrepend>
                                                 <CInputGroupText>
@@ -154,10 +148,10 @@ const Login = () => {
                                             <CInput type="password" value={senha} placeholder="Senha" autoComplete="current-password" onChange={(e) => mudarSenha(e.target.value)} />
                                         </CInputGroup>
                                         <CRow>
-                                            <CCol xs="6">
+                                            <CCol>
                                                 <CButton color="primary" className="px-4" onClick={logar}>Login</CButton>
                                             </CCol>
-                                            <CCol xs="6" className="text-right">
+                                            <CCol className="text-right">
                                                 <CButton color="link" className="px-0" onClick={esqueceuSenha}>Esqueceu a senha?</CButton>
                                             </CCol>
                                         </CRow>
@@ -170,6 +164,17 @@ const Login = () => {
                                     </CForm>
                                 </CCardBody>
                             </CCard>
+                        </CCol>
+                    </CRow>
+                    <CRow className="justify-content-center">
+                        <CCol xs="12" md="5" className="text-center">
+                            <GoogleLogin
+                                clientId={'521591936326-fm12u7ops53qufcosfj3n5u475pdn4do.apps.googleusercontent.com'}
+                                buttonText={'Continuar com Google'}
+                                onSuccess={responseGoogleSuccess}
+                                onFailure={responseGoogleFailure}
+                                isSignedIn={true}
+                            />
                         </CCol>
                     </CRow>
                 </CContainer>

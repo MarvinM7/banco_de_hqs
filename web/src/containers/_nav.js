@@ -44,6 +44,12 @@ const _nav =  [
     to: '/titulos',
     icon: 'cil-pencil'
   },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Meus títulos',
+    to: '/meustitulos',
+    icon: 'cil-pencil'
+  },
   /* {
     _tag: 'CSidebarNavDropdown',
     name: 'Base',

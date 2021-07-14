@@ -1,5 +1,5 @@
 import React from 'react';
-import MaterialTable from 'material-table';
+import MaterialTable/* , { MaterialTableProps } */ from 'material-table';
 import { forwardRef } from 'react';
 
 import AddBox from '@material-ui/icons/AddBox';
@@ -17,6 +17,8 @@ import Remove from '@material-ui/icons/Remove';
 import SaveAlt from '@material-ui/icons/SaveAlt';
 import Search from '@material-ui/icons/Search';
 import ViewColumn from '@material-ui/icons/ViewColumn';
+
+import { TablePagination, /* TablePaginationProps */ } from '@material-ui/core';
 
 const icones = {
     Add: forwardRef((props, ref) => <AddBox {...props} ref={ref} />),
@@ -38,8 +40,36 @@ const icones = {
     ViewColumn: forwardRef((props, ref) => <ViewColumn {...props} ref={ref} />)
 };
 
+function PatchedPagination(props) {
+    const {
+      ActionsComponent,
+      onChangePage,
+      onChangeRowsPerPage,
+      ...tablePaginationProps
+    } = props;
+  
+    return (
+      <TablePagination
+        {...tablePaginationProps}
+        // @ts-expect-error onChangePage was renamed to onPageChange
+        onPageChange={onChangePage}
+        onRowsPerPageChange={onChangeRowsPerPage}
+        ActionsComponent={(subprops) => {
+          const { onPageChange, ...actionsComponentProps } = subprops;
+          return (
+            // @ts-expect-error ActionsComponent is provided by material-table
+            <ActionsComponent
+              {...actionsComponentProps}
+              onChangePage={onPageChange}
+            />
+          );
+        }}
+      />
+    );
+  }
+
 const Tabela = (props) => {
-    const { colunas, linhas, titulo } = props;
+    const { colunas, linhas, paginacao = false, selecao = false, titulo } = props;
 
     return (
         <MaterialTable
@@ -47,16 +77,20 @@ const Tabela = (props) => {
             columns={colunas}
             data={linhas}
             title={titulo}
+            components={{
+                Pagination: PatchedPagination,
+            }}
             options={{
-                paging: false,
+                paging: paginacao,
                 pageSize: linhas.length < 10 ? linhas.length !== 0 ? linhas.length : 1 : 10,
                 emptyRowsWhenPaging: true,
                 pageSizeOptions: [1, 5, 10, 20, 50, 100],
                 filtering: true,
                 headerStyle: {
-                    backgroundColor: '#000',
-                    color: '#FFF'
+                    //backgroundColor: '#00F',
+                    //color: '#FFF'
                 },
+                selection: selecao,
                 /* rowStyle: x => {
                     if (x.tableData.id % 2) {
                         return {backgroundColor: "#FFF"}
@@ -92,7 +126,8 @@ const Tabela = (props) => {
                 },
                 toolbar: {
                     searchPlaceholder: 'Procurar',
-                    searchTooltip: 'Procurar'
+                    searchTooltip: 'Procurar',
+                    nRowsSelected: '{0} linhas(s) selecionada(s)'
                 }
             }}
         />

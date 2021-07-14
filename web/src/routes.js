@@ -43,6 +43,7 @@ const Home = React.lazy(() => import('./paginas/Home/Home.jsx'));
 const Teste = React.lazy(() => import('./paginas/Teste/Teste.jsx'));
 const TitulosLista = React.lazy(() => import('./paginas/Titulos/TitulosLista.jsx'));
 const TituloVisualizar = React.lazy(() => import('./paginas/Titulos/TituloVisualizar.jsx'));
+const MeusTitulos = React.lazy(() => import('./paginas/Titulos/MeusTitulos.jsx'));
 
 
 const routes = [
@@ -51,6 +52,7 @@ const routes = [
 	{ path: '/teste', name: 'Teste', component: Teste },
 	{ path: '/titulos', name: 'Títulos', component: TitulosLista },
 	{ path: '/titulo/:id', name: 'Visualizar título', component: TituloVisualizar },
+	{ path: '/meustitulos', name: 'Meus títulos', component: MeusTitulos },
 
 
 

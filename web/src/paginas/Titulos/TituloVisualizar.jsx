@@ -3,18 +3,48 @@ import axios from 'axios';
 import URL from '../../componentes/Url/Url.jsx';
 import { useHistory } from "react-router-dom";
 import ReactLoading from 'react-loading';
-import { /* CButton, */ CCol, CContainer, CRow } from '@coreui/react';
-//import { FaChevronLeft } from "react-icons/fa";
+import { CButton, CCard, CCardBody, CCol, CContainer, CImg, CRow } from '@coreui/react';
+import { FaChevronLeft } from "react-icons/fa";
+import Tabela from '../../componentes/Tabela/Tabela';
 
 const TituloVisualizar = (props) => {
     const history = useHistory();
     const { id } = props.match.params;
     const [carregada, mudarCarregada] = useState(false);
     const [titulo, mudarTitulo] = useState({});
+    const [colunas, mudarColunas] = useState([]);
+    const [linhas, mudarLinhas] = useState([]);
 
     useEffect(() => {
+        const montarTabela = (titulo) => {
+            let linhasAux = [];
+            titulo.volumes.forEach((volume) => {
+                let data = volume.data_lancamento.split('-');
+                linhasAux.push({
+                    id: volume.id,
+                    nome: volume.nome,
+                    preco: `R$ ${volume.preco.toFixed(2)}`,
+                    data: `${data[2]}/${data[1]}/${data[0]}`,
+                    observacao: volume.observacao,
+                    ordem: volume.ordem
+                })
+            })
+
+            let colunasAux = [
+                {title: 'Nome', field: 'nome'},
+                {title: 'Preço', field: 'preco'},
+                {title: 'Data', field: 'data'},
+                {title: 'Observação', field: 'observacao'}
+            ]
+
+            mudarTitulo(titulo);
+            mudarLinhas(linhasAux);
+            mudarColunas(colunasAux);
+            mudarCarregada(true);
+        }
+        
         if (history.location.dados) {
-            mudarTitulo(history.location.dados);
+            montarTabela(history.location.dados);
             mudarCarregada(true);
         } else {
             let obj = {
@@ -22,8 +52,9 @@ const TituloVisualizar = (props) => {
             }
             axios.post(`${URL.backend}titulo/visualizar`, obj)
             .then(resposta => {
-                mudarTitulo(resposta.data.data[0]);
-                mudarCarregada(true);
+                if (resposta.data.sucesso) {
+                    montarTabela(resposta.data.data[0]);
+                }
             })
             .catch(erro => {
                 console.log(erro);
@@ -31,39 +62,96 @@ const TituloVisualizar = (props) => {
         }
     }, [id, history.location.dados]);
 
+    const cliqueNaLinha = (evento, dados) => {
+        
+    }
+
     return (
         <React.Fragment>
             {carregada?
                 <React.Fragment>
                     {history.location.dados
                     ?
-                        /* <CButton onClick={() => history.goBack()}>
+                        <CButton onClick={() => history.goBack()}>
                             <FaChevronLeft
                                 size='30px'
                                 title='Voltar'
                             />
-                        </CButton> */
-                        null
+                        </CButton>
                     :
                         null
                     }
-                    <div>{`Nome: ${titulo.nome}`}</div>
-                    <div>{`Editora: ${titulo.editora_nome}`}</div>
-                    <div>{`Status: ${titulo.status_nome}`}</div>
-                    <div>{`Volumes: ${titulo.volumes.length}`}</div>
+                    
+
                     {titulo.observacao?
                         <div>{`Observação: ${titulo.observacao}`}</div>
                     :
                         null
                     }
-                    {titulo.volumes.map((volume, index) => {
-                        let data = volume.data_lancamento.split('-');
-                        return (
-                            <div key={index}>
-                                {`${volume.nome} - ${data[2]}/${data[1]}/${data[0]} - R$ ${volume.preco.toFixed(2)} ${volume.observacao ? '- ' + volume.observacao : ''}`}
-                            </div>
-                        )
-                    })}
+                    <CRow>
+                        <CCol>
+                            <CCard className="p-2">
+                                <CCardBody>
+                                    <CRow>
+                                        <CCol xs={4}>
+                                            <CImg
+                                                src={`${URL.public}imagens/capas/75.png`}
+                                                alt="Foto de capa"
+                                                height="100%"
+                                                width="100%"
+                                                fluid
+                                            />
+                                        </CCol>
+                                        <CCol xs={8}>
+                                            <CRow className="h-100">
+                                                <CCol className="align-content-between">
+                                                    <CRow>
+                                                        <CCol xs={12}>
+                                                            <div className="p-2">
+                                                                {titulo.nome}
+                                                            </div>
+                                                        </CCol>
+                                                    </CRow>
+                                                    <CRow className="align-items-center">
+                                                        <CCol xs={6}>
+                                                            <div className="p-2">
+                                                                {`EDITORA: ${titulo.editora_nome}`}
+                                                            </div>
+                                                        </CCol>
+                                                        <CCol xs={6}>
+                                                            <div className="p-2">
+                                                                {`STATUS: ${titulo.status_nome}`}
+                                                            </div>
+                                                        </CCol>
+                                                    </CRow>
+                                                    <CRow className="align-items-center">
+                                                        <CCol xs={6}>
+                                                            <div className="p-2">
+                                                                {`VOLUMES: ${titulo.volumes.length}`}
+                                                            </div>
+                                                        </CCol>
+                                                        <CCol xs={6}>
+                                                            <div className="p-2">
+                                                                teste5
+                                                            </div>
+                                                        </CCol>
+                                                    </CRow>
+                                                </CCol>
+                                            </CRow>
+                                        </CCol>
+                                    </CRow> 
+                                </CCardBody>
+                            </CCard>
+                        </CCol>
+                    </CRow>
+                    <Tabela
+                        colunas={colunas}
+                        linhas={linhas}
+                        titulo="Lista de volumes"
+                        cliqueNaLinha={cliqueNaLinha}
+                        selecao={true}
+                        paginacao={true}
+                    />
                 </React.Fragment>
             :
                 <div className="c-default-layout flex-row align-items-center">
