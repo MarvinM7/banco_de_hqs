@@ -120,7 +120,7 @@ const Tabela = (props) => {
                 }}
                 options={{
                     paging: paginacao,
-                    pageSize: linhas.length < 5 ? linhas.length !== 0 ? 5 : 1 : 10,
+                    pageSize: linhas.length <= 5 ? linhas.length !== 0 ? 5 : 1 : 10,
                     emptyRowsWhenPaging: true,
                     pageSizeOptions: [1, 5, 10, 20, 50, 100],
                     filtering: true,

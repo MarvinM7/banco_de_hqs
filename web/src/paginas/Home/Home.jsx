@@ -1,14 +1,14 @@
-import React, { useEffect } from 'react';
-import axios from 'axios';
+import React/* , { useEffect } */ from 'react';
+//import axios from 'axios';
 import { Link } from 'react-router-dom';
-import { useDispatch, useSelector } from 'react-redux';
-import URL from '../../componentes/Url/Url';
+//import { useDispatch, useSelector } from 'react-redux';
+//import URL from '../../componentes/Url/Url';
 
 import { CCard, CCardBody, CCardGroup, CCol, CContainer, CRow } from '@coreui/react';
 import CIcon from "@coreui/icons-react";
 
 const Home = () => {
-    const usuario = useSelector(estado => estado.usuario);
+    /* const usuario = useSelector(estado => estado.usuario);
     const dispatch = useDispatch();
 
     useEffect(() => {
@@ -18,10 +18,15 @@ const Home = () => {
                     'Authorization': `Bearer ${usuario.token}`
                 }
             }
-            axios.get(`${URL.backend}testelogado`, config)
+            axios.post(`${URL.backend}token/renovar`, {}, config)
             .then(resposta => {
+                console.log(resposta.data);
                 if (resposta.data.sucesso) {
-
+                    console.log(resposta.data.data);
+                    let obj = {
+                        token: resposta.data.token
+                    }
+                    dispatch({ type: 'RENOVAR_TOKEN', obj });
                 } else {
                     let deslogar = false;
                     switch(resposta.data.status) {
@@ -46,7 +51,7 @@ const Home = () => {
                 console.log(resposta);
             })
         }
-    }, [usuario, dispatch]);
+    }, []); */
 
     return (
         <div className="c-default-layout flex-row align-items-center">

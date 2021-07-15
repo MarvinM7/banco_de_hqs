@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Link/* , useHistory */ } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import URL from '../../componentes/Url/Url.jsx';
 import ReactLoading from 'react-loading';
 import { useSelector } from 'react-redux';
@@ -9,6 +9,7 @@ import CIcon from "@coreui/icons-react";
 import Tabela from '../../componentes/Tabela/Tabela';
 
 const MeusTitulos = (props) => {
+    const history = useHistory();
     const usuario = useSelector(estado => estado.usuario);
     const [carregada, mudarCarregada] = useState(false);
     const [colunas, mudarColunas] = useState([]);
@@ -33,6 +34,7 @@ const MeusTitulos = (props) => {
                 if (respostas[0].data.sucesso) {
                     respostas[0].data.data.forEach((titulo) => {
                         linhasAux.push({
+                            titulo_id: titulo.titulo_id,
                             titulo_nome: titulo.titulo_nome,
                             editora_nome: titulo.editora_nome,
                             quantidade: `${titulo.usuario_volume_quantidade}/${titulo.volumes.length}`
@@ -72,7 +74,7 @@ const MeusTitulos = (props) => {
     }, [usuario]);
 
     const cliqueNaLinha = (evento, dados) => {
-        
+        history.push(`/titulo/${dados.titulo_id}`);
     }
 
     return (
@@ -115,12 +117,6 @@ const MeusTitulos = (props) => {
                             </CContainer>
                         </div>
                     }
-                    {/* <Tabela
-                        colunas={colunas}
-                        linhas={linhas}
-                        titulo="Lista de títulos"
-                        cliqueNaLinha={cliqueNaLinha}  
-                    /> */}
                 </React.Fragment>
             :
                 <div className="c-default-layout flex-row align-items-center">

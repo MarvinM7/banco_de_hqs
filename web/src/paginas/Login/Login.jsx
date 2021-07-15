@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { Redirect } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import axios from 'axios';
 import URL from '../../componentes/Url/Url.jsx';
 import { GoogleLogin } from 'react-google-login';
 import { useDispatch, useSelector } from 'react-redux';
-import { CButton, CCard, CCardBody, CCol, CContainer, CForm, CInput, CInputGroup, CInputGroupPrepend, CInputGroupText, CRow, CToast, CToastBody, CToastHeader, CToaster } from '@coreui/react';
+import { CButton, CCard, CCardBody, CCol, CContainer, CForm, CInput, CInputGroup, CInputGroupPrepend, CInputGroupText, CRow } from '@coreui/react';
 import CIcon from '@coreui/icons-react';
 
 const Login = (props) => {
@@ -13,12 +13,6 @@ const Login = (props) => {
     const dispatch = useDispatch();
     const [email, mudarEmail] = useState('');
     const [senha, mudarSenha] = useState('');
-    const [avisos, mudarAvisos] = useState([]);
-    const posicaoAviso = 'top-right';
-    const esconderAvisoAutomatico = true;
-    const tempoEsconderAviso = 5000;
-    const botaoFecharAviso = true;
-    const efeito = true;
 
     const logar = () => {
         let obj = {
@@ -45,38 +39,9 @@ const Login = (props) => {
     }
 
     const esqueceuSenha = () => {
-        let mensagem = 'A parte de cadastro ainda está sendo feita, logo logo você poderá realizar seu cadastro e usufruir da plataforma.';
-        adicionarAvisos('alerta', mensagem);
+        //let mensagem = 'A parte de cadastro ainda está sendo feita, logo logo você poderá realizar seu cadastro e usufruir da plataforma.';
+        //adicionarAvisos('alerta', mensagem);
     }
-
-    const cadastrar = () => {
-        let mensagem = 'A parte de cadastro ainda está sendo feita, logo logo você poderá realizar seu cadastro e usufruir da plataforma.';
-        adicionarAvisos('alerta', mensagem);
-    }
-
-    const adicionarAvisos = (tipo, mensagem) => {
-        mudarAvisos([
-            ...avisos, 
-            {
-                position: posicaoAviso,
-                autohide: esconderAvisoAutomatico && tempoEsconderAviso,
-                closeButton: botaoFecharAviso,
-                fade: efeito,
-                type: tipo,
-                title: tipo === 'sucesso'? 'Sucesso' : tipo === 'erro'? 'Erro' : tipo === 'alerta'? 'Alerta' : 'Aviso',
-                message: mensagem,
-                backgroundColor: tipo === 'sucesso'? '#2eb85c' : tipo === 'erro'? '#e55353' : tipo === 'alerta'? '#f9b115' : '#321fdb'
-            }
-        ])
-    }
-
-    const toasters = (() => {
-        return avisos.reduce((toasters, aviso) => {
-            toasters[aviso.position] = toasters[aviso.position] || [];
-            toasters[aviso.position].push(aviso);
-            return toasters;
-        }, {})
-    })();
 
     const responseGoogleSuccess = (respostaGoogle) => {
         let objRequisição = {
@@ -157,8 +122,7 @@ const Login = (props) => {
                                         </CRow>
                                         <CRow className="justify-content-center">
                                             <CCol xs="6" className="text-center">
-                                                <CButton color="link" className="px-0" onClick={cadastrar}>Cadastrar</CButton>
-                                                {/* <Link to="/home">Cadastrar</Link> */}
+                                                <Link to="/usuario/cadastro">Cadastrar</Link>
                                             </CCol>
                                         </CRow>
                                     </CForm>
@@ -179,33 +143,6 @@ const Login = (props) => {
                     </CRow>
                 </CContainer>
             </div>
-
-            {Object.keys(toasters).map((toasterKey) => (
-                <CToaster
-                    position={toasterKey}
-                    key={'toaster' + toasterKey}
-                >
-                    {
-                        toasters[toasterKey].map((toast, key) => {
-                            return (
-                                <CToast
-                                    key={'toast' + key}
-                                    show={true}
-                                    autohide={toast.autohide}
-                                    fade={toast.fade}
-                                >
-                                    <CToastHeader style={{backgroundColor: toast.backgroundColor, color: '#FFF'}} closeButton={toast.closeButton}>
-                                        {toast.title}
-                                    </CToastHeader>
-                                    <CToastBody>
-                                        {toast.message}
-                                    </CToastBody>
-                                </CToast>
-                            )
-                        })
-                    }
-                </CToaster>
-            ))}
         </React.Fragment>
     )
 }

@@ -14,6 +14,7 @@ class CreateVolumesTable extends Migration {
             $table->string('capa')->nullable();
             $table->date('data_lancamento')->nullable();
             $table->bigInteger('ordem');
+            $table->string('link_amazon')->nullable();
             $table->string('observacao')->nullable();
             $table->timestamps();
             $table->softDeletes();

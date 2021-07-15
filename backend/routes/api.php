@@ -17,12 +17,19 @@ Route::post('titulos_status/lista', 'App\Http\Controllers\TitulosStatusControlle
 Route::post('login', 'App\Http\Controllers\AuthController@login');
 Route::post('loginGoogle', 'App\Http\Controllers\AuthController@loginGoogle');
 
+//Cadastrar Usuario
+Route::post('usuario/inserir', 'App\Http\Controllers\UsuarioController@inserir');
+Route::post('usuario/inserirGoogle', 'App\Http\Controllers\UsuarioController@inserirGoogle');
 
 Route::group(['middleware' => ['apiJwt']], function() {
     //Logout
     Route::get('logout', 'App\Http\Controllers\AuthController@logout');
 
+    //Dados do usuário logado
     Route::get('me', 'App\Http\Controllers\AuthController@me');
+
+    //Renovar token
+    Route::post('token/renovar', 'App\Http\Controllers\AuthController@renovarToken');
 
     //Meus volumes
     Route::post('meusvolumes/lista', 'App\Http\Controllers\UsuarioVolumeController@lista');

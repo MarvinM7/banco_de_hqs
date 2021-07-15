@@ -55,26 +55,28 @@ const TituloVisualizar = (props) => {
                 axios.post(`${URL.backend}meusvolumes/lista`, obj, config)
                 .then(resposta => {
                     let linhasSelecionasAux = [];
-                    if (resposta.data.data[0].usuario_volume_quantidade === titulo.volumes.length) {
-                        linhasAux.forEach((volume, index) => {
-                            volume.tableData = {
-                                id: index,
-                                checked: true
-                            }
-                            linhasSelecionasAux.push(volume);
-                        })
-                    } else {
-                        resposta.data.data[0].volumes_usuario.forEach((volumeColecao, indexColecao) => {
+                    if (resposta.data.data[0]) {
+                        if (resposta.data.data[0].usuario_volume_quantidade === titulo.volumes.length) {
                             linhasAux.forEach((volume, index) => {
-                                if (volume.id === volumeColecao.volume_id) {
-                                    volume.tableData = {
-                                        id: index,
-                                        checked: true
-                                    }
-                                    linhasSelecionasAux.push(volume);
+                                volume.tableData = {
+                                    id: index,
+                                    checked: true
                                 }
+                                linhasSelecionasAux.push(volume);
                             })
-                        })
+                        } else {
+                            resposta.data.data[0].volumes_usuario.forEach((volumeColecao, indexColecao) => {
+                                linhasAux.forEach((volume, index) => {
+                                    if (volume.id === volumeColecao.volume_id) {
+                                        volume.tableData = {
+                                            id: index,
+                                            checked: true
+                                        }
+                                        linhasSelecionasAux.push(volume);
+                                    }
+                                })
+                            })
+                        }
                     }
                     
                     mudarTitulo(titulo);
@@ -96,7 +98,6 @@ const TituloVisualizar = (props) => {
         
         if (history.location.dados) {
             montarTabela(history.location.dados);
-            mudarCarregada(true);
         } else {
             let obj = {
                 id

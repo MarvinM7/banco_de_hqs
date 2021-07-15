@@ -27,7 +27,10 @@ class AuthController extends Controller {
 
     public function loginGoogle(Request $request) {
         try {
-            $credentials = User::where('email', $request->email)->first();
+            $credentials = User::
+                            where('email', $request->email)
+                            ->where('googleId', $request->googleId)
+                            ->first();
 
             if (!$token = JWTAuth::fromUser($credentials)) {
                 return response()->json(['error' => 'Unauthorized'], 401);
@@ -41,6 +44,14 @@ class AuthController extends Controller {
 
     public function me() {
         return response()->json(auth()->user());
+    }
+
+    public function renovarToken() {
+        try {
+            return response()->json(['sucesso' => true, 'token' => auth()->refresh()]);
+        } catch (JWTException $e) {
+            return response()->json(['sucesso' => false, 'status' => 'Erro ao tentar renovar o token.']);
+        }
     }
 
     public function logout() {
@@ -58,7 +69,7 @@ class AuthController extends Controller {
         $resposta = [
             'access_token' => $token,
             'token_type' => 'bearer',
-            'expires_in' => auth()->factory()->getTTL() * 60,
+            'expires_in' => auth()->factory()->getTTL(),
             'usuario' => $usuario
         ];
         
