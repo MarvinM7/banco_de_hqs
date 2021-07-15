@@ -3,7 +3,7 @@ import axios from 'axios';
 import URL from '../../componentes/Url/Url.jsx';
 import { useHistory } from "react-router-dom";
 import ReactLoading from 'react-loading';
-import { CButton, CCard, CCardBody, CCol, CContainer, CImg, CRow } from '@coreui/react';
+import { CButton, CCard, CCardBody, CCol, CContainer, /* CImg,  */CRow } from '@coreui/react';
 import { FaChevronLeft } from "react-icons/fa";
 import Tabela from '../../componentes/Tabela/Tabela';
 
@@ -66,6 +66,10 @@ const TituloVisualizar = (props) => {
         
     }
 
+    const salvar = (dados) => {
+        console.log(dados);
+    }
+
     return (
         <React.Fragment>
             {carregada?
@@ -81,8 +85,6 @@ const TituloVisualizar = (props) => {
                     :
                         null
                     }
-                    
-
                     {titulo.observacao?
                         <div>{`Observação: ${titulo.observacao}`}</div>
                     :
@@ -92,7 +94,124 @@ const TituloVisualizar = (props) => {
                         <CCol>
                             <CCard className="p-2">
                                 <CCardBody>
-                                    <CRow>
+                                <div className="bd-example d-md-flex">
+                                    {/* <div style={{margin: 'auto'}}>
+                                        <img
+                                            className="w-100 h-100"
+                                            style={{ objectFit: "contain", borderRadius: '0.25rem', cursor: 'pointer', maxHeight: 215, maxWidth: 215}}
+                                            src={`${URL.public}imagens/capas/75.png`}
+                                            alt="Foto de capa"
+                                        />
+                                    </div>
+                                    <div style={{margin: 'auto'}}>
+                                        teste
+                                    </div>
+                                    <div style={{margin: 'auto'}}>
+                                        teste 2
+                                    </div> */}
+                                    <div className="p-3 ml-md-9" style={{marginTop: 'auto', marginBottom: 'auto', marginLeft: 0}}>
+                                        <div style={{textAlign: 'center'}}>
+                                        <img
+                                            className="w-100 h-100"
+                                            style={{ cursor: 'pointer', maxHeight: 304, maxWidth: 200}}
+                                            src={`${URL.public}imagens/capas/75.png`}
+                                            alt="Foto de capa"
+                                        />
+                                        </div>
+                                    </div>
+                                    <div className="p-3 ml-md-9" style={{marginTop: 'auto', marginBottom: 'auto', marginLeft: 0}}>
+                                        <div>
+                                        <div className="p-3 mb-2 mr-md-3 bg-light" style={{maxWidth: '260px', maxHeight: '100px', margin: 'auto'}}>
+                                            {`NOME: ${titulo.nome}`}
+                                        </div>
+                                        <div className="p-3 mb-2 mr-md-3 bg-light" style={{maxWidth: '260px', maxHeight: '100px', margin: 'auto'}}>
+                                            {`STATUS: ${titulo.status_nome}`}
+                                        </div>
+                                        <div className="p-3 mb-2 mr-md-3 bg-light" style={{maxWidth: '260px', maxHeight: '100px', margin: 'auto'}}>
+                                            {`EDITORA: ${titulo.editora_nome}`}
+                                        </div>
+                                        <div className="p-3 mb-2 mr-md-3 bg-light" style={{maxWidth: '260px', maxHeight: '100px', margin: 'auto'}}>
+                                            {`VOLUMES: ${titulo.volumes.length}`}
+                                        </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                    {/* <div className="flex-1 overflow-auto">
+                                        <div style={{display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gridGap: '10px'}}>
+                                            <div style={{ position: "relative", overflow: "hidden", paddingBottom: "100%"}}>
+                                                <img
+                                                    className="w-100 h-100"
+                                                    style={{ position: "absolute", objectFit: "contain", borderRadius: '0.25rem', cursor: 'pointer', maxHeight: 215, maxWidth: 215}}
+                                                    src={`${URL.public}imagens/capas/75.png`}
+                                                    alt="Foto de capa"
+                                                />
+                                            </div>
+                                            <div>
+                                                <CRow>
+                                                        <CCol xs={12}>
+                                                            <div className="p-2">
+                                                                {titulo.nome}
+                                                            </div>
+                                                        </CCol>
+                                                    </CRow>
+                                                    <CRow className="align-items-center">
+                                                        <CCol xs={12}>
+                                                            <div className="p-2">
+                                                                
+                                                            </div>
+                                                        </CCol>
+                                                        <CCol xs={12}>
+                                                            <div className="p-2">
+                                                                
+                                                            </div>
+                                                        </CCol>
+                                                    </CRow>
+                                            </div>
+                                            <div>
+                                                <CCol xs={12}>
+                                                            <div className="p-2">
+                                                                {`VOLUMES: ${titulo.volumes.length}`}
+                                                            </div>
+                                                        </CCol>
+                                                        <CCol xs={12}>
+                                                            <div className="p-2">
+                                                                teste5
+                                                            </div>
+                                                        </CCol>
+                                            </div>
+                                            {/* <CRow className="h-100">
+                                                <CCol className="align-content-between">
+                                                    
+                                                    <CRow className="align-items-center">
+                                                        <CCol xs={6}>
+                                                            <div className="p-2">
+                                                                {`EDITORA: ${titulo.editora_nome}`}
+                                                            </div>
+                                                        </CCol>
+                                                        <CCol xs={6}>
+                                                            <div className="p-2">
+                                                                {`STATUS: ${titulo.status_nome}`}
+                                                            </div>
+                                                        </CCol>
+                                                    </CRow>
+                                                    <CRow className="align-items-center">
+                                                        <CCol xs={6}>
+                                                            <div className="p-2">
+                                                                {`VOLUMES: ${titulo.volumes.length}`}
+                                                            </div>
+                                                        </CCol>
+                                                        <CCol xs={6}>
+                                                            <div className="p-2">
+                                                                teste5
+                                                            </div>
+                                                        </CCol>
+                                                    </CRow>
+                                                </CCol>
+                                            </CRow>
+                                        </div>
+                                    </div> */}
+                                    {/* <CRow>
                                         <CCol xs={4}>
                                             <CImg
                                                 src={`${URL.public}imagens/capas/75.png`}
@@ -100,6 +219,7 @@ const TituloVisualizar = (props) => {
                                                 height="100%"
                                                 width="100%"
                                                 fluid
+                                                style={{maxWidth: 130, maxHeight: 200}}
                                             />
                                         </CCol>
                                         <CCol xs={8}>
@@ -139,7 +259,7 @@ const TituloVisualizar = (props) => {
                                                 </CCol>
                                             </CRow>
                                         </CCol>
-                                    </CRow> 
+                                    </CRow>  */}
                                 </CCardBody>
                             </CCard>
                         </CCol>
@@ -151,6 +271,8 @@ const TituloVisualizar = (props) => {
                         cliqueNaLinha={cliqueNaLinha}
                         selecao={true}
                         paginacao={true}
+                        botaoSalvar={true}
+                        botaoSalvarAcao={salvar}
                     />
                 </React.Fragment>
             :
