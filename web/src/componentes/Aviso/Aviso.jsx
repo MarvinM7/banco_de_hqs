@@ -1,89 +1,69 @@
-import React, { useState } from 'react'
-import {
-  CToast,
-  CToastBody,
-  CToastHeader,
-  CToaster,
-  CButton,
-} from '@coreui/react'
+import React, { useEffect, useState } from 'react'
+import { CToast, CToastBody, CToastHeader, CToaster } from '@coreui/react'
 
 const Aviso = (props) => {
+	const [toasts, setToasts] = useState([]);
 
-  const positions = [
-    'static',
-    'top-left',
-    'top-center',
-    'top-right',
-    'top-full',
-    'bottom-left',
-    'bottom-center',
-    'bottom-right',
-    'bottom-full'
-  ]
+	const addToast = (props) => {
+		let { posicao, esconderAutomatico, botaoFechar, efeito, titulo, mensagem } = props;
+		setToasts([
+			...toasts, 
+			{
+				posicao,
+				esconderAutomatico,
+				closeButton: botaoFechar,
+				efeito,
+				titulo: titulo === 'sucesso'? 'Sucesso' : titulo === 'erro'? 'Erro' : titulo === 'alerta'? 'Alerta' : 'Aviso',
+				mensagem,
+				backgroundColor: titulo === 'sucesso'? '#2eb85c' : titulo === 'erro'? '#e55353' : titulo === 'alerta'? '#f9b115' : '#321fdb'
+			}
+		])
+	}
+	
+	useEffect(() => {
+		if (props.avisos.length > 0) {
+			addToast(props.avisos[props.avisos.length - 1]);
+		}
+	}, [props.avisos])
 
-  const [toasts, setToasts] = useState([]);
+	
 
-  const [position, setPosition] = useState('top-right')
-  const [autohide, setAutohide] = useState(true)
-  const [autohideValue, setAutohideValue] = useState(5000)
-  const [closeButton, setCloseButton] = useState(true)
-  const [fade, setFade] = useState(true)
+	const toasters = (()=>{
+		return toasts.reduce((toasters, toast) => {
+			toasters[toast.posicao] = toasters[toast.posicao] || [];
+			toasters[toast.posicao].push(toast);
+			return toasters;
+		}, {})
+	})();
 
-  const addToast = () => {
-    setToasts([
-      ...toasts, 
-      { position, autohide: autohide && autohideValue, closeButton, fade }
-    ])
-  }
-
-
-  const toasters = (()=>{
-    return toasts.reduce((toasters, toast) => {
-      toasters[toast.position] = toasters[toast.position] || []
-      toasters[toast.position].push(toast)
-      return toasters
-    }, {})
-  })()
-
-
-  return (
-    <React.Fragment>
-      {Object.keys(toasters).map((toasterKey) => (
-                <CToaster
-                  position={toasterKey}
-                  key={'toaster' + toasterKey}
-                >
-                  {
-                    toasters[toasterKey].map((toast, key)=>{
-                    return(
-                      <CToast
-                        key={'toast' + key}
-                        show={true}
-                        autohide={toast.autohide}
-                        fade={toast.fade}
-                      >
-                        <CToastHeader closeButton={toast.closeButton}>
-                          Toast title asdasdasdasd
-                        </CToastHeader>
-                        <CToastBody>
-                          {`This is a toast in ${toasterKey} positioned toaster number ${key + 1}.`}
-                        </CToastBody>
-                      </CToast>
-                    )
-                  })
-                  }
-                </CToaster>
-              ))}
-              <CButton
-                  className="mr-1 w-25"
-                  color="success"
-                  onClick={addToast}
-                >
-                  Add toast
-                </CButton>
-    </React.Fragment>
-    
-  )
+  	return (
+		<React.Fragment>
+			{Object.keys(toasters).map((toasterKey) => (
+				<CToaster
+					position={toasterKey}
+					key={'toaster' + toasterKey}
+				>
+					{toasters[toasterKey].map((toast, key) => {
+						return(
+							<CToast
+								key={'toast' + key}
+								show={true}
+								autohide={toast.esconderAutomatico}
+								fade={toast.efeito}
+							>
+								<CToastHeader style={{backgroundColor: toast.backgroundColor, color: '#FFF'}} closeButton={toast.botaoFechar}>
+									{toast.titulo}
+								</CToastHeader>
+								<CToastBody>
+									{toast.mensagem}
+								</CToastBody>
+							</CToast>
+						)
+					})}
+				</CToaster>
+			))}
+		</React.Fragment>
+  	)
 }
 
 export default Aviso

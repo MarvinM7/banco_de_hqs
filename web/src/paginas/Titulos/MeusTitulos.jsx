@@ -25,7 +25,7 @@ const MeusTitulos = (props) => {
                 }
             }
             axios.all([
-                axios.post(`${URL.backend}meusvolumes`, obj, config),
+                axios.post(`${URL.backend}meusvolumes/lista`, obj, config),
                 axios.post(`${URL.backend}editoras/lista`),
             ])
             .then(axios.spread((...respostas) => {

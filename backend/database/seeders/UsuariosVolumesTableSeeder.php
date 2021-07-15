@@ -220,7 +220,7 @@ class UsuariosVolumesTableSeeder extends Seeder {
         // 31
         DB::table('usuario_volume')->insert([
             'usuario_id' => 1,
-            'volume_id'  => 31,
+            'volume_id'  => 32,
             'created_at' => date("Y-m-d H:i:s"),
             'updated_at' => date("Y-m-d H:i:s")
         ]);

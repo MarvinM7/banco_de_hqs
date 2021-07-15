@@ -22,7 +22,7 @@ import ViewColumn from '@material-ui/icons/ViewColumn';
 import { TablePagination, /* TablePaginationProps */ } from '@material-ui/core';
 
 import { CCol, CButton, CRow } from '@coreui/react';
-import CIcon from '@coreui/icons-react'
+//import CIcon from '@coreui/icons-react'
 
 const icones = {
     Add: forwardRef((props, ref) => <AddBox {...props} ref={ref} />),
@@ -162,6 +162,7 @@ const Tabela = (props) => {
                 onRowClick={props.cliqueNaLinha}
                 onSelectionChange={(linhas) => {
                     mudarLinhasSelecionadas(linhas);
+                    props.mudarLinhasSelecionadas(linhas);
                 }}
                 /* components={{
                     Toolbar: props => (
