@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import URL from '../../componentes/Url/Url.jsx';
-import { useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import { useSelector } from 'react-redux';
 import ReactLoading from 'react-loading';
 import { CButton, CCard, CCardBody, CCol, CContainer, CRow } from '@coreui/react';
@@ -30,6 +30,7 @@ const TituloVisualizar = (props) => {
                     nome: volume.nome,
                     preco: `R$ ${volume.preco.toFixed(2)}`,
                     data: `${data[2]}/${data[1]}/${data[0]}`,
+                    link: volume.link_amazon? <Link to={`//teste${volume.link_amazon}`}>Clique aqui</Link> : null,
                     observacao: volume.observacao,
                     ordem: volume.ordem
                 })
@@ -39,6 +40,7 @@ const TituloVisualizar = (props) => {
                 {title: 'Nome', field: 'nome'},
                 {title: 'Preço', field: 'preco'},
                 {title: 'Data', field: 'data'},
+                {title: 'Link', field: 'link'},
                 {title: 'Observação', field: 'observacao'}
             ]
 

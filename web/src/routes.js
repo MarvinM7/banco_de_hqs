@@ -53,6 +53,7 @@ const routes = [
 	{ path: '/titulos', name: 'Títulos', component: TitulosLista },
 	{ path: '/titulo/:id', name: 'Visualizar título', component: TituloVisualizar },
 	{ path: '/meustitulos', name: 'Meus títulos', component: MeusTitulos },
+	{ path: '/sugestoes', name: 'Meus títulos', component: MeusTitulos },
 
 
 

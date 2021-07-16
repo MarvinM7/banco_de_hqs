@@ -29,7 +29,7 @@ const Cadastro = () => {
             history.push('/');
         }
         mudarCarregada(true);
-    }, [usuario, history])
+    }, [usuario, history]);
 
     const mudarNomeFuncao = (evento) => {
         mudarNome(evento.target.value);
