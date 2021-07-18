@@ -19,36 +19,43 @@ const Login = (props) => {
 
     useEffect(() => {
         if (usuario) {
-            history.push('/');
+            history.push(url);
         }
         mudarCarregada(true);
-    }, [usuario, history]);
+    }, [usuario, history, url]);
 
-    const logar = () => {
+    const logar = (e) => {
+        e.preventDefault();
         mudarCarregada(false);
-        let obj = {
-            email,
-            password: senha
-        }
-        axios.post(`${URL.backend}login`, obj)
-        .then(resposta => {
-            if (resposta.data.sucesso) {
-                let obj = {
-                    id: resposta.data.data.usuario.original.id,
-                    nome: resposta.data.data.usuario.original.name,
-                    email: resposta.data.data.usuario.original.email,
-                    imagem: resposta.data.data.usuario.original.foto,
-                    googleId: resposta.data.data.usuario.original.googleId,
-                    token: resposta.data.data.access_token
-                }
-                dispatch({ type: 'LOGAR', obj });
-            } else {
-                mudarCarregada(true);
+        if (email === '' || senha === '') {
+            mudarCarregada(true);
+        } else {
+            let obj = {
+                email,
+                password: senha
             }
-        })
-        .catch (erro => {
-            console.log(erro);
-        })
+            axios.post(`${URL.backend}login`, obj)
+            .then(resposta => {
+                if (resposta.data.sucesso) {
+                    let obj = {
+                        id: resposta.data.data.usuario.original.id,
+                        nome: resposta.data.data.usuario.original.name,
+                        email: resposta.data.data.usuario.original.email,
+                        imagem: resposta.data.data.usuario.original.foto,
+                        googleId: resposta.data.data.usuario.original.googleId,
+                        token: resposta.data.data.access_token
+                    }
+                    dispatch({ type: 'LOGAR', obj });
+                } else {
+                    mudarCarregada(true);
+                }
+            })
+            .catch (erro => {
+                mudarCarregada(true);
+                console.log(erro);
+            })
+        }
+        
     }
 
     const esqueceuSenha = () => {
@@ -56,7 +63,7 @@ const Login = (props) => {
         //adicionarAvisos('alerta', mensagem);
     }
 
-    const responseGoogleSuccess = (respostaGoogle) => {
+    const logarGoogle = (respostaGoogle) => {
         mudarCarregada(false);
         let objRequisição = {
             email: respostaGoogle.profileObj.email,
@@ -113,7 +120,7 @@ const Login = (props) => {
                             <CCol xs="12" sm="9" md="7" lg="5" xl="5">
                                 <CCard className="p-4">
                                     <CCardBody>
-                                        <CForm>
+                                        <CForm onSubmit={logar}>
                                             <CInputGroup className="mb-3">
                                                 <CInputGroupPrepend>
                                                     <CInputGroupText>
@@ -132,7 +139,7 @@ const Login = (props) => {
                                             </CInputGroup>
                                             <CRow>
                                                 <CCol>
-                                                    <CButton color="primary" className="px-4" onClick={logar}>Login</CButton>
+                                                    <CButton type="submit" color="primary" className="px-4">Login</CButton>
                                                 </CCol>
                                                 <CCol className="text-right">
                                                     <CButton color="link" className="px-0" onClick={esqueceuSenha}>Esqueceu a senha?</CButton>
@@ -153,7 +160,7 @@ const Login = (props) => {
                                 <GoogleLogin
                                     clientId={'521591936326-fm12u7ops53qufcosfj3n5u475pdn4do.apps.googleusercontent.com'}
                                     buttonText={'Continuar com Google'}
-                                    onSuccess={responseGoogleSuccess}
+                                    onSuccess={logarGoogle}
                                     onFailure={responseGoogleFailure}
                                     isSignedIn={true}
                                 />

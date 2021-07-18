@@ -44,17 +44,22 @@ const Teste = React.lazy(() => import('./paginas/Teste/Teste.jsx'));
 const TitulosLista = React.lazy(() => import('./paginas/Titulos/TitulosLista.jsx'));
 const TituloVisualizar = React.lazy(() => import('./paginas/Titulos/TituloVisualizar.jsx'));
 const MeusTitulos = React.lazy(() => import('./paginas/Titulos/MeusTitulos.jsx'));
+//const MeuPerfil = React.lazy(() => import('./paginas/Usuario/MeuPerfil.jsx'));
+const TituloFormulario = React.lazy(() => import('./paginas/Titulos/Formulario.jsx'));
 
-
-const routes = [
+const routes = [	
 	{ path: '/', exact: true, name: 'Home', component: Home },
 	{ path: '/home', name: 'Dashboard', component: Dashboard },
 	{ path: '/teste', name: 'Teste', component: Teste },
 	{ path: '/titulos', name: 'Títulos', component: TitulosLista },
+	{ path: '/titulo/editar/:id', name: 'Editar título', component: TituloFormulario },
+	{ path: '/titulo/cadastrar', name: 'Cadastrar título', component: TituloFormulario },
+	
 	{ path: '/titulo/:id', name: 'Visualizar título', component: TituloVisualizar },
 	{ path: '/meustitulos', name: 'Meus títulos', component: MeusTitulos },
-	{ path: '/sugestoes', name: 'Meus títulos', component: MeusTitulos },
-
+	{ path: '/sugestoes', name: 'Meus títulos', component: Home },
+	{ path: '/meuperfil', name: 'Meu perfil', component: Home },
+	
 
 
 	{ path: '/theme', name: 'Theme', component: Colors, exact: true },

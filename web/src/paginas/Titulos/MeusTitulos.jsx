@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Link, useHistory } from "react-router-dom";
+import { Link, useHistory, useLocation } from "react-router-dom";
 import URL from '../../componentes/Url/Url.jsx';
 import ReactLoading from 'react-loading';
 import { useSelector } from 'react-redux';
 import { CCard, CCardBody, CCardGroup, CCol, CContainer, CRow } from '@coreui/react';
-import CIcon from "@coreui/icons-react";
 import Tabela from '../../componentes/Tabela/Tabela';
 
 const MeusTitulos = (props) => {
     const history = useHistory();
+    const location = useLocation();
+    const url = location.pathname;
     const usuario = useSelector(estado => estado.usuario);
     const [carregada, mudarCarregada] = useState(false);
     const [colunas, mudarColunas] = useState([]);
@@ -101,13 +102,7 @@ const MeusTitulos = (props) => {
                                             <CCard className="p-4">
                                                 <CCardBody style={{textAlign: 'center'}}>
                                                     <CRow className="justify-content-center">
-                                                        <CIcon name="cilSettings" size="9xl" />
-                                                    </CRow>
-                                                    <CRow className="justify-content-center">
-                                                        Portal em desenvolvimento
-                                                    </CRow>
-                                                    <CRow className="justify-content-center">
-                                                        Enquanto isso, <Link target={"_blank"} to={"//www.amazon.com.br?&_encoding=UTF8&tag=bancodehqs-20&linkCode=ur2&linkId=5fd0c430348c5c83c8900420429a4527&camp=1789&creative=9325"}>&nbsp;clique aqui&nbsp;</Link> para acessar a Amazon.
+                                                        Para visualizar seus títulos, você precisa estar logado na plataforma. <Link to={{ pathname: "/login", state: { url } }}>&nbsp;Clique aqui&nbsp;</Link> para ir para a página de login.
                                                     </CRow>
                                                 </CCardBody>
                                             </CCard>

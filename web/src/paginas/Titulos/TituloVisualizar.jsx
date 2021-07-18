@@ -5,12 +5,16 @@ import { Link, useHistory } from "react-router-dom";
 import { useSelector } from 'react-redux';
 import ReactLoading from 'react-loading';
 import { CButton, CCard, CCardBody, CCol, CContainer, CRow } from '@coreui/react';
-import { FaChevronLeft } from "react-icons/fa";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import Tabela from '../../componentes/Tabela/Tabela';
 import Aviso from '../../componentes/Aviso/Aviso.jsx';
 
 const TituloVisualizar = (props) => {
     const history = useHistory();
+    var volume_id = null;
+    if (history.location.state) {
+        volume_id = history.location.state.volume_id;
+    }
     const { id } = props.match.params;
     const usuario = useSelector(estado => estado.usuario)
     const [carregada, mudarCarregada] = useState(false);
@@ -19,21 +23,28 @@ const TituloVisualizar = (props) => {
     const [linhas, mudarLinhas] = useState([]);
     const [linhasSelecionadas, mudarLinhasSelecionadas] = useState([]);
     const [avisos, mudarAvisos] = useState([]);
+    const [capa, mudarCapa] = useState(0);
 
     useEffect(() => {
         const montarTabela = (titulo) => {
             let linhasAux = [];
-            titulo.volumes.forEach((volume) => {
+            titulo.volumes.forEach((volume, index) => {
                 let data = volume.data_lancamento.split('-');
                 linhasAux.push({
                     id: volume.id,
                     nome: volume.nome,
+                    capa: volume.capa,
                     preco: `R$ ${volume.preco.toFixed(2)}`,
                     data: `${data[2]}/${data[1]}/${data[0]}`,
-                    link: volume.link_amazon? <Link to={`//teste${volume.link_amazon}`}>Clique aqui</Link> : null,
+                    link: volume.link_amazon? <Link to={`//${volume.link_amazon}`} target={'_blank'}>Clique aqui para comprar</Link> : null,
                     observacao: volume.observacao,
                     ordem: volume.ordem
                 })
+                if (volume_id) {
+                    if (volume_id === volume.id) {
+                        mudarCapa(index);
+                    }
+                }
             })
 
             let colunasAux = [
@@ -114,47 +125,92 @@ const TituloVisualizar = (props) => {
                 console.log(erro);
             })
         }
-    }, [id, history.location.dados, usuario]);
+    }, [id, history.location.dados, usuario, volume_id]);
+
+    const verificarLogado = (linhas) => {
+        if (!usuario && linhas.length > linhasSelecionadas.length) {
+            let avisosAux = [];
+            avisos.forEach(aviso => {
+                avisosAux.push(aviso);
+            })
+            avisosAux.push({
+                posicao: 'top-right',
+                esconderAutomatico: 5000,
+                botaoFechar: true,
+                efeito: true,
+                titulo: 'alerta',
+                mensagem: 'Você precisa estar logado para poder salvar volumes.'
+            })
+            mudarAvisos(avisosAux);
+        }
+        mudarLinhasSelecionadas(linhas);
+    }
 
     const cliqueNaLinha = (evento, dados) => {
         
     }
 
     const salvar = () => {
-        let config = {
-            headers: {
-                'Authorization': `Bearer ${usuario.token}`
+        if (usuario) {
+            let config = {
+                headers: {
+                    'Authorization': `Bearer ${usuario.token}`
+                }
             }
-        }
-        let obj = {
-            usuario_id: usuario.id,
-            titulo_id: id,
-            volumes: linhasSelecionadas
-        }
-        axios.post(`${URL.backend}meusvolumes/inserir`, obj, config)
-        .then(resposta => {
-            if (resposta.data.sucesso) {
-                let avisosAux = [];
-                avisos.forEach(aviso => {
-                    avisosAux.push(aviso);
-                })
-                avisosAux.push({
-                    posicao: 'top-right',
-                    esconderAutomatico: 5000,
-                    botaoFechar: true,
-                    efeito: true,
-                    titulo: 'sucesso',
-                    mensagem: 'Os volumes foram inseridos com sucesso.'
-                })
-                mudarAvisos(avisosAux);
+            let obj = {
+                usuario_id: usuario.id,
+                titulo_id: id,
+                volumes: linhasSelecionadas
             }
-        })
-        .catch(resposta => {
-            console.log(resposta);
-        })
+            axios.post(`${URL.backend}meusvolumes/inserir`, obj, config)
+            .then(resposta => {
+                if (resposta.data.sucesso) {
+                    let avisosAux = [];
+                    avisos.forEach(aviso => {
+                        avisosAux.push(aviso);
+                    })
+                    avisosAux.push({
+                        posicao: 'top-right',
+                        esconderAutomatico: 5000,
+                        botaoFechar: true,
+                        efeito: true,
+                        titulo: 'sucesso',
+                        mensagem: 'Os volumes foram inseridos com sucesso.'
+                    })
+                    mudarAvisos(avisosAux);
+                }
+            })
+            .catch(resposta => {
+                console.log(resposta);
+            })
+        } else {
+            let avisosAux = [];
+            avisos.forEach(aviso => {
+                avisosAux.push(aviso);
+            })
+            avisosAux.push({
+                posicao: 'top-right',
+                esconderAutomatico: 5000,
+                botaoFechar: true,
+                efeito: true,
+                titulo: 'alerta',
+                mensagem: 'Você precisa estar logado para poder salvar volumes.'
+            })
+            mudarAvisos(avisosAux);
+        }
     }
 
+    const incrementarCapa = () => {
+        if (capa < linhas.length - 1) {
+            mudarCapa(capa + 1);
+        }
+    }
 
+    const reduzirCapa = () => {
+        if (capa > 0) {
+            mudarCapa(capa - 1);
+        }
+    }
 
     return (
         <React.Fragment>
@@ -186,12 +242,25 @@ const TituloVisualizar = (props) => {
                                     <div className="bd-example d-md-flex">
                                         <div className="p-3 ml-md-9" style={{marginTop: 'auto', marginBottom: 'auto', marginLeft: 0}}>
                                             <div style={{textAlign: 'center'}}>
-                                            <img
-                                                className="w-100 h-100"
-                                                style={{ cursor: 'pointer', maxHeight: 304, maxWidth: 200}}
-                                                src={`${URL.public}imagens/capas/75.png`}
-                                                alt="Foto de capa"
-                                            />
+                                                {linhas[capa].capa
+                                                ?
+                                                    <img
+                                                        style={{height: 300, width: 200}}
+                                                        src={`${URL.public}imagens/capas/${linhas[capa].capa}`}
+                                                        alt="Foto de capa"
+                                                    />
+                                                :
+                                                    <img
+                                                        style={{height: 300, width: 200}}
+                                                        src={`${URL.public}imagens/capas/Semcapa.jpg`}
+                                                        alt="Foto de capa"
+                                                    />
+                                                }
+                                                <div>
+                                                    <FaChevronLeft onClick={reduzirCapa} style={{cursor: 'pointer'}} />
+                                                    {capa + 1}
+                                                    <FaChevronRight onClick={incrementarCapa} style={{cursor: 'pointer'}} />
+                                                </div>
                                             </div>
                                         </div>
                                         <div className="p-3 ml-md-9" style={{marginTop: 'auto', marginBottom: 'auto', marginLeft: 0}}>
@@ -224,7 +293,7 @@ const TituloVisualizar = (props) => {
                         paginacao={true}
                         botaoSalvar={true}
                         botaoSalvarAcao={salvar}
-                        mudarLinhasSelecionadas={linhas => mudarLinhasSelecionadas(linhas)}
+                        mudarLinhasSelecionadas={(linhas) => verificarLogado(linhas)}
                     />
                 </React.Fragment>
             :

@@ -19,11 +19,13 @@ const TheHeaderDropdown = () => {
 		axios.get(`${Url.backend}logout`, config)
         .then(resposta => {
             if (resposta.data.sucesso) {
-                dispatch({type: 'DESLOGAR'});
+                
             }
+			dispatch({type: 'DESLOGAR'});
         })
         .catch (erro => {
-            console.log(erro)
+            console.log(erro);
+			dispatch({type: 'DESLOGAR'});
         })
 	}
 

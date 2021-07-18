@@ -2,15 +2,21 @@ finalizados
 - ajustar capa na tela do título (responsividade);
 - colocar "Minhas sugestões" no menu;
 - loading ao logar;
+- aviso pro usuário logar ao tentar selecionar volume;
+- iniciar com menu lateral fechado;
+- verificar se data fica melhor com / ou -;
+- enter submit na página de login;
+- colocar aviso de logar em "Meus títulos";
+- colocar checklist JBC e Panini;
 
 falta fazer
 - rotina de esquecer a senha;
-- colocar aviso de logar em "Meus títulos";
+- rotina de erros na página de login;
+- enter submit na página de cadastro de usuário;
 - colocar "Colabore" no menu;
 - Amazon em destaque na homepage;
-- verificar se data fica melhor com / ou -;
-
-
+- tela de meu perfil;
+- ver ícones de "titulo/cadastrar;
 - inserir googleId ao cadastrar primeiro pela conta e tentar logar pelo Google;
 - verificar mensagem "Os volumes foram inseridos com sucesso." ao salvar títulos no usuário;
 

@@ -327,10 +327,10 @@ const _nav =  [
 	},
 	label: true
 	}, */
-	{
+	/* {
 		_tag: 'CSidebarNavDivider',
 		className: 'm-2'
-	}
+	} */
 ]
 
 export default _nav

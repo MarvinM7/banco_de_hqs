@@ -1040,6 +1040,30 @@ class TitulosTableSeeder extends Seeder {
             'created_at' => date("Y-m-d H:i:s"),
             'updated_at' => date("Y-m-d H:i:s")
         ]);
+        // 130
+        DB::table('titulos')->insert([
+            'nome'       => 'Chainsaw Man',
+            'editora_id' => 3,
+            'status_id'  => 1,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 131
+        DB::table('titulos')->insert([
+            'nome'       => 'Spy X Family',
+            'editora_id' => 3,
+            'status_id'  => 1,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 132
+        DB::table('titulos')->insert([
+            'nome'       => 'Edens Zero',
+            'editora_id' => 2,
+            'status_id'  => 1,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
         //green blood, shaman king
     }
 }
