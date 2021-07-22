@@ -20,8 +20,13 @@ const Login = (props) => {
     useEffect(() => {
         if (usuario) {
             history.push(url);
+        } else {
+            if (history.location.state) {
+                mudarEmail(history.location.state.email || '');
+            }
+            
+            mudarCarregada(true);
         }
-        mudarCarregada(true);
     }, [usuario, history, url]);
 
     const logar = (e) => {
@@ -59,6 +64,10 @@ const Login = (props) => {
     }
 
     const esqueceuSenha = () => {
+        history.push({
+            pathname: '/esqueceusenha',
+            state: { email }
+        })
         //let mensagem = 'A parte de cadastro ainda está sendo feita, logo logo você poderá realizar seu cadastro e usufruir da plataforma.';
         //adicionarAvisos('alerta', mensagem);
     }

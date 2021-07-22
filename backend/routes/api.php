@@ -21,6 +21,10 @@ Route::post('loginGoogle', 'App\Http\Controllers\AuthController@loginGoogle');
 Route::post('usuario/inserir', 'App\Http\Controllers\UsuarioController@inserir');
 Route::post('usuario/inserirGoogle', 'App\Http\Controllers\UsuarioController@inserirGoogle');
 
+//Esqueceu Senha
+Route::post('esqueceusenha', 'App\Http\Controllers\AuthController@esqueceuSenha');
+Route::post('trocarsenha', 'App\Http\Controllers\AuthController@trocarSenha');
+
 //Volumes
 Route::post('volumes/lista', 'App\Http\Controllers\VolumesController@lista');
 

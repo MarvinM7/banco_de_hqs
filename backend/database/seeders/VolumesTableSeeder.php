@@ -6783,7 +6783,7 @@ class VolumesTableSeeder extends Seeder {
                 'capa'            => '644.jpg',
                 'data_lancamento' => '2021-03-26',
                 'ordem'           => 1,
-                'link_amazon'     => 'https://amzn.to/3erYBzw',
+                'link_amazon'     => 'amzn.to/3erYBzw',
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -6796,7 +6796,7 @@ class VolumesTableSeeder extends Seeder {
                 'capa'            => '645.jpg',
                 'data_lancamento' => '2021-05-21',
                 'ordem'           => 2,
-                'link_amazon'     => 'https://amzn.to/3hMihjs',
+                'link_amazon'     => 'amzn.to/3hMihjs',
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -6809,7 +6809,7 @@ class VolumesTableSeeder extends Seeder {
                 'capa'            => '646.jpg',
                 'data_lancamento' => '2021-07-02',
                 'ordem'           => 3,
-                'link_amazon'     => 'https://amzn.to/3im0bns',
+                'link_amazon'     => 'amzn.to/3im0bns',
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);
@@ -6944,7 +6944,7 @@ class VolumesTableSeeder extends Seeder {
                 'nome'            => 'Volume 04',
                 'preco'           => 29.90,
                 'titulo_id'       => 130,
-                //'capa'            => '644.jpg',
+                //'capa'            => '657.jpg',
                 'data_lancamento' => '2021-09-10',
                 'ordem'           => 4,
                 //'link_amazon'     => '',
@@ -7484,7 +7484,7 @@ class VolumesTableSeeder extends Seeder {
                 'nome'            => 'Volume 02',
                 'preco'           => 23.90,
                 'titulo_id'       => 132,
-                'capa'            => '700.jpg',
+                'capa'            => '701.jpg',
                 'data_lancamento' => '2019-05-22',
                 'ordem'           => 2,
                 'link_amazon'     => 'amzn.to/3kvNCZm',
@@ -7496,7 +7496,7 @@ class VolumesTableSeeder extends Seeder {
                 'nome'            => 'Volume 03',
                 'preco'           => 23.90,
                 'titulo_id'       => 132,
-                'capa'            => '700.jpg',
+                'capa'            => '702.jpg',
                 'data_lancamento' => '2019-05-22',
                 'ordem'           => 3,
                 'link_amazon'     => 'amzn.to/3z8cdrp',
@@ -7508,7 +7508,7 @@ class VolumesTableSeeder extends Seeder {
                 'nome'            => 'Volume 04',
                 'preco'           => 24.90,
                 'titulo_id'       => 132,
-                'capa'            => '700.jpg',
+                'capa'            => '703.jpg',
                 'data_lancamento' => '2019-10-21',
                 'ordem'           => 4,
                 'link_amazon'     => 'amzn.to/3z90jgP',
@@ -7520,7 +7520,7 @@ class VolumesTableSeeder extends Seeder {
                 'nome'            => 'Volume 05',
                 'preco'           => 24.90,
                 'titulo_id'       => 132,
-                'capa'            => '700.jpg',
+                'capa'            => '704.jpg',
                 'data_lancamento' => '2019-10-21',
                 'ordem'           => 5,
                 'link_amazon'     => 'amzn.to/3ewo9ez',
@@ -7532,7 +7532,7 @@ class VolumesTableSeeder extends Seeder {
                 'nome'            => 'Volume 06',
                 'preco'           => 29.90,
                 'titulo_id'       => 132,
-                'capa'            => '700.jpg',
+                'capa'            => '705.jpg',
                 'data_lancamento' => '2021-02-12',
                 'ordem'           => 6,
                 'link_amazon'     => 'amzn.to/3wN7eeb',
@@ -7544,7 +7544,7 @@ class VolumesTableSeeder extends Seeder {
                 'nome'            => 'Volume 07',
                 'preco'           => 29.90,
                 'titulo_id'       => 132,
-                'capa'            => '700.jpg',
+                'capa'            => '706.jpg',
                 'data_lancamento' => '2021-02-22',
                 'ordem'           => 7,
                 'link_amazon'     => 'amzn.to/3ktbUTQ',
@@ -7556,7 +7556,7 @@ class VolumesTableSeeder extends Seeder {
                 'nome'            => 'Volume 08',
                 'preco'           => 29.90,
                 'titulo_id'       => 132,
-                'capa'            => '700.jpg',
+                'capa'            => '707.jpg',
                 'data_lancamento' => '2021-04-30',
                 'ordem'           => 8,
                 'link_amazon'     => 'amzn.to/3z8c7jx',
@@ -7568,7 +7568,7 @@ class VolumesTableSeeder extends Seeder {
                 'nome'            => 'Volume 09',
                 'preco'           => 14.90,
                 'titulo_id'       => 132,
-                'capa'            => '700.jpg',
+                'capa'            => '708.jpg',
                 'data_lancamento' => '2021-04-30',
                 'ordem'           => 9,
                 'link_amazon'     => 'amzn.to/3xJvyyO',
@@ -7580,7 +7580,7 @@ class VolumesTableSeeder extends Seeder {
                 'nome'            => 'Volume 10',
                 'preco'           => 29.90,
                 'titulo_id'       => 132,
-                'capa'            => '700.jpg',
+                'capa'            => '709.jpg',
                 'data_lancamento' => '2021-07-23',
                 'ordem'           => 10,
                 'link_amazon'     => 'amzn.to/3BihcHI',
@@ -7592,10 +7592,619 @@ class VolumesTableSeeder extends Seeder {
                 'nome'            => 'Volume 11',
                 'preco'           => 29.90,
                 'titulo_id'       => 132,
-                'capa'            => '700.jpg',
+                'capa'            => '710.jpg',
                 'data_lancamento' => '2021-07-23',
                 'ordem'           => 11,
                 'link_amazon'     => 'amzn.to/3ilnLAX',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //That Time I Got Reincarnated as a Slime 711-718
+            // 711
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 27.90,
+                'titulo_id'       => 133,
+                'capa'            => '711.jpg',
+                'data_lancamento' => '2020-08-28',
+                'ordem'           => 1,
+                'link_amazon'     => 'amzn.to/3hNHxWD',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 712
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 02',
+                'preco'           => 27.90,
+                'titulo_id'       => 133,
+                'capa'            => '712.jpg',
+                'data_lancamento' => '2020-08-28',
+                'ordem'           => 2,
+                'link_amazon'     => 'amzn.to/3ivUuDF',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 713
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 03',
+                'preco'           => 27.90,
+                'titulo_id'       => 133,
+                'capa'            => '713.jpg',
+                'data_lancamento' => '2020-12-21',
+                'ordem'           => 3,
+                'link_amazon'     => 'amzn.to/36PdLua',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 714
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 04',
+                'preco'           => 27.90,
+                'titulo_id'       => 133,
+                'capa'            => '714.jpg',
+                'data_lancamento' => '2020-12-21',
+                'ordem'           => 4,
+                'link_amazon'     => 'amzn.to/3ivaWUq',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 715
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 05',
+                'preco'           => 29.90,
+                'titulo_id'       => 133,
+                'capa'            => '715.jpg',
+                'data_lancamento' => '2021-04-20',
+                'ordem'           => 5,
+                'link_amazon'     => 'amzn.to/3ezVFkq',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 716
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 06',
+                'preco'           => 29.90,
+                'titulo_id'       => 133,
+                'capa'            => '716.jpg',
+                'data_lancamento' => '2021-04-20',
+                'ordem'           => 6,
+                'link_amazon'     => 'amzn.to/3hNtTCU',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 717
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 07',
+                'preco'           => 29.90,
+                'titulo_id'       => 133,
+                'capa'            => '717.jpg',
+                'data_lancamento' => '2021-07-23',
+                'ordem'           => 7,
+                'link_amazon'     => 'amzn.to/3itE8eM',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 718
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 08',
+                'preco'           => 29.90,
+                'titulo_id'       => 133,
+                'capa'            => '718.jpg',
+                'data_lancamento' => '2021-07-23',
+                'ordem'           => 8,
+                'link_amazon'     => 'amzn.to/3zfGxAp',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //UQ Holder! 719-740
+            // 719
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 14.90,
+                'titulo_id'       => 134,
+                'capa'            => '719.jpg',
+                'data_lancamento' => '2016-04-11',
+                'ordem'           => 1,
+                'link_amazon'     => 'amzn.to/3ip6U01',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 720
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 02',
+                'preco'           => 14.90,
+                'titulo_id'       => 134,
+                'capa'            => '720.jpg',
+                'data_lancamento' => '2016-06-16',
+                'ordem'           => 2,
+                'link_amazon'     => 'amzn.to/3BjvYhy',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 721
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 03',
+                'preco'           => 14.90,
+                'titulo_id'       => 134,
+                'capa'            => '721.jpg',
+                'data_lancamento' => '2016-08-12',
+                'ordem'           => 3,
+                'link_amazon'     => 'amzn.to/3wOR4AP',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 722
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 04',
+                'preco'           => 14.90,
+                'titulo_id'       => 134,
+                'capa'            => '722.jpg',
+                'data_lancamento' => '2016-10-05',
+                'ordem'           => 4,
+                'link_amazon'     => 'amzn.to/3kzPa4J',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 723
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 05',
+                'preco'           => 14.90,
+                'titulo_id'       => 134,
+                'capa'            => '723.jpg',
+                'data_lancamento' => '2016-12-12',
+                'ordem'           => 5,
+                'link_amazon'     => 'amzn.to/3zf2wY9',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 724
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 06',
+                'preco'           => 14.90,
+                'titulo_id'       => 134,
+                'capa'            => '724.jpg',
+                'data_lancamento' => '2017-02-10',
+                'ordem'           => 6,
+                'link_amazon'     => 'amzn.to/3kwJXL7',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 725
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 07',
+                'preco'           => 15.50,
+                'titulo_id'       => 134,
+                'capa'            => '725.jpg',
+                'data_lancamento' => '2017-05-05',
+                'ordem'           => 7,
+                'link_amazon'     => 'amzn.to/3BkhSMO',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 726
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 08',
+                'preco'           => 15.50,
+                'titulo_id'       => 134,
+                'capa'            => '726.jpg',
+                'data_lancamento' => '2017-07-17',
+                'ordem'           => 8,
+                'link_amazon'     => 'amzn.to/2UVkVuf',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 727
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 09',
+                'preco'           => 15.50,
+                'titulo_id'       => 134,
+                'capa'            => '727.jpg',
+                'data_lancamento' => '2017-08-16',
+                'ordem'           => 9,
+                'link_amazon'     => 'amzn.to/3kBRRmb',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 728
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 10',
+                'preco'           => 15.90,
+                'titulo_id'       => 134,
+                'capa'            => '728.jpg',
+                'data_lancamento' => '2017-11-17',
+                'ordem'           => 10,
+                'link_amazon'     => 'amzn.to/3ewHQ64',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 729
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 11',
+                'preco'           => 15.90,
+                'titulo_id'       => 134,
+                'capa'            => '729.jpg',
+                'data_lancamento' => '2018-01-22',
+                'ordem'           => 11,
+                'link_amazon'     => 'amzn.to/3ioJS9G',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 730
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 12',
+                'preco'           => 15.50,
+                'titulo_id'       => 134,
+                'capa'            => '730.jpg',
+                'data_lancamento' => '2018-04-09',
+                'ordem'           => 12,
+                'link_amazon'     => 'amzn.to/3zfw4VH',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 731
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 13',
+                'preco'           => 17.90,
+                'titulo_id'       => 134,
+                'capa'            => '731.jpg',
+                'data_lancamento' => '2018-12-09',
+                'ordem'           => 13,
+                'link_amazon'     => 'amzn.to/3ezEgZ5',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 732
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 14',
+                'preco'           => 17.90,
+                'titulo_id'       => 134,
+                'capa'            => '732.jpg',
+                'data_lancamento' => '2018-12-31',
+                'ordem'           => 14,
+                'link_amazon'     => 'amzn.to/2VUU3uR',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 733
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 15',
+                'preco'           => 17.90,
+                'titulo_id'       => 134,
+                'capa'            => '733.jpg',
+                'data_lancamento' => '2019-02-22',
+                'ordem'           => 15,
+                'link_amazon'     => 'amzn.to/3eAvZnC',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 734
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 16',
+                'preco'           => 17.90,
+                'titulo_id'       => 134,
+                'capa'            => '734.jpg',
+                'data_lancamento' => '2019-02-22',
+                'ordem'           => 16,
+                'link_amazon'     => 'amzn.to/36JNFJf',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 735
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 17',
+                'preco'           => 18.90,
+                'titulo_id'       => 134,
+                'capa'            => '735.jpg',
+                'data_lancamento' => '2020-04-09',
+                'ordem'           => 17,
+                'link_amazon'     => 'amzn.to/3kBbrze',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 736
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 18',
+                'preco'           => 18.90,
+                'titulo_id'       => 134,
+                'capa'            => '736.jpg',
+                'data_lancamento' => '2020-04-09',
+                'ordem'           => 18,
+                'link_amazon'     => 'amzn.to/3rl6ifS',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 737
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 19',
+                'preco'           => 29.90,
+                'titulo_id'       => 134,
+                'capa'            => '737.jpg',
+                'data_lancamento' => '2021-05-21',
+                'ordem'           => 19,
+                'link_amazon'     => 'amzn.to/2Uwb8Lf',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 738
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 20',
+                'preco'           => 29.90,
+                'titulo_id'       => 134,
+                'capa'            => '738.jpg',
+                'data_lancamento' => '2021-05-21',
+                'ordem'           => 20,
+                'link_amazon'     => 'amzn.to/371xtmR',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 739
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 21',
+                'preco'           => 29.90,
+                'titulo_id'       => 134,
+                'capa'            => '739.jpg',
+                'data_lancamento' => '2021-07-30',
+                'ordem'           => 21,
+                'link_amazon'     => 'amzn.to/3za7hCc',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 740
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 22',
+                'preco'           => 29.90,
+                'titulo_id'       => 134,
+                'capa'            => '740.jpg',
+                'data_lancamento' => '2021-07-30',
+                'ordem'           => 22,
+                'link_amazon'     => 'amzn.to/2W15UaU',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+        }
+
+        if (true) { //CDZ - Saint Seiya [Kanzenban] 741-760
+            // 741
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 01',
+                'preco'           => 64.90,
+                'titulo_id'       => 135,
+                'capa'            => '741.jpg',
+                'data_lancamento' => '2016-11-03',
+                'ordem'           => 1,
+                'link_amazon'     => 'amzn.to/3iyrDyq',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 742
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 02',
+                'preco'           => 64.90,
+                'titulo_id'       => 135,
+                'capa'            => '742.jpg',
+                'data_lancamento' => '2017-02-01',
+                'ordem'           => 2,
+                'link_amazon'     => 'amzn.to/3eGGAgN',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 743
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 03',
+                'preco'           => 64.90,
+                'titulo_id'       => 135,
+                'capa'            => '743.jpg',
+                'data_lancamento' => '2017-05-01',
+                'ordem'           => 3,
+                'link_amazon'     => 'amzn.to/3BkVcwd',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 744
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 04',
+                'preco'           => 64.90,
+                'titulo_id'       => 135,
+                'capa'            => '744.jpg',
+                'data_lancamento' => '2017-07-01',
+                'ordem'           => 4,
+                'link_amazon'     => 'amzn.to/3kSAjCP',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 745
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 05',
+                'preco'           => 64.90,
+                'titulo_id'       => 135,
+                'capa'            => '745.jpg',
+                'data_lancamento' => '2017-09-01',
+                'ordem'           => 5,
+                'link_amazon'     => 'amzn.to/2UqQYT8',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 746
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 06',
+                'preco'           => 64.90,
+                'titulo_id'       => 135,
+                'capa'            => '746.jpg',
+                'data_lancamento' => '2017-11-01',
+                'ordem'           => 6,
+                'link_amazon'     => 'amzn.to/3eEVofV',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 747
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 07',
+                'preco'           => 64.90,
+                'titulo_id'       => 135,
+                'capa'            => '747.jpg',
+                'data_lancamento' => '2017-12-01',
+                'ordem'           => 7,
+                'link_amazon'     => 'amzn.to/3Bmlhe9',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 748
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 08',
+                'preco'           => 64.90,
+                'titulo_id'       => 135,
+                'capa'            => '748.jpg',
+                'data_lancamento' => '2018-03-01',
+                'ordem'           => 8,
+                'link_amazon'     => 'amzn.to/3iMzNDJ',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 749
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 09',
+                'preco'           => 64.90,
+                'titulo_id'       => 135,
+                'capa'            => '749.jpg',
+                'data_lancamento' => '2018-05-01',
+                'ordem'           => 9,
+                'link_amazon'     => 'amzn.to/3eDVdBF',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 750
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 10',
+                'preco'           => 64.90,
+                'titulo_id'       => 135,
+                'capa'            => '750.jpg',
+                'data_lancamento' => '2018-07-01',
+                'ordem'           => 10,
+                'link_amazon'     => 'amzn.to/2TnWmpl',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 751
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 11',
+                'preco'           => 64.90,
+                'titulo_id'       => 135,
+                'capa'            => '751.jpg',
+                'data_lancamento' => '2018-09-01',
+                'ordem'           => 11,
+                'link_amazon'     => 'amzn.to/3zpdo65',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 752
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 12',
+                'preco'           => 64.90,
+                'titulo_id'       => 135,
+                'capa'            => '752.jpg',
+                'data_lancamento' => '2018-12-01',
+                'ordem'           => 12,
+                'link_amazon'     => 'amzn.to/2UVUmVQ',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 753
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 13',
+                'preco'           => 64.90,
+                'titulo_id'       => 135,
+                'capa'            => '753.jpg',
+                'data_lancamento' => '2019-02-01',
+                'ordem'           => 13,
+                'link_amazon'     => 'amzn.to/3xTRCqJ',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 754
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 14',
+                'preco'           => 64.90,
+                'titulo_id'       => 135,
+                'capa'            => '754.jpg',
+                'data_lancamento' => '2019-05-01',
+                'ordem'           => 14,
+                'link_amazon'     => 'amzn.to/3iuGM3J',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 755
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 15',
+                'preco'           => 64.90,
+                'titulo_id'       => 135,
+                'capa'            => '755.jpg',
+                'data_lancamento' => '2019-08-01',
+                'ordem'           => 15,
+                'link_amazon'     => 'amzn.to/3BqfNPp',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 756
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 16',
+                'preco'           => 64.90,
+                'titulo_id'       => 135,
+                'capa'            => '756.jpg',
+                'data_lancamento' => '2019-11-01',
+                'ordem'           => 16,
+                'link_amazon'     => 'amzn.to/3Bpa2BL',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 757
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 17',
+                'preco'           => 69.90,
+                'titulo_id'       => 135,
+                'capa'            => '757.jpg',
+                'data_lancamento' => '2020-04-01',
+                'ordem'           => 17,
+                'link_amazon'     => 'amzn.to/3kFsVdU',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 758
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 18',
+                'preco'           => 72.90,
+                'titulo_id'       => 135,
+                'capa'            => '758.jpg',
+                'data_lancamento' => '2020-11-01',
+                'ordem'           => 18,
+                'link_amazon'     => 'amzn.to/3hPcRUW',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 759
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 19',
+                'preco'           => 72.90,
+                'titulo_id'       => 135,
+                'capa'            => '759.jpg',
+                'data_lancamento' => '2021-02-01',
+                'ordem'           => 19,
+                'link_amazon'     => 'amzn.to/3kBRW9x',
+                'created_at'      => date("Y-m-d H:i:s"),
+                'updated_at'      => date("Y-m-d H:i:s")
+            ]);
+            // 760
+            DB::table('volumes')->insert([
+                'nome'            => 'Volume 20',
+                'preco'           => 72.90,
+                'titulo_id'       => 135,
+                'capa'            => '760.jpg',
+                'data_lancamento' => '2021-07-01',
+                'ordem'           => 20,
+                'link_amazon'     => 'amzn.to/3BoFLmp',
                 'created_at'      => date("Y-m-d H:i:s"),
                 'updated_at'      => date("Y-m-d H:i:s")
             ]);

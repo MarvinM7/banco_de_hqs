@@ -20,7 +20,7 @@ const Aviso = (props) => {
 				}
 			])
 		}
-	}, [props.avisos, toasts])
+	}, [props.avisos])
 
 	
 

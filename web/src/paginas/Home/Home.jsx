@@ -76,6 +76,9 @@ const Home = () => {
                     <Checklist
                         editora={{editora_nome: 'Panini', editora_id: 3}}
                     />
+                    <Checklist
+                        editora={{editora_nome: 'Panini', editora_id: 3}}
+                    />
                 </CCol>
             </CRow>
         </div>

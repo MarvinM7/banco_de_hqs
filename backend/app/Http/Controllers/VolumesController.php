@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Titulos;
 use App\Models\Volumes;
+use App\Models\UsuarioVolume;
 
 use DB, Exception;
 
@@ -13,6 +14,13 @@ class VolumesController extends Controller {
     public function lista(Request $obj) {
         try {
             $resposta = Volumes::lista($obj);
+            if ($resposta) {
+                if ($obj->usuario_id) {
+                    for ($i = 0; $i < count($resposta); $i++) {
+                        $resposta[$i]->usuarioPossui = UsuarioVolume::litaUsuarioVolume($obj->usuario_id, $resposta[$i]->id);
+                    }
+                }
+            }
             
             return response()->json(['sucesso' => true, 'data' => $resposta]);
         } catch (Exception $erro) {

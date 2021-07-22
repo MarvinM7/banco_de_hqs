@@ -59,6 +59,7 @@ const routes = [
 	{ path: '/meustitulos', name: 'Meus títulos', component: MeusTitulos },
 	{ path: '/sugestoes', name: 'Meus títulos', component: Home },
 	{ path: '/meuperfil', name: 'Meu perfil', component: Home },
+	{ path: '/contribua', name: 'Contribua', component: Home },
 	
 
 

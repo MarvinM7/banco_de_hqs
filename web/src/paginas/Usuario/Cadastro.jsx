@@ -49,7 +49,8 @@ const Cadastro = () => {
         mudarSenhaErroMensagem('');
     }
 
-    const cadastrar = () => {
+    const cadastrar = (e) => {
+        e.preventDefault();
         mudarCarregada(false);
         let checador = true;
         if (nome === '') {
@@ -212,7 +213,7 @@ const Cadastro = () => {
                             <CCol xs="12" sm="9" md="7" lg="5" xl="5">
                                 <CCard className="p-4">
                                     <CCardBody>
-                                        <CForm>
+                                        <CForm onSubmit={cadastrar}>
                                             <h1 style={{textAlign: 'center'}}>Cadastrar</h1>
                                             <CFormGroup>
                                                 <CRow>
@@ -264,7 +265,7 @@ const Cadastro = () => {
                                                     </CCol>
                                                 </CRow>    
                                             </CFormGroup>
-                                            <CButton color="primary" block onClick={cadastrar}>Cadastrar</CButton>
+                                            <CButton type="submit" color="primary" block>Cadastrar</CButton>
                                         </CForm>
                                     </CCardBody>
                                     <CCardFooter>

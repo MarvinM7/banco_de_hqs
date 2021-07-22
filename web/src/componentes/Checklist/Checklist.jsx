@@ -1,16 +1,43 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import URL from '../Url/Url';
+import { Link } from 'react-router-dom';
 import ReactLoading from 'react-loading';
 import { useHistory } from 'react-router';
-import { CCard, CCardBody, CCardFooter, CCardHeader, CCol, CCollapse, CContainer, CRow } from '@coreui/react';
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { useSelector } from 'react-redux';
+import { CButton, CCard, CCardBody, CCardFooter, CCardHeader, CCol, CCollapse, CContainer, CRow } from '@coreui/react';
+import { FaAmazon, FaCheck, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const Volume = (props) => {
     return (
-        <CRow style={{cursor: 'pointer'}} onClick={() => props.clique(props.volume_id, props.titulo_id)}>
-            <CCol>
-                {props.nome}
+        <CRow style={{cursor: 'pointer'}}>
+            <CCol xs={'1'} className="align-self-center" onClick={() => props.clique(props.obj.volume_id, props.obj.titulo_id)}>
+                <div className="text-left">
+                    {props.obj.usuarioPossui
+                    ?
+                        <FaCheck
+                            style={{color: 'green'}}
+                        />
+                    :
+                        null
+                    }
+                    
+                </div>
+            </CCol>
+            <CCol className="text-left align-self-center" onClick={() => props.clique(props.obj.volume_id, props.obj.titulo_id)}>
+                {props.obj.nome}
+            </CCol>
+            <CCol xs={'2'} className="align-self-center justify-content-start" onClick={() => console.log('teste')}>
+                <div className="text-center">
+                    {props.obj.link_amazon
+                    ?
+                        <CButton color="primary"><Link to={`//${props.obj.link_amazon}`} target={'_blank'}><FaAmazon color="white" /></Link></CButton>
+                        
+                    :
+                        null
+                    }
+                    
+                </div>
             </CCol>
         </CRow>
     )
@@ -26,11 +53,17 @@ const Checklist = (props) => {
     const [mostrarMais, mudarMostrarMais] = useState(false);
     const [lista, mudarLista] = useState([]);
     const history = useHistory();
+    const usuario = useSelector(estado => estado.usuario);
 
     useEffect(() => {
+        let usuario_id = null;
+        if (usuario) {
+            usuario_id = usuario.id;
+        }
         let obj = {
             ano_mes_lancamento: `${ano}-${mes < 10? '0' + (mes + 1)  : mes}`,
-            editora_id
+            editora_id,
+            usuario_id
         }
         axios.post(`${URL.backend}volumes/lista`, obj)
         .then(resposta => {
@@ -40,7 +73,9 @@ const Checklist = (props) => {
                     listaAux.push({
                         nome: `${volume.titulo_nome} - ${volume.nome}`,
                         volume_id: volume.id,
-                        titulo_id: volume.titulo_id
+                        titulo_id: volume.titulo_id,
+                        link_amazon: volume.link_amazon || null,
+                        usuarioPossui: volume.usuarioPossui !== null ? volume.usuarioPossui : false
                     })
                 })
                 mudarLista(listaAux);
@@ -50,7 +85,7 @@ const Checklist = (props) => {
         .catch(resposta => {
             console.log(resposta);
         })
-    }, [editora_id, mes, ano])
+    }, [editora_id, mes, ano, usuario])
 
     const reduzirMes = () => {
         mudarCarregada(false);
@@ -128,10 +163,9 @@ const Checklist = (props) => {
                                                             <Volume
                                                                 nome={obj.nome}
                                                                 clique={clique}
-                                                                titulo_id={obj.titulo_id}
-                                                                volume_id={obj.volume_id}
+                                                                obj={obj}
                                                             />
-                                                            {index !== lista.length - 1
+                                                            {index !== 3 && index !== lista.length - 1
                                                             ?
                                                                 <hr/>
                                                             :
@@ -147,7 +181,7 @@ const Checklist = (props) => {
                                     </React.Fragment>
                                 :
                                     <CRow>
-                                        <CCol>
+                                        <CCol className="text-center">
                                             Sem registros cadastrados para o mês selecionado.
                                         </CCol>
                                     </CRow>
@@ -163,9 +197,16 @@ const Checklist = (props) => {
                                                         {index > 3
                                                         ?
                                                             <React.Fragment>
+                                                                {index === 4
+                                                                ?
+                                                                    <hr/>
+                                                                :
+                                                                    null
+                                                                }
                                                                 <Volume
                                                                     nome={obj.nome}
                                                                     clique={clique}
+                                                                    obj={obj}
                                                                 />
                                                                 {index !== lista.length - 1
                                                                 ?
@@ -204,11 +245,17 @@ const Checklist = (props) => {
                         <CRow>
                             <CCol className="text-center">
                                 <div style={{cursor: 'pointer'}} onClick={caixa}>
-                                    {!mostrarMais?
-                                        'Mostrar mais'
+                                    {lista.length > 4
+                                    ?
+                                        mostrarMais
+                                        ?
+                                            'Mostrar menos'
+                                        :
+                                            'Mostrar mais'
                                     :
-                                        'Mostrar menos'
+                                        ''
                                     }
+                                    
                                 </div>
                             </CCol>
                         </CRow>

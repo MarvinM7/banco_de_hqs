@@ -1064,6 +1064,30 @@ class TitulosTableSeeder extends Seeder {
             'created_at' => date("Y-m-d H:i:s"),
             'updated_at' => date("Y-m-d H:i:s")
         ]);
+        // 133
+        DB::table('titulos')->insert([
+            'nome'       => 'That Time I Got Reincarnated as a Slime',
+            'editora_id' => 2,
+            'status_id'  => 1,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 134
+        DB::table('titulos')->insert([
+            'nome'       => 'UQ Holder!',
+            'editora_id' => 2,
+            'status_id'  => 1,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
+        // 135
+        DB::table('titulos')->insert([
+            'nome'       => 'CDZ - Saint Seiya [Kanzenban]',
+            'editora_id' => 2,
+            'status_id'  => 1,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s")
+        ]);
         //green blood, shaman king
     }
 }

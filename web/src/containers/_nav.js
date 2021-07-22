@@ -56,6 +56,12 @@ const _nav =  [
 		to: '/sugestoes',
 		icon: 'cil-pencil'
 	},
+	{
+		_tag: 'CSidebarNavItem',
+		name: 'Contribua',
+		to: '/contribua',
+		icon: 'cil-dollar'
+	},
 	/* {
 	_tag: 'CSidebarNavDropdown',
 	name: 'Base',

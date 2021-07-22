@@ -14,6 +14,8 @@ const TheLayout = React.lazy(() => import('./containers/TheLayout'));
 // Pages
 const Login = React.lazy(() => import('./paginas/Login/Login'));
 const Cadastro = React.lazy(() => import('./paginas/Usuario/Cadastro'));
+const EsqueceuSenha = React.lazy(() => import('./paginas/EsqueceuSenha/EsqueceuSenha'));
+const TrocarSenha = React.lazy(() => import('./paginas/TrocarSenha/TrocarSenha'));
 const Register = React.lazy(() => import('./views/pages/register/Register'));
 const Page404 = React.lazy(() => import('./views/pages/page404/Page404'));
 const Page500 = React.lazy(() => import('./views/pages/page500/Page500'));
@@ -27,6 +29,8 @@ class App extends Component {
 						<Route exact path="/login" name="Login Page" render={props => <Login {...props}/>} />
 						<Route exact path="/usuario/cadastro" name="Cadastrar Usuário" render={props => <Cadastro {...props}/>} />
 						<Route exact path="/register" name="Register Page" render={props => <Register {...props}/>} />
+						<Route exact path="/esqueceusenha" name="Esqueceu Senha" render={props => <EsqueceuSenha {...props}/>} />
+						<Route path="/trocarsenha/:token/:email" name="Trocar Senha" render={props => <TrocarSenha {...props}/>} />
 						<Route exact path="/404" name="Page 404" render={props => <Page404 {...props}/>} />
 						<Route exact path="/500" name="Page 500" render={props => <Page500 {...props}/>} />
 						<Route path="/" name="Portal" render={props => <TheLayout {...props}/>} />

@@ -8,16 +8,23 @@ finalizados
 - enter submit na página de login;
 - colocar aviso de logar em "Meus títulos";
 - colocar checklist JBC e Panini;
+- no checklist mostrar os volumes que o usuário já tem;
+- enter submit na página de cadastro de usuário;
+- rotina de esquecer a senha;
+
 
 falta fazer
-- rotina de esquecer a senha;
 - rotina de erros na página de login;
-- enter submit na página de cadastro de usuário;
 - colocar "Colabore" no menu;
 - Amazon em destaque na homepage;
 - tela de meu perfil;
 - ver ícones de "titulo/cadastrar;
 - inserir googleId ao cadastrar primeiro pela conta e tentar logar pelo Google;
 - verificar mensagem "Os volumes foram inseridos com sucesso." ao salvar títulos no usuário;
-
 - ver logo (aba navegador e menu lateral);
+
+talvez
+- adicionar volumes do usuário no redux;
+
+
+<script data-ad-client="ca-pub-3046457803721653" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

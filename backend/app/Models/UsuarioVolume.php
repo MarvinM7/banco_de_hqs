@@ -37,6 +37,11 @@ class UsuarioVolume extends Model {
                 $titulo_id = $obj->titulo_id;
             }
 
+            $volume_id = null;
+            if ($obj->volume_id) {
+                $volume_id = $obj->volume_id;
+            }
+
             $resposta = UsuarioVolume::
                         join('volumes', 'volumes.id', '=', 'usuario_volume.volume_id')
                         ->join('titulos', 'titulos.id', '=', 'volumes.titulo_id')
@@ -47,6 +52,9 @@ class UsuarioVolume extends Model {
                         })
                         ->when($titulo_id, function($query) use ($titulo_id) {
                             return $query->where('titulos.id', '=', $titulo_id);
+                        })
+                        ->when($volume_id, function($query) use ($volume_id) {
+                            return $query->where('volumes.id', '=', $volume_id);
                         })
                         ->orderBy('titulos.nome')
                         ->orderBy('titulos.id')
@@ -88,6 +96,23 @@ class UsuarioVolume extends Model {
                         ->groupBy('usuario_volume.usuario_id', 'titulos.editora_id', 'titulos.id', 'titulo_nome', 'editora_nome')
                         ->get();
             return $resposta;
+        } catch (Exception $erro) {
+            return $erro->getMessage();
+        }
+    }
+
+    public static function litaUsuarioVolume($usuario_id, $volume_id) {
+        try {
+            $resposta = UsuarioVolume::
+                        select('*')
+                        ->where('usuario_volume.usuario_id', '=', $usuario_id)
+                        ->where('usuario_volume.volume_id', '=', $volume_id)
+                        ->get();
+            if (count($resposta) > 0) {
+                return true;
+            } else {
+                return false;
+            }
         } catch (Exception $erro) {
             return $erro->getMessage();
         }
